@@ -1,0 +1,19 @@
+.marquee:before {
+  left: 0;
+  position: absolute;
+  z-index: 2;
+  content: "";
+  height: 100%;
+  width: 100px;
+  background: linear-gradient(to right, #111 0%, transparent 100%);
+}
+.marquee:after {
+  position: absolute;
+  z-index: 2;
+  content: "";
+  height: 100%;
+  width: 100px;
+  right: 0;
+  top: 0;
+  background: linear-gradient(to left, #111 0%, transparent 100%);
+}

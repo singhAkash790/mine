@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+#fixed_section {
+  /* padding-top: 30px; */
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+}
+section {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  padding: 50px 0;
+}
+.web-container {
+  margin: 0 auto;
+  width: 90%;
+}
+body {
+  background: #fff;
+  color: #000;
+  font-family: "Montserrat";
+  box-sizing: border-box;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  transition: 0.5s;
+}
+.container,
+.row {
+  margin: 0 auto !important;
+}
+a:hover,
+a:active,
+a:focus {
+  color: #c6233f;
+  outline: none;
+  text-decoration: none;
+}
+
+p {
+  padding: 0;
+  margin: 0 0 0px 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  font-weight: bold;
+}
+
+.header {
+  margin: 30px 0 20px;
+  width: 100%;
+}
+
+.heading {
+  width: fit-content;
+  float: left;
+  margin: 0 auto 10px;
+  text-align: center;
+  position: relative;
+  font-weight: 700;
+}
+.heading h4 {
+  font-size: 20px;
+  line-height: 60px;
+  color: #808285d1;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.heading h4:before {
+  content: "";
+  width: 42px;
+  height: 4px;
+  background: #c6233f;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -3px;
+}
+
+.vedio_review_scn {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.vedio_cont {
+  width: 100%;
+  padding: 0 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.vedio_cont img {
+  width: 100%;
+}
+
+.vedio_cont p {
+  float: left;
+  text-align: start;
+  margin-right: auto;
+}
+
+.vedio_thumbnail {
+  position: relative;
+  cursor: pointer;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #f5f5f5;
+}
+
+.vedio_thumbnail::before {
+  content: "";
+  background-color: #0000003f;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.vedio_cont i {
+  display: none;
+}
+
+.vedio_cont:hover i {
+  font-family: "Material Icons";
+  font-size: 40px;
+  color: hsl(0deg 0% 0% / 31%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+.vedio_review_loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.search_loader {
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  margin: 10% 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+}
+.close_btn:hover {
+  background-color: #fbfbfb !important;
+  transition: all 0.3s ease-in !important;
+  color: #000 !important;
+}
+._cart_back_icon svg {
+  font-size: 20px;
+  height: 30px;
+}
+.modal_content {
+  max-width: fit-content;
+  width: fit-content !important;
+}
+.close_btn {
+  background-color: #fafafa !important;
+  margin-left: auto !important;
+  min-width: 30px !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 2px;
+}
+
+.overview,
+.giew {
+  background: #ffffff !important;
+}
+section.giew {
+  margin: 0;
+  padding: 50px 0;
+}
+/* #smartchoice, */
+section#Tvc,
+section#dealer_speak {
+  background: #f1f1f1 !important;
+}
+section#dealer_speak {
+  padding: 100px 0;
+}
+section.banner {
+  padding: 25px 0 25px;
+}
+.line_container .line {
+  width: auto;
+  position: relative;
+  overflow: hidden;
+  overflow: hidden;
+}
+.line_container span {
+  position: absolute;
+  font-size: 3rem;
+  line-height: 4.2rem;
+}
+
+.banner_heading_h1 {
+  height: 45px;
+  font-weight: 600;
+  font-size: 33px;
+  font-weight: normal;
+  overflow: hidden;
+}
+.banner_heading_h2 {
+  overflow: hidden;
+  line-height: 40px;
+  height: 45px;
+  font-size: 37px;
+  font-weight: 700;
+  color: #020202;
+}
+
+.img_revealed.home_project_image:after {
+  width: 0;
+}
+.home_project_image {
+  position: relative;
+}
+.home_project_image:after {
+  background: #fff;
+  bottom: 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transform-origin: left center;
+  transform-origin: left center;
+  transition: 1.2s cubic-bezier(0.86, 0, 0.07, 1);
+  transition-delay: 0.25s;
+  width: 100%;
+  z-index: 9999;
+}
+.home_project_image:nth-child(2)::after {
+  transition-delay: 0.5s;
+}
+.home_project_image:nth-child(3)::after {
+  transition-delay: 0.75s;
+}
+.home_project_image:nth-child(4)::after {
+  transition-delay: 0.5s;
+}
+video.tvc_vedio,
+iframe.tvc_vedio {
+  aspect-ratio: 1360 / 765;
+  width: 100%;
+  height: auto;
+}
+
+.vedio_cont p {
+  text-align: left;
+  float: none;
+  width: 100%;
+  padding: 0 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.footer_contact ul li span {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  text-transform: lowercase;
+  font-weight: 400;
+  color: #fff;
+}
+
+.footer_contact ul li {
+  font-size: 13px;
+  letter-spacing: 3.2px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #c6233f;
+  text-align: left;
+  line-height: 25px;
+  width: 33%;
+  font-weight: 600;
+}
+.footer_contact ul li span a:hover {
+  color: #b3b3b3 !important;
+}
+.banner_scn {
+  width: 92%;
+  margin: 0 auto;
+}
+.banner_form {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner_image {
+  width: 65%;
+}
+.banner_image {
+  width: 100%;
+  height: 100%;
+}
+.banner_cnt {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: rgb(198 35 64);
+  align-items: center;
+}
+
+.enquirybox {
+  margin: 0 auto;
+}
+
+input:-internal-autofill-selected {
+  background-color: transparent !important;
+}
+
+.banner_vedio_image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.banner_vedio_image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transform: translateX(100%); /* Off-screen to the right */
+}
+
+.banner_vedio_image:first-child {
+  opacity: 1;
+  transform: translateX(0);
+}
+.banner_image {
+  height: 80vh;
+}
+
+.banner_form hr {
+  margin: 20px 0px;
+  background: rgb(255 255 255 / 35%);
+  height: 1px;
+  width: 75%;
+  opacity: 40%;
+}
+.BecomeDealer_heading {
+  font-size: 22px;
+}
+

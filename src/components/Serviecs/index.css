@@ -1,0 +1,19 @@
+.service-card {
+  backdrop-filter: blur(2px);
+  align-content: flex-start;
+  align-items: flex-start;
+  
+  background-color: var(#1b1b1b);
+  border-radius: 24px;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: min-content;
+  justify-content: space-between;
+  overflow: visible;
+  padding: 24px;
+  position: relative;
+  width: 100%;
+  border-top: 1px rgba(255, 255, 255, 0.25) solid;
+}

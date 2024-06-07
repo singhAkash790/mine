@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "path/to/image1.jpg",
+    "caption": "Slide 1 Caption"
+  },
+  {
+    "id": 2,
+    "imageUrl": "path/to/image2.jpg",
+    "caption": "Slide 2 Caption"
+  },
+  {
+    "id": 3,
+    "imageUrl": "path/to/image3.jpg",
+    "caption": "Slide 3 Caption"
+  }
+]

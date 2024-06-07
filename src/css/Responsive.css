@@ -1,0 +1,1219 @@
+@media all and (max-width: 1660px) {
+  .banner-container img {
+    width: 180px;
+  }
+  .form {
+    right: 1%;
+  }
+  .form h3 {
+    font-size: 20px;
+  }
+  .banner_heading h1 {
+    font-size: 30px;
+  }
+  .banner-container .banner_heading {
+    right: -130px;
+  }
+  .form {
+    width: 350px;
+    padding: 15px 30px;
+  }
+  .smartcont span {
+    font-size: 17px;
+  }
+  .magicboximg img {
+    width: 100%;
+  }
+  .section01 {
+    margin: 40px 0;
+  }
+  .exclusive {
+    height: 530px;
+  }
+  .logo amp-img {
+    width: 180px;
+  }
+
+  .conticno amp-img {
+    width: 40px;
+  }
+
+  .conticno h4 {
+    font-size: 32px;
+  }
+
+  .enquiryform form p {
+    font-size: 19px;
+    line-height: 24px;
+  }
+
+  .enquiryform form ul li input[type="submit"] {
+    font-size: 26px;
+  }
+  .heading h4 {
+    font-size: 18px;
+    line-height: 40px;
+  }
+
+  .overview.content p {
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  .magicbox h3 {
+    font-size: 20px;
+    padding-bottom: 0;
+    line-height: 26px;
+  }
+
+  .smartcont {
+    padding: 30px;
+  }
+
+  .smartcont p {
+    font-size: 21px;
+    line-height: 28px;
+  }
+
+  .ftrleft p {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .ftrright h5 {
+    font-size: 30px;
+  }
+
+  .ftrright .enquiryform form p {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .enquiryform form ul {
+    margin-bottom: 0px;
+  }
+}
+@media all and (max-width: 1440px) {
+  .banner-container img {
+    width: 150px;
+  }
+  .BecomeDealer_heading {
+    font-size: 21px;
+  }
+  .banner_cnt img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .form h3 {
+    font-size: 18px;
+    line-height: 1;
+    margin-bottom: 22px;
+  }
+  .BecomeDealer_data {
+    margin-top: 8px !important;
+  }
+  section.banner {
+    padding: 15px 0 25px;
+  }
+
+  .BecomeDealer_data span {
+    font-size: 32px !important;
+    line-height: 1.1 !important;
+  }
+  .logo svg {
+    width: 200px;
+  }
+  .banner_heading_h1 {
+    font-size: 29px;
+    height: 32px;
+    line-height: 32px;
+  }
+  .banner_heading_h2 {
+    font-size: 31px;
+    height: 35px;
+    line-height: 35px;
+  }
+  .header_cnt_cnt {
+    font-size: 18px;
+  }
+  .banner-container div span {
+    font-size: 13px;
+  }
+  .banner_heading h2 {
+    line-height: 37px;
+  }
+  .banner-container .banner_heading {
+    font-size: 23px;
+    width: 450px;
+  }
+  .form {
+    width: 330px;
+    padding: 15px 30px;
+  }
+  .overview-first p {
+    line-height: 45px;
+    width: 60%;
+    font-size: 33px;
+    margin-left: 220px;
+  }
+  .heading h4:before {
+    top: -10px;
+  }
+
+  .smartcont span {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .enquiryform form ul li {
+    margin: 5px 0;
+  }
+  .ftrleft amp-img {
+    width: 100px;
+  }
+  .ftrright a h4 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .form_submit {
+    margin-top: 30px;
+  }
+  .ftrleft {
+    padding: 100px 30px 50px;
+  }
+  .enquiryform form p {
+    padding: 0;
+  }
+
+  .enquiryform form {
+    width: 86%;
+    margin: 0 7%;
+  }
+}
+@media all and (max-width: 1380px) {
+  .banner-container img {
+    width: 140px;
+  }
+  .banner-container div span {
+    line-height: 50px;
+  }
+  .banner-container .banner_heading {
+    font-size: 23px;
+    width: 330px;
+    right: 0;
+  }
+  .BecomeDealer_heading {
+    font-size: 19px;
+  }
+
+  .header_cnt_cnt span {
+    font-size: 23px;
+    letter-spacing: 0.2px;
+  }
+  .header_cnt_cnt svg {
+    width: 35px;
+    height: 35px;
+  }
+  .header_cnt_cnt {
+    gap: 10px;
+  }
+
+  .banner_heading h1 {
+    font-size: 25px;
+  }
+  .banner_heading h2 {
+    line-height: 30px;
+    font-size: 25px;
+  }
+  .floating-button {
+    font-size: 13px;
+    letter-spacing: 1.5px;
+  }
+  .form {
+    width: 330px;
+    padding: 15px 30px;
+    right: 0;
+  }
+  .overview-first p {
+    width: 61%;
+    font-size: 36px;
+  }
+  .form li input[type="text"],
+  .form li input[type="email"],
+  .form li input[type="tel"],
+  .form li input[type="number"],
+  .form li select {
+    height: 45px;
+  }
+  .ftrleft amp-img {
+    width: 100px;
+  }
+  .banner-container div span:before {
+    height: 3px;
+    top: 30px;
+  }
+  .exclusive {
+    padding-bottom: 0;
+  }
+  .overview.content p {
+    padding: 0;
+  }
+  .ftrleft {
+    padding-top: 100px;
+  }
+
+  .ftrimg {
+    left: 36%;
+  }
+
+  .ftrleft p {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .ftrright .enquiryform form p {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+  }
+  .enquiryform form ul {
+    margin-top: 5px;
+  }
+  .section01 {
+    margin: 30px 0;
+  }
+
+  .enquiryform form ul li input {
+    height: 40px;
+  }
+
+  .enquiryform form ul li input[type="submit"] {
+    font-size: 24px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .enquiryform form p {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .logo amp-img {
+    width: 150px;
+  }
+
+  .conticno h4 {
+    font-size: 28px;
+  }
+  .magicstn_inner_heading {
+    font-size: 25px;
+  }
+
+  .trigers marquee {
+    height: 80px;
+    font-size: 26px;
+  }
+}
+@media all and (max-width: 1300px) {
+  .overview-first p {
+    width: 61%;
+    font-size: 30px;
+  }
+  .BecomeDealer_data {
+    font-size: 21px !important;
+  }
+}
+@media all and (max-width: 1280px) {
+  .enquiryform form {
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  .BecomeDealer_heading {
+    font-size: 17px;
+  }
+
+  .banner-container .banner_heading {
+    right: -50px;
+  }
+  .footer_contact ul {
+    justify-content: space-between;
+  }
+  .footer_contact ul li:first-child {
+    width: 25%;
+  }
+
+  .BecomeDealer_data {
+    font-size: 20px !important;
+  }
+
+  .BecomeDealer_data span {
+    font-size: 28px !important;
+    line-height: 1.1 !important;
+  }
+  .banner_heading_h1,
+  .banner_heading_h2 {
+    font-size: 25px;
+    height: 30px;
+    line-height: 30px;
+  }
+  .overview-first p {
+    font-size: 30px;
+    line-height: 50px;
+    margin-left: 220px;
+  }
+  .enquiryform form ul li input {
+    height: 40px;
+  }
+  .form {
+    right: -4%;
+  }
+  .header_cnt_cnt {
+    font-size: 16px;
+  }
+
+  .section01 {
+    margin: 25px 0;
+  }
+
+  .exclusive {
+    height: 890px;
+  }
+
+  .banner_form {
+    width: 30%;
+  }
+  .smartcont {
+    padding: 30px 10px;
+  }
+
+  .ftrimg {
+    left: 35%;
+  }
+
+  .enquiryform form ul li input[type="submit"] {
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+  }
+
+  .magicstn {
+    width: 70%;
+    margin: 0 15%;
+  }
+}
+@media all and (max-width: 1160px) {
+  .enquiryform form p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .enquiryform form ul {
+    margin: 0;
+  }
+
+  .trigers marquee {
+    font-size: 20px;
+  }
+  .ftrright h5 {
+    font-size: 26px;
+  }
+  .ftrleft p {
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: 1px;
+  }
+  .smartcont p {
+    font-size: 19px;
+    line-height: 24px;
+  }
+  .ftrright .enquiryform form p {
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    margin: 5px 0;
+    line-height: 20px;
+  }
+  .overview-first p {
+    font-size: 27px;
+    line-height: 43px;
+    margin-left: 220px;
+  }
+  .overview-second p {
+    font-size: 15px;
+  }
+  .banner-container img {
+    width: 130px;
+  }
+  .form {
+    width: 314px;
+    padding: 15px 30px;
+    right: 0;
+  }
+  .banner_form {
+    width: 40%;
+  }
+  .form {
+    width: 250px;
+    padding: 0;
+    margin: 0 auto;
+    float: none;
+  }
+  .form .btn {
+    padding: 10px 30px;
+  }
+}
+@media all and (max-width: 1080px) {
+  .magicstn_inner_heading {
+    font-size: 22px;
+    line-height: 1.3;
+  }
+
+  .BecomeDealer_data {
+    font-size: 17px !important;
+  }
+  .banner-container img {
+    width: 130px;
+  }
+
+  .banner_heading:before {
+    content: "";
+    width: 60px;
+    height: 4px;
+    background: #c6233f;
+    position: absolute;
+    top: -15px;
+    left: 3px;
+  }
+  .BecomeDealer_heading {
+    font-size: 16px;
+  }
+  .banner_heading h1 {
+    font-size: 20px;
+  }
+  .banner_heading h2 {
+    line-height: 20px;
+    font-size: 20px;
+  }
+  .form h3 {
+    font-size: 16px;
+  }
+  .form li {
+    margin: 12px 0;
+    list-style: none;
+    text-align: center;
+  }
+  .form li input[type="text"],
+  .form li input[type="email"],
+  .form li input[type="tel"],
+  .form li select {
+    font-size: 12px;
+  }
+  .overview-first p {
+    font-size: 28px;
+    line-height: 40px;
+    margin-left: 180px;
+  }
+  .banner_scn {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .overview-second p {
+    margin: 0;
+  }
+
+  .tagline {
+    font-size: 18px;
+  }
+  .magicbox {
+    margin: 0px 0;
+  }
+  .smartcont span {
+    font-size: 13px;
+    line-height: 25px;
+  }
+  .smartcont {
+    padding: 20px 10px;
+  }
+  .banner_heading_h2,
+  .banner_heading_h1 {
+    font-size: 20px;
+    height: 25px;
+  }
+  .banner_heading_h1 {
+    height: 30px;
+    line-height: 30px;
+  }
+  .footer_contact ul {
+    flex-wrap: wrap;
+  }
+  /* .footer_contact ul li:first-child,
+  .footer_contact ul li {
+    width: 100%;
+  } */
+  .footer_contact ul li span {
+    font-size: 14px;
+  }
+  .form {
+    width: auto;
+    padding: 0 10px;
+    margin: 0 auto;
+    float: none;
+  }
+  .banner_form {
+    width: 40%;
+  }
+}
+@media all and (max-width: 800px) {
+  .form {
+    width: 100%;
+    padding: 30px;
+    position: relative;
+    transform: inherit;
+    left: 0;
+    top: 0;
+  }
+  .smartcont span {
+    padding: 0px 5px;
+  }
+  .form h3 {
+    font-size: 18px;
+  }
+  .BecomeDealer_heading {
+    font-size: 22px;
+  }
+  .form li input[type="text"],
+  .form li input[type="email"],
+  .form li input[type="tel"],
+  .form li select {
+    font-size: 12px;
+    height: 45px;
+  }
+  .header_cnt_cnt span {
+    font-size: 17px;
+    letter-spacing: 0.2px;
+  }
+  .logo svg {
+    width: 170px;
+  }
+  .banner_heading h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .banner-container div {
+    margin-right: 13px;
+  }
+  .banner_heading h2 {
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .get_connect {
+    width: 42%;
+  }
+  .banner_heading:before {
+    top: 0;
+  }
+
+  .banner-container .banner_heading {
+    padding-top: 20px;
+    left: 0px;
+    margin-top: 0px;
+  }
+  .banner-container div:nth-child(odd) {
+    margin-top: 30px;
+  }
+  .banner-container div:nth-child(5) {
+    display: none;
+  }
+  .banner-container {
+    flex-wrap: wrap;
+  }
+  .banner-container div {
+    width: 48%;
+    margin-top: 30px;
+    margin-right: 0px;
+  }
+  .wapper {
+    width: 85%;
+    float: left;
+    margin: 0 7.5%;
+  }
+  .banner-container div span {
+    font-size: 10px;
+  }
+  .BecomeDealer {
+    width: 90% !important;
+    padding-top: 30px;
+  }
+  .BecomeDealer_data {
+    font-size: 28px !important;
+  }
+  .BecomeDealer_data span {
+    font-size: 39px !important;
+    line-height: 1.1 !important;
+    white-space: nowrap;
+  }
+  .banner_form hr {
+    display: none;
+  }
+
+  .enquirybox {
+    width: 100%;
+  }
+  .overview {
+    padding: 50px 0 0 0;
+  }
+  .overview-first,
+  .overview-second {
+    width: 95%;
+    margin: 0 auto;
+    float: none;
+  }
+  .overview p {
+    font-size: 20px;
+    line-height: 29px;
+  }
+  .inner_heading {
+    padding: 10px 0;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .magicstn_inner_heading {
+    padding: 10px 0;
+    font-size: 16px;
+    margin: 0 auto;
+    line-height: 25px;
+  }
+  .section01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 53px 0 39px 0;
+    width: 90%;
+    padding-left: 2%;
+  }
+  .desktop-show {
+    display: none;
+  }
+  .banner-container .mobile-show {
+    display: block;
+  }
+  .mobile-show {
+    display: block;
+  }
+  .banner-container {
+    width: 100%;
+    margin: 0;
+    border: none;
+    justify-content: space-between;
+  }
+  .banner-container img {
+    width: 100%;
+  }
+  .ftrright a {
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  .ftrright a h4 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .banner {
+    flex-wrap: wrap;
+  }
+
+  .section01 {
+    width: 100%;
+  }
+
+  .enquiryform {
+    width: 70%;
+    padding: 50px 25px;
+    margin: 0 15%;
+  }
+
+  .enquiryform form p {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .overview {
+    background-size: cover;
+  }
+  .exclusive {
+    background: none;
+    height: auto;
+    padding-top: 0px;
+  }
+  .overview.content p {
+    width: 90%;
+    margin: 0 5%;
+  }
+  .magicstn {
+    width: 90%;
+    margin: 0 5%;
+  }
+  .magicbox {
+    width: 50%;
+  }
+  .magicboximg {
+    width: 200px;
+    height: 170px;
+  }
+
+  .tagline {
+    font-size: 15px;
+    line-height: 24px;
+    width: 80%;
+  }
+  .smartstn {
+    width: 90%;
+    margin: 0 5%;
+    background: transparent;
+  }
+  .heading h4 {
+    font-size: 13px;
+    line-height: 25px;
+  }
+
+  .smartbox {
+    margin: 15px 0%;
+  }
+
+  .smartchoice {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+    width: 100%;
+  }
+
+  .footerstn {
+    width: 100%;
+    margin: 100px 0 50px;
+    flex-wrap: wrap;
+  }
+  .copyright {
+    width: 100%;
+  }
+
+  .ftrleft {
+    width: 100%;
+    margin: 0px;
+    float: left;
+  }
+
+  .ftrright {
+    width: 100%;
+  }
+
+  .ftrright .enquiryform {
+    width: 100%;
+    margin: 0;
+    padding: 50px 0;
+  }
+
+  .banner-container .gallery {
+    width: 100%;
+    margin-top: 130px !important;
+    margin-right: 0px;
+    display: FLEX;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .container {
+    width: 88% !important;
+    margin: 0 auto;
+  }
+  .banner_heading_h2,
+  .banner_heading_h1 {
+    font-size: 25px;
+    line-height: 30px;
+    height: 32px;
+  }
+  #desktop-show {
+    display: none;
+  }
+  .overview-first p {
+    width: 100%;
+    font-size: 36px;
+    margin-left: 0;
+    line-height: 46px;
+    margin: 0 auto;
+  }
+  .overview {
+    padding-top: 30px;
+  }
+  .overview-second {
+    padding-top: 40px;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .overview-second p:first-child {
+    width: 100%;
+  }
+  .overview-second p {
+    width: 48%;
+  }
+  .banner_cnt {
+    flex-direction: column;
+    height: auto;
+  }
+  .banner_form,
+  .banner_image {
+    width: 100%;
+    height: auto;
+  }
+  .form ul {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 2%;
+  }
+  .form li {
+    width: 48%;
+  }
+  .form li:nth-child(5),
+  .form li:nth-child(6) {
+    width: 100%;
+  }
+  .magicstn {
+    width: 90%;
+    margin: 0 5%;
+  }
+  .magicbox,
+  .magicboximg {
+    width: 98%;
+    height: auto;
+  }
+  section#Tvc {
+    margin: 20px 0;
+  }
+}
+@media all and (max-width: 630px) {
+  .overview p {
+    width: 100%;
+    margin: 0 2%;
+    font-size: 21px;
+    line-height: 40px;
+  }
+  .logo {
+    width: auto;
+  }
+  .logo svg {
+    height: auto;
+    width: 150px;
+  }
+  .footer_contact ul li,
+  .footer_contact ul li:first-child {
+    width: fit-content;
+    float: left;
+    margin: 0;
+    justify-content: flex-start;
+  }
+  .get_connect {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header_cnt {
+    align-items: center !important
+ ;
+  }
+  .header_cnt_cnt {
+    font-size: 14px;
+    letter-spacing: 1.5px;
+  }
+  .header_cnt_cnt::after {
+    height: 1px;
+  }
+  .overview-second p span {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .overview-second p:first-child span {
+    font-size: 21px;
+  }
+  .smartstn,
+  .product_slider,
+  .vedio_review_scn {
+    width: 92% !important;
+    margin: 0 auto !important;
+  }
+  .product_slider_cnt .row {
+    display: flex;
+  }
+  .product_slider_cnt .smartstn {
+    width: 100% !important;
+    padding: 30px 0;
+  }
+
+  .overview-second p:before {
+    margin: 0 2%;
+  }
+
+  .inner_heading {
+    margin-top: 10px;
+  }
+  .vedio_cont {
+    padding: 0;
+  }
+  section.giew {
+    padding: 30px;
+  }
+  section#dealer_speak {
+    padding: 60px 0;
+  }
+  section {
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+
+  .vedio_cont p {
+    text-align: center;
+    float: none;
+    width: 100%;
+    padding: 0;
+    font-size: 12px;
+  }
+  .container {
+    width: 90% !important;
+    display: block;
+    position: relative;
+  }
+  .slick-prev,
+  .slick-next {
+    height: 40px;
+    width: 20px;
+    z-index: 2;
+  }
+  .exclusive amp-img {
+    display: block;
+  }
+  .header {
+    margin: 15px auto 10px;
+  }
+  .banner-container .gallery {
+  }
+  .heading h4 {
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1.2px;
+    text-wrap: balance;
+  }
+}
+@media all and (max-width: 580px) {
+  section.banner {
+    padding: 20px 0 10px;
+  }
+  .overview-second {
+    padding-top: 20px;
+  }
+  .overview p {
+    width: 100%;
+    margin: 0 2%;
+    font-size: 26px;
+    line-height: 40px;
+  }
+  .overview-second p:first-child span {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+  .web-container {
+    margin: 0 auto;
+    width: 100%;
+  }
+  section.giew {
+    padding: 0;
+  }
+  .overview-first,
+  .overview-second {
+    width: 90%;
+    margin: 0 auto;
+    float: none;
+  }
+  .footerstn {
+    width: 100%;
+    margin: 60px 0 30px;
+    flex-wrap: wrap;
+  }
+  .form li {
+    margin: 8px 0;
+  }
+  section#dealer_speak {
+    padding: 40px 0;
+  }
+  section#Tvc {
+    margin: 10px 0;
+  }
+  .savewater,
+  .product_slider_cnt .smartstn {
+    padding: 10px 0 !important;
+  }
+  .footer_contact ul li span {
+    font-size: 13px;
+  }
+  .socail_icon {
+    gap: 10px;
+    margin: 10px 0;
+  }
+}
+@media all and (max-width: 480px) {
+  .enquiryform {
+    width: 100%;
+    margin: 0;
+  }
+  section.banner {
+    padding: 15px 0 10px;
+  }
+  .talk_to_us {
+    font-size: 28px;
+  }
+  .form li {
+    width: 100%;
+  }
+  .banner-container .gallery {
+    margin-top: 110px !important;
+  }
+  .BecomeDealer_heading {
+    font-size: 20px;
+  }
+  .conticno amp-img {
+    width: 25px;
+  }
+  .banner_form hr {
+    display: block;
+  }
+  .form {
+    padding-top: 0;
+  }
+  .banner_form hr {
+    margin: 30px 0;
+  }
+  .BecomeDealer_data span {
+    font-size: 33px !important;
+    line-height: 1.1 !important;
+    white-space: nowrap;
+  }
+  .BecomeDealer_data {
+    font-size: 25px !important;
+  }
+  .footer_contact ul li,
+  .footer_contact ul li:first-child {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .header_cnt_cnt span {
+    font-size: 20px;
+    letter-spacing: 0.2px;
+  }
+  .header_cnt_cnt svg {
+    width: 25px;
+    height: 25px;
+  }
+  .header_cnt_cnt span {
+    font-size: 13px;
+    letter-spacing: 0.2px;
+  }
+  .logo svg {
+    height: auto;
+    width: 130px;
+  }
+  .tagline {
+    font-size: 15px;
+    line-height: 24px;
+    width: 90%;
+    margin-top: 20px;
+  }
+  .banner_heading_h2,
+  .banner_heading_h1 {
+    font-size: 20px;
+    line-height: 25px;
+    height: 25px;
+  }
+
+  .copyright p {
+    width: 100%;
+    float: left;
+    padding: 5px 0;
+  }
+
+  .copyright {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .wapper {
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+  }
+}
+@media all and (max-width: 480px) {
+  .magicbox h3 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .footer_contact,
+  .smartbox {
+    width: 100%;
+  }
+  .eIowON {
+    height: 52vh !important;
+  }
+  .footerstn {
+    width: 100%;
+    margin: 40px 0 0;
+  }
+  .logo amp-img {
+    width: 150px;
+  }
+}
+@media all and (max-width: 420px) {
+  .overview p {
+    width: 100%;
+    font-size: 21px;
+    line-height: 30px;
+  }
+  .BecomeDealer_heading {
+    font-size: 17px;
+    width: fit-content !important;
+  }
+  .overview.content p {
+    font-size: 26px;
+    line-height: 38px;
+  }
+  .smartcont {
+    height: auto;
+    padding: 15px;
+  }
+  .ftrimg {
+    left: 30%;
+  }
+  .smartcont p {
+    font-size: 21px;
+    line-height: 28px;
+    width: 100%;
+  }
+  .section01 {
+    margin: 20px 2%;
+    width: 96%;
+  }
+}
+@media all and (max-width: 375px) {
+  .heading h4 {
+    padding: 0;
+  }
+  .overview.content p {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .overview p {
+    width: 100%;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .overview-second p:first-child span {
+    font-size: 19px;
+    margin-bottom: 0;
+  }
+}

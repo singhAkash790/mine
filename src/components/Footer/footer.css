@@ -1,0 +1,48 @@
+.socail_icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 45px;
+}
+
+.socail_icon {
+  gap: 20px;
+  margin: 10px 0;
+}
+
+.socail_icon a {
+  align-items: center;
+  display: flex;
+  height: 36px;
+  width: 36px;
+}
+
+.socail_icon a svg {
+  fill: #fff;
+  height: 100%;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.socail_icon a:hover svg {
+  fill: #c6233f !important;
+}
+.talk_to_us {
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 32px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 50px;
+  letter-spacing: 3px;
+}
+.footer_contact ul li p {
+    width: fit-content;
+    float: left;
+    text-align: start;
+}
+
+.footer_contact ul li  {
+    display: flex;
+    justify-content: center;
+}
