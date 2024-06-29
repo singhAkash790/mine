@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import WebLayout from "../WebLayout";
+import profileImg from "../../image/profile.jpeg";
 
 const Hero = ({
   imageSrc,
@@ -21,10 +22,10 @@ const Hero = ({
         data-aos-once="true"
         data-aos-duration="800"
       >
-        <div className=" top-0  rounded-lg overflow-hidden">
+        <div className=" top-0  rounded-lg overflow-hidden xl:w-[450px] w-full">
           <img
-            src={imageSrc}
-            alt=""
+            src={profileImg}
+            alt="Akash profile image"
             className="w-full h-full object-cover"
             data-aos="zoom-in"
             data-aos-offset="100"

@@ -3,10 +3,6 @@ import { gsap } from "gsap";
 import WebLayout from "../WebLayout";
 import Heading from "../Heading";
 import Card from "../ProjectCard/Card";
-import Image1 from "../../image/AssurePathlab.png";
-import Image2 from "../../image/centra greens.png";
-import Image3 from "../../image/jUJHAR TRAVEL MOCKUP.png";
-import Image4 from "../../image/fastway.png";
 
 const Index = ({ title, width, LinkData, parentClass, Data }) => {
   return (
