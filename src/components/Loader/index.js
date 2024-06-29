@@ -39,10 +39,17 @@ const Index = () => {
         tl.play();
       };
 
-      window.addEventListener("load", handleAnimationStart);
+      if (document.readyState === "complete") {
+        handleAnimationStart();
+      } else {
+        window.addEventListener("load", handleAnimationStart);
+        // Fallback: Start animation after a delay if 'load' event doesn't fire
+        const fallbackTimer = setTimeout(handleAnimationStart, 3000);
+      }
 
       return () => {
         window.removeEventListener("load", handleAnimationStart);
+        clearTimeout(fallbackTimer);
         tl.kill();
       };
     }, [preloader, logo, overlay, preloaderItems]);
