@@ -65,7 +65,10 @@ const Index = () => {
             isActive ? "w-full justify-start h-[50px]" : ""
           }`}
         >
-          <NavLink to="/" className="flex items-center xl:w-[150px] md:w-[130px] w-[100px]">
+          <NavLink
+            to="/"
+            className="flex items-center xl:w-[150px] md:w-[130px] w-[100px]"
+          >
             <Logo />
           </NavLink>
         </div>
@@ -124,15 +127,23 @@ const Index = () => {
                       key={index}
                       className="py-2 transition-all duration-500 ease-linear transform opacity-100"
                     >
-                      <Link
+                      <NavLink
                         to={link.to}
-                        className="text-5xl leading-relaxed font-light block mb-0 font-audrey uppercase text-gray-600 hover:text-orange-500 transition duration-500 ease-in-out relative overflow-hidden"
+                        className={({ isActive }) => `
+    text-5xl leading-relaxed font-light block mb-0 font-audrey uppercase
+    transition duration-500 ease-in-out relative overflow-hidden
+    ${
+      isActive
+        ? "text-orange-500 hover:text-orange-500"
+        : "text-gray-600 hover:text-orange-500"
+    }
+  `}
                         data-after={link.label}
                       >
                         <span className="inline-block transform transition duration-500 ease-in-out">
                           {link.label}
                         </span>
-                      </Link>
+                      </NavLink>
                     </li>
                   ))}
                 </ul>
