@@ -14,42 +14,55 @@ const Index = () => {
 
     const preloaderItems = preloader.querySelectorAll(".preloader-grid-item");
 
+    gsap.config({ force3D: true }); // Force GSAP to use CSS transforms
+
     const ctx = gsap.context(() => {
       const tl = gsap.timeline({ paused: true });
 
-      tl.to(preloader, { display: "flex", duration: 0 })
-        .to(preloaderItems, { height: "100%", duration: 0 }, 0)
-        .to(logo, { y: 0, opacity: 1, duration: 0.3, ease: "none" }, 0)
+      tl.to(preloader, { display: "flex", duration: 0, onComplete: () => console.log('Step 1: Preloader displayed') })
+        .to(preloaderItems, { height: "100%", duration: 0, onComplete: () => console.log('Step 2: Grid items full height') }, 0)
+        .to(logo, { y: 0, opacity: 1, duration: 0.3, ease: "none", onComplete: () => console.log('Step 3: Logo visible') }, 0)
         .to(
           logo,
           {
             y: "8.25rem",
             duration: 0.3,
             ease: "cubic-bezier(0.5, -0.75, 0.7, 2)",
+            onComplete: () => console.log('Step 4: Logo moved down')
           },
           1.2
         )
-        .to(preloaderItems[2], { height: 0, duration: 0.3, ease: "ease" }, 1.8)
-        .to(preloaderItems[1], { height: 0, duration: 0.3, ease: "ease" }, 2)
-        .to(preloaderItems[0], { height: 0, duration: 0.3, ease: "ease" }, 2.2)
-        .to(overlay, { opacity: 0, duration: 0.1, ease: "ease" }, 2.7)
-        .to(preloader, { display: "none", duration: 0 }, 2.9);
+        .to(preloaderItems[2], { height: 0, duration: 0.3, ease: "ease", onComplete: () => console.log('Step 5: Third grid item hidden') }, 1.8)
+        .to(preloaderItems[1], { height: 0, duration: 0.3, ease: "ease", onComplete: () => console.log('Step 6: Second grid item hidden') }, 2)
+        .to(preloaderItems[0], { height: 0, duration: 0.3, ease: "ease", onComplete: () => console.log('Step 7: First grid item hidden') }, 2.2)
+        .to(overlay, { opacity: 0, duration: 0.1, ease: "ease", onComplete: () => console.log('Step 8: Overlay faded out') }, 2.7)
+        .to(preloader, { display: "none", duration: 0, onComplete: () => console.log('Step 9: Preloader hidden') }, 2.9);
 
       const handleAnimationStart = () => {
+        console.log('Animation started');
         tl.play();
       };
 
-      if (document.readyState === "complete") {
+      let fallbackTimer;
+
+      if (document.readyState === 'complete') {
+        console.log('Document already loaded, starting animation');
         handleAnimationStart();
       } else {
-        window.addEventListener("load", handleAnimationStart);
+        console.log('Document not yet loaded, setting up listeners');
+        window.addEventListener('load', handleAnimationStart);
         // Fallback: Start animation after a delay if 'load' event doesn't fire
-        const fallbackTimer = setTimeout(handleAnimationStart, 3000);
+        fallbackTimer = setTimeout(() => {
+          console.log('Fallback timer triggered');
+          handleAnimationStart();
+        }, 3000);
       }
 
       return () => {
-        window.removeEventListener("load", handleAnimationStart);
-        clearTimeout(fallbackTimer);
+        window.removeEventListener('load', handleAnimationStart);
+        if (fallbackTimer) {
+          clearTimeout(fallbackTimer);
+        }
         tl.kill();
       };
     }, [preloader, logo, overlay, preloaderItems]);
