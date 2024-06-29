@@ -575,6 +575,10 @@
   .smartcont span {
     padding: 0px 5px;
   }
+  .service-card{
+    flex-wrap: wrap;
+    gap: 30px;
+  }
   .form h3 {
     font-size: 18px;
   }
@@ -903,6 +907,9 @@
     height: auto;
     width: 150px;
   }
+  .service-card{
+    gap: 25px;
+  }
   .footer_contact ul li,
   .footer_contact ul li:first-child {
     width: fit-content;
@@ -1026,6 +1033,10 @@
   section.giew {
     padding: 0;
   }
+  section {
+    padding: 30px 0 !important
+    ;
+}
   .overview-first,
   .overview-second {
     width: 90%;

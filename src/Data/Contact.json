@@ -1,0 +1,12 @@
+{
+    "bannerData": {
+        "title": "CONTACT ME",
+        "description": "Reach out and let's collaborate on bringing your vision to life. I'm here to help you with your next project."
+    },
+    "cta": {
+        "contactLink": "./contact",
+        "contactText": "Available For Work",
+        "email": "molfar@gmail.com",
+        "emailLink": "mailto:molfar@gmail.com"
+    }
+}

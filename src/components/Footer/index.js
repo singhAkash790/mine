@@ -1,305 +1,121 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Instagram from "../SVG/Instagram";
+import Linked from "../SVG/Linked";
+import Facebook from "../SVG/FaceBook";
+import WebLayout from "../WebLayout";
+import Logo from "../SVG/Logo";
+
+const links = [
+  { to: "/", label: "Home" },
+  { to: "/about", label: "About" },
+  { to: "/portfolio", label: "Portfolio" },
+  { to: "/contact", label: "Contact" },
+];
+
+const socialLinks = [
+  { to: "https://x.com", label: "instagram", Icon: Instagram },
+  { to: "https://instagram.com", label: "Instagram", Icon: Instagram },
+  { to: "https://t.me", label: "telegram", Icon: Facebook },
+  { to: "https://linkedin.com", label: "LinkedIn", Icon: Linked },
+];
 
 const index = () => {
   return (
-    <div className="flex-shrink-0 h-auto relative w-full z-10 box-border antialiased">
-      <div className="contents box-border antialiased">
-        <div
-          data-framer-name="desktop"
-          className="w-full opacity-100 place-content-center items-center flex flex-col gap-10  overflow-visible p-0 pb-10 relative box-border antialiased"
-          tabIndex="0"
-        >
-          <div
-            data-framer-name="footer"
-            className="opacity-100 place-content-center items-center flex flex-col gap-6  max-w-[1216px] overflow-visible p-0 relative w-full box-border antialiased"
-          >
+    <WebLayout _sclass="pb-0">
+      <div className="flex-shrink-0 h-auto relative w-full z-10 box-border antialiased">
+        <div className="contents box-border antialiased">
+          <div className="w-full opacity-100 place-content-center items-center flex flex-col  overflow-visible p-0  relative box-border antialiased">
             <div
-              data-framer-name="top-info"
-              className="opacity-100 justify-between w-100 items-center flex flex-row  overflow-visible p-0 relative w-full box-border antialiased"
+              data-aos="zoom-up"
+              data-aos-easing="ease-in-back"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="800"
+              className="opacity-100 place-content-center items-center flex flex-col gap-8  overflow-visible p-0 relative w-full box-border antialiased"
             >
-              <a
-                data-framer-name="Molfar"
-                href="./"
-                data-framer-page-link-current="true"
-                className="opacity-100 font-inter text-black text-base no-underline aspect-[5.10526/1] flex-shrink-0 h-5 overflow-visible relative w-24 block box-border antialiased"
-              >
-                <div
-                  data-framer-background-image-wrapper="true"
-                  className="absolute rounded-none inset-0 box-border antialiased"
+              <div className="opacity-100 lg:justify-between w-100 lg:items-center flex lg:flex-row flex-col justify-start items-start gap-8  overflow-visible p-0 relative w-full box-border antialiased">
+                <Link
+                  to="/"
+                  className="opacity-100 font-inter text-black text-base no-underline aspect-[5.10526/1] flex-shrink-0 h-5 overflow-visible relative w-24 block box-border antialiased"
                 >
-                  <img
-                    decoding="async"
-                    src="https://framerusercontent.com/images/2JIgalejcmrUKEz5JwwdnjEupE.svg"
-                    alt="Logo"
-                    className="block w-full h-5 rounded-none object-cover object-center box-border antialiased"
-                  />
-                </div>
-              </a>
-              <div
-                data-framer-name="nav"
-                className="transform translate-x-[-50%] translate-y-[-50%] opacity-100 place-content-start items-start flex flex-row gap-2 h-[41.5938px] left-1/2 overflow-visible p-0 absolute top-1/2 w-min z-10 box-border antialiased"
-              >
-                <div className="opacity-100 flex-shrink-0 h-auto relative w-auto box-border antialiased">
-                  <a
-                    data-border="true"
-                    data-framer-name="Desktop"
-                    className="border border-white bg-transparent rounded-full opacity-100 place-content-center items-center cursor-pointer flex flex-row gap-2.5 h-[41.5938px] overflow-visible p-2 pl-4 pr-4 relative no-underline w-min box-border antialiased"
-                    href="./"
-                    tabIndex="0"
-                  >
-                    <div className="outline-none flex flex-col justify-start flex-shrink-0 opacity-100 relative flex-shrink-0 h-auto whitespace-pre box-border antialiased">
-                      <p
-                        data-styles-preset="FKXgixZ2m"
-                        className="text-white text-center text-base font-inter font-normal leading-6 box-border antialiased"
+                  <div className="absolute rounded-none inset-0 box-border antialiased">
+                    <Logo />
+                  </div>
+                </Link>
+                <div className=" opacity-100  items-start flex flex-row gap-x-4 gap-y-2 lg:w-1/2 w-fit flex-wrap  sm:justify-center justify-start z-10 box-border antialiased">
+                  {links.map(({ to, label }) => (
+                    <div
+                      className="opacity-100 flex-shrink-0 h-auto relative w-auto box-border antialiased"
+                      key={to}
+                    >
+                      <Link
+                        to={to}
+                        data-aos="fade-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-once="true"
+                        data-aos-anchor-placement="top-bottom"
+                        data-aos-duration="1200"
+                        className=" bg-transparent rounded-full opacity-100 place-content-center items-center cursor-pointer flex flex-row py-2  overflow-visible  relative no-underline w-min box-border antialiased"
                       >
-                        Home
-                      </p>
+                        <div className="outline-none flex flex-col justify-start  opacity-100 relative flex-shrink-0 h-auto whitespace-pre box-border antialiased">
+                          <p className="text-white uppercase  tracking-[2px] font-[500] text-center text-[14px] leading-6 box-border antialiased">
+                            {label}
+                          </p>
+                        </div>
+                      </Link>
                     </div>
-                  </a>
+                  ))}
                 </div>
-                <div className="opacity-100 flex-shrink-0 h-auto relative w-auto box-border antialiased">
-                  <a
-                    data-border="true"
-                    data-framer-name="Desktop"
-                    className="border border-white bg-transparent rounded-full opacity-100 place-content-center items-center cursor-pointer flex flex-row gap-2.5 h-[41.5938px] overflow-visible p-2 pl-4 pr-4 relative no-underline w-min box-border antialiased"
-                    href="./about"
-                    tabIndex="0"
-                  >
-                    <div className="outline-none flex flex-col justify-start flex-shrink-0 opacity-100 relative flex-shrink-0 h-auto whitespace-pre box-border antialiased">
-                      <p
-                        data-styles-preset="FKXgixZ2m"
-                        className="text-white text-center text-base font-inter font-normal leading-6 box-border antialiased"
+                {/* //socail icon */}
+                <div className="opacity-100 place-content-center items-center flex flex-row gap-4 overflow-visible p-0 relative w-min box-border antialiased">
+                  {socialLinks.map(({ to, label, Icon }) => (
+                    <div
+                      className="opacity-100 flex-shrink-0 h-[40px] relative w-[40px] box-border antialiased"
+                      key={label}
+                    >
+                      <Link
+                        aria-label={label}
+                        className="h-full w-full opacity-100 cursor-pointer overflow-hidden relative no-underline block box-border antialiased"
+                        to={to}
+                        target="_blank"
+                        rel="noopener"
                       >
-                        About
-                      </p>
+                        <div className="image-rendering-pixelated  fill-[#fafafa] color-white opacity-100 absolute aspect-square flex-shrink-0  inset-0 box-border antialiased">
+                          <Icon />
+                        </div>
+                      </Link>
                     </div>
-                  </a>
-                </div>
-                <div className="opacity-100 flex-shrink-0 h-auto relative w-auto box-border antialiased">
-                  <a
-                    data-border="true"
-                    data-framer-name="Desktop"
-                    className="border border-white bg-transparent rounded-full opacity-100 place-content-center items-center cursor-pointer flex flex-row gap-2.5 h-[41.5938px] overflow-visible p-2 pl-4 pr-4 relative no-underline w-min box-border antialiased"
-                    href="./portfolio"
-                    tabIndex="0"
-                  >
-                    <div className="outline-none flex flex-col justify-start flex-shrink-0 opacity-100 relative flex-shrink-0 h-auto whitespace-pre box-border antialiased">
-                      <p
-                        data-styles-preset="FKXgixZ2m"
-                        className="text-white text-center text-base font-inter font-normal leading-6 box-border antialiased"
-                      >
-                        Portfolio
-                      </p>
-                    </div>
-                  </a>
-                </div>
-                <div className="opacity-100 flex-shrink-0 h-auto relative w-auto box-border antialiased">
-                  <a
-                    data-border="true"
-                    data-framer-name="Desktop"
-                    className="border border-white bg-transparent rounded-full opacity-100 place-content-center items-center cursor-pointer flex flex-row gap-2.5 h-[41.5938px] overflow-visible p-2 pl-4 pr-4 relative no-underline w-min box-border antialiased"
-                    href="./contact"
-                    tabIndex="0"
-                  >
-                    <div className="outline-none flex flex-col justify-start flex-shrink-0 opacity-100 relative flex-shrink-0 h-auto whitespace-pre box-border antialiased">
-                      <p
-                        data-styles-preset="FKXgixZ2m"
-                        className="text-white text-center text-base font-inter font-normal leading-6 box-border antialiased"
-                      >
-                        Contact
-                      </p>
-                    </div>
-                  </a>
+                  ))}
                 </div>
               </div>
-              <div
-                data-framer-name="socials"
-                className="opacity-100 place-content-center items-center flex flex-row gap-6 h-6 overflow-visible p-0 relative w-min box-border antialiased"
-              >
-                <div
-                  data-framer-name="x"
-                  name="x"
-                  className="opacity-100 flex-shrink-0 h-6 relative w-6 box-border antialiased"
-                >
-                  <a
-                    name="x"
-                    aria-label="X/Twitter"
-                    data-framer-name="x"
-                    className="h-full w-full opacity-100 cursor-pointer overflow-hidden relative no-underline block box-border antialiased"
-                    href="https://x.com"
-                    target="_blank"
-                    rel="noopener"
-                    tabIndex="0"
-                  >
-                    <div
-                      data-framer-component-type="SVG"
-                      data-framer-name="x"
-                      className="image-rendering-pixelated flex-shrink-0 fill-black color-black opacity-100 absolute aspect-square flex-shrink-0 h-6 inset-0 box-border antialiased"
-                    >
-                      <div className="w-full h-full aspect-square box-border antialiased">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          xmlnsXlink="http://www.w3.org/1999/xlink"
-                          className="w-full h-full block box-border antialiased"
-                          viewBox="0 0 24 24"
-                          preserveAspectRatio="none"
-                          width="100%"
-                          height="100%"
-                        >
-                          <use
-                            href="#svg-1785960115_279"
-                            className="box-border antialiased"
-                          ></use>
-                        </svg>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div className="opacity-100 flex-shrink-0 h-6 relative w-6 box-border antialiased">
-                  <a
-                    aria-label="Instagram"
-                    data-framer-name="inst"
-                    className="h-full w-full opacity-100 cursor-pointer overflow-hidden relative no-underline block box-border antialiased"
-                    href="https://instagram.com"
-                    target="_blank"
-                    rel="noopener"
-                    tabIndex="0"
-                  >
-                    <div
-                      data-framer-component-type="SVG"
-                      data-framer-name="inst"
-                      className="image-rendering-pixelated flex-shrink-0 fill-black color-black opacity-100 absolute aspect-square flex-shrink-0 h-6 inset-0 box-border antialiased"
-                    >
-                      <div className="w-full h-full aspect-square box-border antialiased">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          xmlnsXlink="http://www.w3.org/1999/xlink"
-                          className="w-full h-full block box-border antialiased"
-                          viewBox="0 0 24 24"
-                          preserveAspectRatio="none"
-                          width="100%"
-                          height="100%"
-                        >
-                          <use
-                            href="#svg-1785960115_309"
-                            className="box-border antialiased"
-                          ></use>
-                        </svg>
-                      </div>
-                    </div>
-                  </a>
+              <div className=" bg-[#fafafa42] opacity-20 flex-shrink-0 h-px overflow-visible relative w-full box-border antialiased"></div>
+              <div className="opacity-100 place-content-center justify-between items-center flex flex-row gap-3 h-auto overflow-visible p-0 relative w-full box-border antialiased">
+                <div className="outline-none flex flex-col justify-start  opacity-100 relative flex-shrink-0 h-auto whitespace-pre box-border antialiased">
+                  <p className="text-[#e6e6e6b9] text-center text-sm font-inter font-normal leading-6 box-border antialiased">
+                    2024. All rights reserved.
+                  </p>
                 </div>
                 <div
-                  data-framer-name="telegram"
-                  className="opacity-100 flex-shrink-0 h-6 relative w-6 box-border antialiased"
+                  data-framer-name="by Molfar"
+                  className="outline-none flex flex-col justify-start flex-shrink-0 opacity-100 relative  h-auto whitespace-pre box-border antialiased"
                 >
-                  <a
-                    aria-label="Telegram"
-                    data-framer-name="telegram"
-                    className="h-full w-full opacity-100 cursor-pointer overflow-hidden relative no-underline block box-border antialiased"
-                    href="https://t.me"
+                  <Link
+                    to="https://molfar.co"
                     target="_blank"
                     rel="noopener"
-                    tabIndex="0"
+                    className="text-[#e6e6e6b9] text-center text-sm font-inter font-normal leading-6 box-border antialiased"
+                    data-styles-preset="FKXgixZ2m"
                   >
-                    <div
-                      data-framer-component-type="SVG"
-                      data-framer-name="telegram"
-                      className="image-rendering-pixelated flex-shrink-0 fill-black color-black opacity-100 absolute aspect-square flex-shrink-0 h-6 inset-0 box-border antialiased"
-                    >
-                      <div className="w-full h-full aspect-square box-border antialiased">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          xmlnsXlink="http://www.w3.org/1999/xlink"
-                          className="w-full h-full block box-border antialiased"
-                          viewBox="0 0 24 24"
-                          preserveAspectRatio="none"
-                          width="100%"
-                          height="100%"
-                        >
-                          <use
-                            href="#svg-1785960115_354"
-                            className="box-border antialiased"
-                          ></use>
-                        </svg>
-                      </div>
-                    </div>
-                  </a>
+                    Developed by : Akash
+                  </Link>
                 </div>
-                <div
-                  data-framer-name="link"
-                  className="opacity-100 flex-shrink-0 h-6 relative w-6 box-border antialiased"
-                >
-                  <a
-                    aria-label="LinkedIn"
-                    data-framer-name="link"
-                    className="h-full w-full opacity-100 cursor-pointer overflow-hidden relative no-underline block box-border antialiased"
-                    href="https://linkedin.com"
-                    target="_blank"
-                    rel="noopener"
-                    tabIndex="0"
-                  >
-                    <div
-                      data-framer-component-type="SVG"
-                      data-framer-name="link"
-                      className="image-rendering-pixelated flex-shrink-0 fill-black color-black opacity-100 absolute aspect-square flex-shrink-0 h-6 inset-0 box-border antialiased"
-                    >
-                      <div className="w-full h-full aspect-square box-border antialiased">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          xmlnsXlink="http://www.w3.org/1999/xlink"
-                          className="w-full h-full block box-border antialiased"
-                          viewBox="0 0 24 24"
-                          preserveAspectRatio="none"
-                          width="100%"
-                          height="100%"
-                        >
-                          <use
-                            href="#svg-1785960115_334"
-                            className="box-border antialiased"
-                          ></use>
-                        </svg>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              data-framer-name="divider"
-              className="bg-white opacity-50 flex-shrink-0 h-px overflow-visible relative w-full box-border antialiased"
-            ></div>
-            <div
-              data-framer-name="bottom-info"
-              className="opacity-100 place-content-center justify-between w-full items-center flex flex-row gap-3 h-auto overflow-visible p-0 relative w-full box-border antialiased"
-            >
-              <div className="outline-none flex flex-col justify-start flex-shrink-0 opacity-100 relative flex-shrink-0 h-auto whitespace-pre box-border antialiased">
-                <p
-                  data-styles-preset="FKXgixZ2m"
-                  className="text-white text-center text-sm font-inter font-normal leading-6 box-border antialiased"
-                >
-                  2023. All rights reserved.
-                </p>
-              </div>
-              <div
-                data-framer-name="by Molfar"
-                className="outline-none flex flex-col justify-start flex-shrink-0 opacity-100 relative flex-shrink-0 h-auto whitespace-pre box-border antialiased"
-              >
-                <a
-                  href="https://molfar.co"
-                  target="_blank"
-                  rel="noopener"
-                  className="text-white text-center text-sm font-inter font-normal leading-6 box-border antialiased"
-                  data-styles-preset="FKXgixZ2m"
-                >
-                  by Molfar
-                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </WebLayout>
   );
 };
 

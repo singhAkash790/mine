@@ -8,6 +8,7 @@ const Instagram = (props) => (
     viewBox="0 0 800 800"
     width={800}
     height={800}
+    className="h-100 w-100"
     {...props}
   >
     <path

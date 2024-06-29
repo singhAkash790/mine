@@ -10,20 +10,26 @@ import Aos from "aos";
 import Header from "./components/Header";
 import About from "./About";
 import Portfolio from "./Portfolio";
+import ProductDetail from "./ProductDetail";
 import ContactUs from "./ContactUs";
+import Loader from "./components/Loader";
 
 function App() {
   Aos.init();
   return (
     <>
-      <Router>
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/portfolio" element={<Portfolio />} />
-          <Route exact path="/contact" element={<ContactUs />} />
-        </Routes>
-      </Router>
+      <Loader />
+      <div className="scroll" id="scroll-caontainer">
+        <Router>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/about" element={<About />} />
+            <Route exact path="/portfolio" element={<Portfolio />} />
+            <Route exact path="/project/:slug" element={<ProductDetail />} />
+            <Route exact path="/contact" element={<ContactUs />} />
+          </Routes>
+        </Router>
+      </div>
     </>
   );
 }

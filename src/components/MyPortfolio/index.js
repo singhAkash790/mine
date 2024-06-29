@@ -3,39 +3,29 @@ import { gsap } from "gsap";
 import WebLayout from "../WebLayout";
 import Heading from "../Heading";
 import Card from "../ProjectCard/Card";
+import Image1 from "../../image/AssurePathlab.png";
+import Image2 from "../../image/centra greens.png";
+import Image3 from "../../image/jUJHAR TRAVEL MOCKUP.png";
+import Image4 from "../../image/fastway.png";
 
-const Index = ({ title, width, LinkData, parentClass }) => {
-  const projectData = [
-    {
-      href: "./project/andromeda",
-      imgSrc:
-        "https://framerusercontent.com/images/knqFZ7PlQ36gLj5P0wd3dO9d9zc.jpg",
-      title: "Andromeda",
-      tags: ["UI/UX Design", "Product Presentation"],
-    },
-    {
-      href: "./project/galaxy",
-      imgSrc: "https://example.com/galaxy.jpg",
-      title: "Galaxy",
-      tags: ["Web Development", "E-commerce"],
-    },
-    // Add more project data as needed
-  ];
+const Index = ({ title, width, LinkData, parentClass, Data }) => {
   return (
     <>
       <WebLayout>
         <Heading title={title} titleData={LinkData}>
-          <div className={parentClass}>
-            {projectData.map((project, index) => (
-              <Card
-                key={index}
-                mainclass={width}
-                href={project.href}
-                imgSrc={project.imgSrc}
-                title={project.title}
-                tags={project.tags}
-              />
-            ))}
+          <div className={parentClass} >
+            <div className=" flex flex-wrap gap-x-4 gap-y-6">
+              {Data.map((project, index) => (
+                <Card
+                  key={index}
+                  mainclass={width}
+                  slug={project.slug}
+                  imgSrc={project.imgSrc}
+                  title={project.title}
+                  tags={project.tags}
+                />
+              ))}
+            </div>
           </div>
         </Heading>
       </WebLayout>

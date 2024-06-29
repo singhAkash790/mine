@@ -3,48 +3,25 @@ import WebLayout from "../WebLayout";
 import "./index.css";
 import Heading from "../Heading";
 
-const services = [
-  {
-    id: 1,
-    title: "01. Web Design",
-    description:
-      "I specialize in creating modern and elegant designs that not only captivate audiences but also effectively communicate your brand message.",
-  },
-  {
-    id: 2,
-    title: "02. Web Development",
-    description:
-      "With proficiency in HTML, CSS, JavaScript, and various development frameworks, I bring your vision to life with pixel-perfect precision.",
-  },
-  {
-    id: 3,
-    title: "03. Graphic Design",
-    description:
-      "I specialize in creating impactful visual assets that reflect the unique personality and core values of your brand, ensuring a memorable and authentic representation.",
-  },
-  {
-    id: 4,
-    title: "04. Website Maintenance",
-    description:
-      "With my comprehensive website maintenance and support services, you can trust that your online presence is expertly cared for, allowing you to focus on what matters most.",
-  },
-];
-
-const Index = () => {
+const Index = ({ Data }) => {
   return (
     <WebLayout>
-      <Heading title={"My Services"} >
-        <div className=" flex justify-items-center pt-10  flex-col relative gap-8 w-[90%] mx-auto">
-          {services.map((service) => (
+      <Heading title={"My Services"}>
+        <div className=" flex justify-items-center pt-10  flex-col relative gap-8 xl:w-[90%] w-full mx-auto">
+          {Data.map((service) => (
             <div
               key={service.id}
               className="service-card   bg-[#1b1b1b]   w-full"
             >
               <div className="flex flex-col justify-start flex-shrink-0  text-white">
-                <h2 className="text-2xl font-bold">{service.title}</h2>
+                <h2 className="7xl:text-[24px] 6xl:text-[20px]   lg:tracking-[1.5px] tracking-wide font-semibold uppercase ">
+                  {service.title}
+                </h2>
               </div>
-              <div className="flex flex-col justify-start w-[40%] flex-shrink-0 text-white">
-                <p>{service.description}</p>
+              <div className="flex flex-col justify-start 4xl:w-[40%] 2xl:w-[50%] xl:w-[55%] lg:px-0 px-2 w-full flex-shrink-0 text-white">
+                <p className=" tracking-[0.8px] leading-normal text-[#fefefe]">
+                  {service.description}
+                </p>
               </div>
             </div>
           ))}

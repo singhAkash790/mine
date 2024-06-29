@@ -1,0 +1,59 @@
+{
+    "bannerData": {
+        "title": "about Singh",
+        "description": "Throughout my career, I have collaborated with clients from diverse industries, translating their visions into polished digital solutions."
+    },
+    "points": [
+        {
+            "startValue": 10,
+            "endValue": 2,
+            "speed": 2000,
+            "label": "Years of Experience",
+            "Plus": "+"
+        },
+        {
+            "startValue": 0,
+            "endValue": 50,
+            "speed": 1500,
+            "label": "Successful Projects",
+            "Plus": "+"
+        },
+        {
+            "startValue": 0,
+            "endValue": 10,
+            "speed": 1800,
+            "label": "Design Awards",
+            "Plus": "+"
+        }
+    ],
+    "Experience": {
+        "title": "My Experience",
+        "experienceData": [
+            {
+                "role": "Freelance Designer",
+                "duration": "Currently"
+            },
+            {
+                "role": "Product Designer at Facebook",
+                "duration": "Nov. 2020 - Dec. 2022"
+            },
+            {
+                "role": "Computer Engineer at Google",
+                "duration": "Jan. 2019 - Nov. 2020"
+            }
+        ]
+    },
+    "AboutUs": {
+        "title": "More Info",
+        "paragraphs": [
+            "I approach each project with meticulous attention to detail, striving to exceed expectations and deliver results that align with both the client's objectives and the latest industry standards.",
+            "As I continue to evolve professionally, I remain committed to refining my craft and embracing new challenges. I am driven by a relentless pursuit of excellence and a desire to create meaningful impact through my work. Let's collaborate to bring your vision to life and shape the future of the web together."
+        ]
+    },
+    "cta": {
+        "contactLink": "./contact",
+        "contactText": "Available For Work",
+        "email": "molfar@gmail.com",
+        "emailLink": "mailto:molfar@gmail.com"
+    }
+}

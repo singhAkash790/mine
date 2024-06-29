@@ -85,7 +85,7 @@ const Marquee = () => {
   return (
     <WebLayout>
       <Heading title={"Top Clients"}>
-        <div className="marquee relative overflow-hidden w-[90%] mx-auto py-2 ">
+        <div className="marquee relative overflow-hidden xl:w-[90%] w-full mx-auto py-2 ">
           <div className="overflow-hidden  mx-auto py-2">
             <ul
               ref={marqueeRef}

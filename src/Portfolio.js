@@ -7,25 +7,27 @@ import Cta from "./components/Cta/Index";
 import MyPortfolio from "./components/MyPortfolio";
 import Banner from "./components/Banner";
 import SmoothScroll from "./components/SmoothScroll";
-import Aos from "aos";
-import Marquee from "./components/Marquee";
+import PageData from "./Data/Portfolio.json";
+
 const Portfolio = () => {
   return (
     <>
+      <Header />
       <SmoothScroll>
         <div className="min-h-screen flex flex-col items-center bg-[#111111]   overflow-visible p-0 relative">
-          <Header />
           <Banner
-            title="
-            MY PORTFOLIO"
-            description="Discover my diverse portfolio showcasing polished digital solutions crafted for clients across various industries."
+            title={PageData.bannerData.title}
+            description={PageData.bannerData.description}
           />
           <MyPortfolio
-            title={"My Expreince"}
-            width={"w-[48%] "}
-            parentClass={"flex flex-flow items-start justify-center gap-0 w-[90%] mx-auto  overflow-hidden pt-10 relative box-border"}
+            Data={PageData.project.projectData}
+            title={PageData.project.title}
+            width={"lg:w-[47%] w-full flex flex-wrap "}
+            parentClass={
+              "flex flex-flow items-start justify-center lg:gap-0 lg:flex-row flex-col gap-8 xl:w-[90%] w-full mx-auto  overflow-hidden pt-10 relative box-border"
+            }
           />
-          <Cta />
+          <Cta Data={PageData.cta} />
           <Footer />
         </div>
       </SmoothScroll>

@@ -1,0 +1,133 @@
+{
+    "bannerData": {
+        "imageSrc": "https://framerusercontent.com/images/VQYjxxzZqlkTdkIJlP0oR87du0.jpg",
+        "title": "Akash Singh",
+        "buttonText": "Available For Work",
+        "buttonLink": "/contact",
+        "description": "Akash Singh is a front-end wizard, weaving digital masterpieces with a deft command of React.js, Next.js, and modern web technologies. With a relentless pursuit of excellence and an unwavering dedication to delivering seamless user experiences, Akash has carved a niche in the realm of dynamic, high-performance, and SEO-optimized web applications.",
+        "aboutLink": "/about",
+        "aboutText": "More About Me"
+    },
+    "points": [
+        {
+            "startValue": 10,
+            "endValue": 2,
+            "speed": 2000,
+            "label": "Years of Experience",
+            "Plus": "+"
+        },
+        {
+            "startValue": 0,
+            "endValue": 50,
+            "speed": 1500,
+            "label": "Successful Projects",
+            "Plus": "+"
+        },
+        {
+            "startValue": 0,
+            "endValue": 10,
+            "speed": 1800,
+            "label": "Design Awards",
+            "Plus": "+"
+        }
+    ],
+    "services": [
+        {
+            "id": 1,
+            "title": "01. Web Design",
+            "description": "I specialize in creating modern and elegant designs that not only captivate audiences but also effectively communicate your brand message."
+        },
+        {
+            "id": 2,
+            "title": "02. Web Development",
+            "description": "With proficiency in HTML, CSS, JavaScript, and various development frameworks, I bring your vision to life with pixel-perfect precision."
+        },
+        {
+            "id": 3,
+            "title": "03. Graphic Design",
+            "description": "I specialize in creating impactful visual assets that reflect the unique personality and core values of your brand, ensuring a memorable and authentic representation."
+        },
+        {
+            "id": 4,
+            "title": "04. Website Maintenance",
+            "description": "With my comprehensive website maintenance and support services, you can trust that your online presence is expertly cared for, allowing you to focus on what matters most."
+        }
+    ],
+    "project": {
+        "title": "worked on",
+        "title2": "More Projects",
+        "pagelink": "/portfolio",
+        "projectData": [
+            {
+                "imgSrc": "https://i.ibb.co/vvWZ5fj/assure-cancer-lp.png",
+                "title": "Assure Pathlab Landing Page",
+                "slug": "assure-pathlab-landing-page",
+                "tags": [
+                    "Full Frontend Development",
+                    "React",
+                    "Lead Tracking",
+                    "Tailwind"
+                ]
+            },
+            {
+                "imgSrc": "https://i.ibb.co/2k46ZKb/assure-lp.png",
+                "title": "Assure Pathlab Landing Page",
+                "slug": "assure-pathlab-landing-page",
+                "tags": [
+                    "Full Frontend Development",
+                    "React",
+                    "Lead Tracking",
+                    "Tailwind"
+                ]
+            },
+            {
+                "imgSrc": "https://i.ibb.co/C99FZLr/centra.png",
+                "title": "Centra Greens",
+                "slug": "centra-greens",
+                "tags": [
+                    "Full Frontend Development",
+                    "React",
+                    "Gsap",
+                    "Tailwind"
+                ]
+            },
+            {
+                "imgSrc": "https://i.ibb.co/7nvn4gh/fastway.png",
+                "title": "Fastway",
+                "slug": "fastway",
+                "tags": [
+                    "Frontend Development",
+                    "React",
+                    "Tailwind"
+                ]
+            },
+            {
+                "imgSrc": "https://i.ibb.co/5Wz94LM/juhar-travel.png",
+                "title": "Jujhar Travels",
+                "slug": "jujhar-travels",
+                "tags": [
+                    "UI/UX",
+                    "HTML, CSS, JS"
+                ]
+            },
+            {
+                "imgSrc": "https://i.ibb.co/0hy3w96/neat-skill.png",
+                "title": "Neat Skill",
+                "slug": "neat-skill",
+                "tags": [
+                    "Development Assistance",
+                    "Next.js",
+                    "Tailwind",
+                    "Firebase",
+                    "Framer Motion"
+                ]
+            }
+        ]
+    },
+    "cta": {
+        "contactLink": "./contact",
+        "contactText": "Available For Work",
+        "email": "molfar@gmail.com",
+        "emailLink": "mailto:molfar@gmail.com"
+    }
+}

@@ -39,7 +39,7 @@ const SmoothScroll = ({ children }) => {
   // Conditionally set the physics values based on the screen width
   const isMobile = window.matchMedia("(max-width: 480px)").matches;
   const physics = isMobile
-    ? { damping: 10, mass: 0.2, stiffness: 400 }
+    ? { damping: 100, mass: 0.5, stiffness: 500 }
     : { damping: 40, mass: 0.45, stiffness: 200 };
 
   const spring = useSpring(transform, physics); // Apply easing to the negative scroll value
@@ -55,7 +55,7 @@ const SmoothScroll = ({ children }) => {
       </motion.div>
       {/* Blank div that has a dynamic height based on the content's inherent height */}
       {/* This is necessary to allow the scroll container to scroll using the browser's native scroll bar */}
-      <div style={{ height: pageHeight }} />
+      <div style={{ height: pageHeight, backgroundColor: "#111111" }} />
     </>
   );
 };

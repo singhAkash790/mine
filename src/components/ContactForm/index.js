@@ -32,7 +32,7 @@ const Index = () => {
         <Heading
           title={"Let's Collaborate"}
           titleData={
-            <div className="w-[45%]">
+            <div className="5xl:w-[45%] lg:w-[50%] w-full lg:pt-0 pt-8 ">
               <form
                 onSubmit={formik.handleSubmit}
                 className="flex flex-col gap-4 w-full "
@@ -60,6 +60,7 @@ const Index = () => {
                 <textarea
                   placeholder="Message"
                   name="message"
+                  rows={6}
                   value={formik.values.message}
                   onChange={formik.handleChange}
                   error={

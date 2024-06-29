@@ -1,15 +1,13 @@
 import React, { useEffect, useRef } from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import AboutUs from "./components/AboutUs";
-import Tvc from "./components/Tvc/Index";
-import ProjectCard from "./components/ProjectCard/";
 import Points from "./components/Points";
 import Cta from "./components/Cta/Index";
 import Serviecs from "./components/Serviecs";
 import Banner from "./components/Banner";
 import SmoothScroll from "./components/SmoothScroll";
 import Aos from "aos";
+import pageData from "./Data/Home.json";
 import { Link } from "react-router-dom";
 import MyPortfolio from "./components/MyPortfolio";
 
@@ -24,31 +22,35 @@ const Home = () => {
     <>
       <Header />
       <SmoothScroll>
-        <div className="min-h-screen flex flex-col items-center bg-[#111111]   overflow-visible p-0 relative">
+        <div className="min-h-screen flex flex-col items-center bg-[#111111] overflow-visible p-0 relative">
           <Banner
-            imageSrc="https://framerusercontent.com/images/VQYjxxzZqlkTdkIJlP0oR87du0.jpg"
-            title="akash singh"
-            buttonText="Available For Work"
-            buttonLink="/contact"
-            description="I am a dedicated web designer and developer, deeply committed to the principles of minimalist design. With more than 5 years of hands-on experience in the industry."
-            aboutLink="/about"
-            aboutText="More About Me"
+            imageSrc={pageData.bannerData.imageSrc}
+            title={pageData.bannerData.title}
+            buttonText={pageData.bannerData.buttonText}
+            buttonLink={pageData.bannerData.buttonLink}
+            description={pageData.bannerData.description}
+            aboutLink={pageData.bannerData.aboutLink}
+            aboutText={pageData.bannerData.aboutText}
           />
-          <Points />
+          <Points data={pageData.points} />
           <MyPortfolio
-            title={"Selected Projects"}
-            width={"w-[90%] flex-row "}
-            parentClass={"  pt-10 relative "}
+            title={pageData.project.title}
+            width={"xl:w-[90%] w-full flex-row "}
+            parentClass={"  pt-10 relative gap-10 flex flex-col"}
+            Data={pageData.project.projectData}
             LinkData={
-              <Link to="/portfolio">
-                <p className="text-white text-lg font-medium leading-[25.2px] text-center">
-                  More Projects
+              <Link to={pageData.project.pagelink}>
+                <p
+                  className="text-white text-sm font-semibold leading-tight text-center xl:block hidden uppercase tracking-[2px]
+                "
+                >
+                  {pageData.project.title2}
                 </p>
               </Link>
             }
           />
-          <Serviecs />
-          <Cta />
+          <Serviecs Data={pageData.services} />
+          <Cta Data={pageData.cta} />
           <Footer />
         </div>
       </SmoothScroll>

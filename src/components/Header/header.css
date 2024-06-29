@@ -1,3 +1,157 @@
-.header_fixed{
+.header_fixed {
   position: fixed !important;
+}
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --menu-size: 50px;
+}
+
+/* Menu Template */
+.menu {
+  --bg-color: transparent;
+  --menu-color: #f3f3f3;
+  position: relative;
+  width: var(--menu-size);
+  height: var(--menu-size);
+  background: var(--bg-color);
+  border-radius: 20%;
+  z-index: 52;
+  display: none;
+}
+.menu input {
+  cursor: pointer;
+  appearance: none;
+  width: 100%;
+  height: 100%;
+  z-index: 51;
+}
+.menu label {
+  --height: 3px;
+  cursor: pointer;
+  z-index: 51;
+  position: absolute;
+  display: inline-block;
+  width: calc(var(--menu-size) * 0.8);
+  height: var(--height);
+  border-radius: var(--height);
+  background: var(--menu-color);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: all var(--time) var(--func);
+}
+.menu label:before,
+.menu label:after {
+  z-index: 51;
+  display: inline-block;
+  position: absolute;
+  content: "";
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background: inherit;
+}
+.menu label:before {
+  top: -300%;
+}
+.menu label:after {
+  top: 300%;
+}
+/* Animacion N1 */
+.menu-type-1 {
+  --time: 0.2s;
+  --func: ease;
+}
+.menu-type-1 label:before,
+.menu-type-1 label:after {
+  height: var(--height);
+  transition-property: top, transform;
+  transition-duration: var(--time);
+  transition-timing-function: var(--func);
+  transition-delay: 0.3s, 0s;
+}
+.menu-type-1.humberActive label {
+  height: 0;
+}
+.menu-type-1.humberActive label:before {
+  top: 0;
+  transform: rotateZ(45deg);
+  transition-delay: 0s, 0.25s;
+}
+.menu-type-1.humberActive label:after {
+  top: 0;
+  transform: rotateZ(-45deg);
+  transition-delay: 0s, 0.5s;
+}
+
+/* Target menu para apertura y cierre */
+#target {
+  position: absolute;
+  top: 10%;
+  left: -100%;
+  text-align: center;
+  color: #fff;
+  font-size: clamp(16px, 35px, 40px);
+  transform: translatex(-50%);
+  transition: left 0.52s ease;
+}
+#target p {
+  width: 90vw;
+  height: 200px;
+}
+#target.active {
+  left: 50%;
+}
+/* Keyframe de background */
+@keyframes colors {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  25%,
+  75% {
+    background-position: 50% 100%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .menu {
+    display: flex;
+  }
+  .__header .container {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  ._header_cnt {
+    padding-top: 0 !important;
+    /* background-color: black; */
+  }
+  .menu.humberActive {
+    position: absolute;
+    right: 25px;
+  }
+  ._header_nav {
+    justify-content: flex-start !important;
+    gap: 20%;
+  }
+}
+
+@media all and (max-width: 500px) {
+  ._header_nav {
+    gap: 8vh;
+  }
+  :root {
+    --menu-size: 35px;
+  }
 }

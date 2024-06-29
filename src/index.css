@@ -26,6 +26,11 @@ a {
 img {
   max-width: 100%;
 }
+svg {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
 
 html {
   font-size: 18px;
@@ -286,11 +291,11 @@ html {
 }
 
 .scroll-container {
-  left: 0;
-  overflow: hidden;
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
+  overflow: hidden;
   will-change: transform;
 }
 
@@ -324,6 +329,17 @@ body::-webkit-scrollbar-track {
   .slick-prev:before,
   .slick-next:before {
     background-size: contain;
+  }
+  html {
+    font-size: 17px;
+  }
+}
+@media all and (max-width: 1300px) {
+  section {
+    padding: 45px 0;
+  }
+  html {
+    font-size: 16px;
   }
 }
 @media all and (max-width: 680px) {

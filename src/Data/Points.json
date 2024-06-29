@@ -1,0 +1,25 @@
+{
+    "points": [
+        {
+            "startValue": 10,
+            "endValue": 2,
+            "speed": 2000,
+            "label": "Years of Experience",
+            "Plus": "+"
+        },
+        {
+            "startValue": 0,
+            "endValue": 50,
+            "speed": 1500,
+            "label": "Successful Projects",
+            "Plus": "+"
+        },
+        {
+            "startValue": 0,
+            "endValue": 10,
+            "speed": 1800,
+            "label": "Design Awards",
+            "Plus": "+"
+        }
+    ]
+}
