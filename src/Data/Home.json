@@ -59,9 +59,9 @@
         "pagelink": "/portfolio",
         "projectData": [
             {
-                "imgSrc": "https://i.ibb.co/vvWZ5fj/assure-cancer-lp.png",
-                "title": "Assure Pathlab Landing Page",
-                "slug": "assure-pathlab-landing-page",
+                "imgSrc": "https://i.imgur.com/t6nNibu.png",
+                "title": "Assure Path Labs - Father's Day Campaign",
+                "slug": "assure-pathlabs-fathers",
                 "tags": [
                     "Full Frontend Development",
                     "React",
@@ -70,9 +70,9 @@
                 ]
             },
             {
-                "imgSrc": "https://i.ibb.co/2k46ZKb/assure-lp.png",
-                "title": "Assure Pathlab Landing Page",
-                "slug": "assure-pathlab-landing-page",
+                "imgSrc": "https://i.imgur.com/tFTqYHD.png",
+                "title": "Assure Path Labs - Cancer Campaign",
+                "slug": "assure-pathlabs-cancer",
                 "tags": [
                     "Full Frontend Development",
                     "React",
@@ -81,7 +81,7 @@
                 ]
             },
             {
-                "imgSrc": "https://i.ibb.co/C99FZLr/centra.png",
+                "imgSrc": "https://i.imgur.com/6JH6DTI.png",
                 "title": "Centra Greens",
                 "slug": "centra-greens",
                 "tags": [
@@ -92,7 +92,7 @@
                 ]
             },
             {
-                "imgSrc": "https://i.ibb.co/7nvn4gh/fastway.png",
+                "imgSrc": "https://i.imgur.com/yKA46ye.png",
                 "title": "Fastway",
                 "slug": "fastway",
                 "tags": [
@@ -102,7 +102,7 @@
                 ]
             },
             {
-                "imgSrc": "https://i.ibb.co/5Wz94LM/juhar-travel.png",
+                "imgSrc": "https://i.imgur.com/D45oSdh.png",
                 "title": "Jujhar Travels",
                 "slug": "jujhar-travels",
                 "tags": [
@@ -111,7 +111,7 @@
                 ]
             },
             {
-                "imgSrc": "https://i.ibb.co/0hy3w96/neat-skill.png",
+                "imgSrc": "https://i.imgur.com/kc5hpv4.png",
                 "title": "Neat Skill",
                 "slug": "neat-skill",
                 "tags": [
@@ -120,6 +120,93 @@
                     "Tailwind",
                     "Firebase",
                     "Framer Motion"
+                ]
+            },
+            {
+                "imgSrc": "https://i.imgur.com/bHHGMXA.png",
+                "title": "Netplus",
+                "slug": "netplus",
+                "tags": [
+                    "Frontend Development",
+                    "React",
+                    "Data Incorporation",
+                    "Tailwind"
+                ]
+            },
+            {
+                "imgSrc": "https://i.imgur.com/HpGhAQE.png",
+                "title": "NS Arcus",
+                "slug": "ns-arcus",
+                "tags": [
+                    "Frontend Maintenance",
+                    "New Development",
+                    "React"
+                ]
+            },
+            {
+                "imgSrc": "https://i.imgur.com/HpGhAQE.png",
+                "title": "Plumber Bathware",
+                "slug": "plumber-bathware",
+                "tags": [
+                    "jQuery",
+                    "Frontend Maintenance",
+                    "New Development"
+                ]
+            },
+            {
+                "imgSrc": "https://i.imgur.com/h1ZSiEl.png",
+                "title": "Premier Energies",
+                "slug": "premier-energies",
+                "tags": [
+                    "Frontend Maintenance",
+                    "React"
+                ]
+            },
+            {
+                "imgSrc": "https://i.imgur.com/QCVVsDd.png",
+                "title": "Red Cow Dairy",
+                "slug": "redcow-dairy",
+                "tags": [
+                    "Frontend Maintenance",
+                    "React"
+                ]
+            },
+            {
+                "imgSrc": "https://i.imgur.com/KfeQQTr.png",
+                "title": "Ripss Infrastructure",
+                "slug": "ripss-infrastructure",
+                "tags": [
+                    "React"
+                ]
+            },
+            {
+                "imgSrc": "https://i.imgur.com/61gO6K7.png",
+                "title": "Satya Groups",
+                "slug": "satya-groups",
+                "tags": [
+                    "Frontend Maintenance",
+                    "React",
+                    "New Development"
+                ]
+            },
+            {
+                "imgSrc": "https://i.imgur.com/6w7cCNW.png",
+                "title": "Sobha Restoplus",
+                "slug": "sobha-restoplus",
+                "tags": [
+                    "Frontend Development",
+                    "React"
+                ]
+            },
+            {
+                "imgSrc": "https://i.imgur.com/EaFaD7g.png",
+                "title": "Triverse Advertising",
+                "slug": "triverse-advertising",
+                "tags": [
+                    "Full Frontend Development",
+                    "React",
+                    "Framer Motion",
+                    "Gsap"
                 ]
             }
         ]

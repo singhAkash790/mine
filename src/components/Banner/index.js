@@ -22,7 +22,7 @@ const Hero = ({
         data-aos-once="true"
         data-aos-duration="800"
       >
-        <div className=" top-0  rounded-lg overflow-hidden xl:w-[450px] w-full">
+        <div className=" top-0  rounded-lg overflow-hidden xl:w-[340px] w-full">
           <img
             src={profileImg}
             alt="Akash profile image"
