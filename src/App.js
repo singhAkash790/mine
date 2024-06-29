@@ -1,8 +1,12 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React, { useEffect } from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 import Home from "./Home";
 import "./css/Style.css";
-import "./css/Oldcss.css";
 import "aos/dist/aos.css";
 import "./css/fonts/stylesheet.css";
 import "./css/Responsive.css";
@@ -13,13 +17,19 @@ import Portfolio from "./Portfolio";
 import ProductDetail from "./ProductDetail";
 import ContactUs from "./ContactUs";
 import Loader from "./components/Loader";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
-  Aos.init();
+  useEffect(() => {
+    Aos.init();
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Loader />
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />

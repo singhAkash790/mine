@@ -134,48 +134,11 @@
                 ]
             },
             {
-                "imgSrc": "https://i.imgur.com/HpGhAQE.png",
-                "title": "NS Arcus",
-                "slug": "ns-arcus",
-                "tags": [
-                    "Frontend Maintenance",
-                    "New Development",
-                    "React"
-                ]
-            },
-            {
-                "imgSrc": "https://i.imgur.com/HpGhAQE.png",
-                "title": "Plumber Bathware",
-                "slug": "plumber-bathware",
-                "tags": [
-                    "jQuery",
-                    "Frontend Maintenance",
-                    "New Development"
-                ]
-            },
-            {
                 "imgSrc": "https://i.imgur.com/h1ZSiEl.png",
                 "title": "Premier Energies",
                 "slug": "premier-energies",
                 "tags": [
                     "Frontend Maintenance",
-                    "React"
-                ]
-            },
-            {
-                "imgSrc": "https://i.imgur.com/QCVVsDd.png",
-                "title": "Red Cow Dairy",
-                "slug": "redcow-dairy",
-                "tags": [
-                    "Frontend Maintenance",
-                    "React"
-                ]
-            },
-            {
-                "imgSrc": "https://i.imgur.com/KfeQQTr.png",
-                "title": "Ripss Infrastructure",
-                "slug": "ripss-infrastructure",
-                "tags": [
                     "React"
                 ]
             },
@@ -196,17 +159,6 @@
                 "tags": [
                     "Frontend Development",
                     "React"
-                ]
-            },
-            {
-                "imgSrc": "https://i.imgur.com/EaFaD7g.png",
-                "title": "Triverse Advertising",
-                "slug": "triverse-advertising",
-                "tags": [
-                    "Full Frontend Development",
-                    "React",
-                    "Framer Motion",
-                    "Gsap"
                 ]
             }
         ]

@@ -21,7 +21,6 @@
   background: var(--bg-color);
   border-radius: 20%;
   z-index: 52;
-  display: block; /* Change this to block to ensure the menu is visible */
 }
 .menu input {
   cursor: pointer;
@@ -113,6 +112,9 @@
 #target.active {
   left: 50%;
 }
+section.humbergertrue {
+  padding: 0 !important;
+}
 /* Keyframe de background */
 @keyframes colors {
   0%,
@@ -157,4 +159,13 @@
   :root {
     --menu-size: 35px;
   }
+}
+#shadow-host-companion {
+  display: none !important;
+}
+.margin_adjust {
+  margin-top: 0 !important;
+}
+section.__header {
+  padding: 0 !important;
 }

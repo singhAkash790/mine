@@ -13,7 +13,7 @@ const Portfolio = () => {
   return (
     <>
       <Header />
-      <SmoothScroll>
+      <SmoothScroll  smoothness={2}>
         <div className="min-h-screen flex flex-col items-center bg-[#111111]   overflow-visible p-0 relative">
           <Banner
             title={PageData.bannerData.title}

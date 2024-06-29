@@ -16,7 +16,7 @@ import WebLayout from "../WebLayout";
 const Index = () => {
   const [headerState, setHeaderState] = useState(false);
   const changeBackground = () => {
-    setHeaderState(window.scrollY >= 80);
+    setHeaderState(window.scrollY >= 120);
   };
 
   useEffect(() => {
@@ -47,16 +47,18 @@ const Index = () => {
   ];
   return (
     <WebLayout
-      _sclass={" __header bg-[#111] pt-2"}
+      _sclass={`__header bg-[#111] pt-2 ${isActive ? "humbergertrue" : ""}`}
       _class_ID={"header-container"}
-      _class={`pt-4 z-10 relative _header_cnt  ${
-        headerState ? "header_fixed w-auto top-0 w-full left-0" : ""
+      _class={` z-10 relative _header_cnt transition-all duration-300  ${
+        headerState
+          ? "header_fixed w-auto top-0 w-full left-0 transition-all duration-300"
+          : ""
       }`}
     >
       <nav
-        className={` xl:w-[90%] w-[95%] z-50 transition-all duration-300 ease-in-out  bg-[#e9e9e923]  rounded-full flex items-center justify-between xl:py-4 md:py-3 py-2 px-8 border-t border-[rgba(255,255,255,0.5)] backdrop-blur-md m-auto ${
+        className={` xl:w-[90%] w-[95%] z-50 transition-all duration-300 ease-in-out mt-5  bg-[#e9e9e923]  rounded-full flex items-center justify-between xl:py-4 md:py-3 py-2 px-8 border-t border-[rgba(255,255,255,0.5)] backdrop-blur-md m-auto ${
           isActive
-            ? "h-screen opacity-100 border-none flex-col items-start relative  bg-black transition-all duration-500 ease-linear w-full rounded-none  flex  _header_nav"
+            ? "h-screen opacity-100 border-none flex-col items-start relative pt-5 margin_adjust  bg-black transition-all duration-500 ease-linear w-full rounded-none  flex  _header_nav"
             : "transition-all duration-500"
         }`}
       >
@@ -107,7 +109,7 @@ const Index = () => {
           </NavLink>
         </div>
         <div
-          className={`menu menu-type-1 ${isActive ? " humberActive " : ""}`}
+          className={`menu menu-type-1 flex l:hidden ${isActive ? " humberActive " : ""}`}
           onClick={handleMenuToggle}
         >
           <input type="checkbox" id="btn-1" />
@@ -121,7 +123,7 @@ const Index = () => {
           <div className="flex flex-wrap -mx-3">
             <div className="w-full  px-3 mb-6 md:mb-0">
               <div className="mb-4">
-                <ul className="list-none m-0 p-0">
+                <ul className="list-none m-0 ">
                   {links.map((link, index) => (
                     <li
                       key={index}
