@@ -15,7 +15,7 @@ const Hero = ({
   return (
     <WebLayout>
       <div
-        className="flex flex-col items-center justify-center 2xl:pt-[120px]  pt-[80px]"
+        className="flex flex-col items-center justify-center "
         data-aos="fade-up"
         data-aos-offset="100"
         data-aos-easing="ease-in-sine"

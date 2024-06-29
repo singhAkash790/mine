@@ -22,6 +22,9 @@ a {
   margin: 0;
   padding: 0;
 }
+#root{
+  background-color: #111;
+}
 
 img {
   max-width: 100%;

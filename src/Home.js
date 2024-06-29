@@ -21,7 +21,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <SmoothScroll>
+      <SmoothScroll smoothness={4}>
         <div className="min-h-screen flex flex-col items-center bg-[#111111] overflow-visible p-0 relative">
           <Banner
             imageSrc={pageData.bannerData.imageSrc}

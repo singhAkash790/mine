@@ -47,7 +47,7 @@ const Index = () => {
   ];
   return (
     <WebLayout
-      _sclass={" __header pt-2"}
+      _sclass={" __header bg-[#111] pt-2"}
       _class_ID={"header-container"}
       _class={`pt-4 z-10 relative _header_cnt  ${
         headerState ? "header_fixed w-auto top-0 w-full left-0" : ""
