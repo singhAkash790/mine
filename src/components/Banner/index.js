@@ -22,18 +22,20 @@ const Hero = ({
         data-aos-once="true"
         data-aos-duration="800"
       >
-        <div className=" top-0  rounded-lg overflow-hidden xl:w-[340px] w-full">
-          <img
-            src={profileImg}
-            alt="Akash profile image"
-            className="w-full h-full object-cover"
-            data-aos="zoom-in"
-            data-aos-offset="100"
-            data-aos-easing="ease-in-sine"
-            data-aos-once="true"
-            data-aos-duration="1000"
-          />
-        </div>
+        {imageSrc && (
+          <div className=" top-0  rounded-lg overflow-hidden xl:w-[340px] w-full">
+            <img
+              src={imageSrc}
+              alt="Akash profile image"
+              className="w-full h-full object-cover"
+              data-aos="zoom-in"
+              data-aos-offset="100"
+              data-aos-easing="ease-in-sine"
+              data-aos-once="true"
+              data-aos-duration="1000"
+            />
+          </div>
+        )}
         <div
           className={`flex flex-col items-center justify-center gap-6 ${
             imageSrc ? "lg:-mt-[120px] md:-mt-[150px]" : ""
