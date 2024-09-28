@@ -1,7 +1,7 @@
 {
     "bannerData": {
         "title": "about Singh",
-        "description": "Throughout my career, I have collaborated with clients from diverse industries, translating their visions into polished digital solutions."
+        "description": "Hi, I’m Akash Singh, a Frontend Developer passionate about building dynamic, user-centric web applications. With a focus on clean code, performance optimization, and cutting-edge technology, I specialize in delivering seamless digital experiences."
     },
     "points": [
         {
@@ -13,16 +13,16 @@
         },
         {
             "startValue": 0,
-            "endValue": 50,
+            "endValue": 20,
             "speed": 1500,
-            "label": "Successful Projects",
+            "label": "Developed Projects",
             "Plus": "+"
         },
         {
             "startValue": 0,
             "endValue": 10,
             "speed": 1800,
-            "label": "Design Awards",
+            "label": "live projects",
             "Plus": "+"
         }
     ],
@@ -30,24 +30,21 @@
         "title": "My Experience",
         "experienceData": [
             {
-                "role": "Freelance Designer",
-                "duration": "Currently"
-            },
-            {
-                "role": "Product Designer at Facebook",
-                "duration": "Nov. 2020 - Dec. 2022"
+                "role": "React and Next Devloper",
+                "duration": "Apr. 2023 - Present"
             },
             {
                 "role": "Computer Engineer at Google",
-                "duration": "Jan. 2019 - Nov. 2020"
+                "duration": "Aug. 2022 - Apr. 2023"
             }
         ]
     },
     "AboutUs": {
         "title": "More Info",
         "paragraphs": [
-            "I approach each project with meticulous attention to detail, striving to exceed expectations and deliver results that align with both the client's objectives and the latest industry standards.",
-            "As I continue to evolve professionally, I remain committed to refining my craft and embracing new challenges. I am driven by a relentless pursuit of excellence and a desire to create meaningful impact through my work. Let's collaborate to bring your vision to life and shape the future of the web together."
+            "I am Akash Singh, a dedicated frontend developer with over two years of experience in building high-performance web applications. Specializing in React.js, Next.js, and backend development using Node.js and MongoDB, I have a strong focus on creating seamless, user-friendly, and SEO-optimized solutions. My expertise lies in delivering dynamic and responsive designs that prioritize both functionality and user experience.",
+            "Throughout my career, I have successfully led the development of web applications for a range of clients, from e-commerce platforms to educational tools. I’m skilled in integrating APIs, ensuring secure authentication, and optimizing performance with server-side rendering (SSR). With a passion for problem-solving and continuous learning, I strive to stay updated on the latest industry trends and technologies.",
+            "I am committed to building clean, efficient, and scalable applications, and I thrive in collaborative environments where innovation and creativity are at the forefront."
         ]
     },
     "cta": {

@@ -1,14 +1,42 @@
 {
   "Data": [
     {
-      "title": "Assure Path Labs - Father's Day Campaign",
+      "title": "Father's Day Campaign-Assure Pathlabs  ",
+      "title_pofile": "Father's Day Campaign-Assure Pathlabs  ",
       "slug": "assure-pathlabs-fathers",
       "imgSrc": "https://i.imgur.com/t6nNibu.png",
       "description": [
         "Developed an engaging and responsive web campaign to promote health check-ups specifically targeted at fathers. The campaign highlights the importance of regular health screenings for men, using a visually appealing and interactive design."
       ],
       "productData": {
-        "Role": [],
+        "Role": [
+          {
+            "label": "Role :",
+            "tags": [
+              "Frontend Developer "
+            ]
+          },
+          {
+            "label": "Work :",
+            "tags": [
+              "UX",
+              "Api Intergration",
+              "Data handling"
+            ]
+          },
+          {
+            "label": "Technology :",
+            "tags": [
+              "React"
+            ]
+          },
+          {
+            "label": "Time line :",
+            "tags": [
+              "15 jun 23 - 16 june 23"
+            ]
+          }
+        ],
         "Details": [
           "Integrated the campaign site with Assure Path Labs' existing booking system using RESTful APIs to ensure seamless data flow and synchronization.",
           "Implemented secure data handling practices, including encryption for sensitive user information and secure payment gateways for transactions.",
@@ -28,14 +56,42 @@
       }
     },
     {
-      "title": "Assure Path Labs - Cancer Campaign",
+      "title": "Cancer Campaign-Assure PathLabs",
+      "title_pofile": "Cancer Campaign-Assure PathLabs",
       "slug": "assure-pathlabs-cancer",
       "imgSrc": "https://i.imgur.com/tFTqYHD.png",
       "description": [
         "Developed a comprehensive online campaign aimed at educating the public about the importance of early cancer detection and prevention. The campaign features a variety of educational resources presented in a user-friendly and accessible manner."
       ],
       "productData": {
-        "Role": [],
+        "Role": [
+          {
+            "label": "Role :",
+            "tags": [
+              "Frontend Developer "
+            ]
+          },
+          {
+            "label": "Work :",
+            "tags": [
+              "UX",
+              "Api Intergration",
+              "Data handling"
+            ]
+          },
+          {
+            "label": "Technology :",
+            "tags": [
+              "React"
+            ]
+          },
+          {
+            "label": "Time line :",
+            "tags": [
+              " Nov 2023"
+            ]
+          }
+        ],
         "Details": [
           "Integrated educational resources, including articles, videos, and infographics, with a robust content management system (CMS) to allow for easy updates and management by non-technical staff.",
           "Utilized responsive web design principles to ensure that all content is accessible and easily readable on any device, including desktops, tablets, and smartphones.",
@@ -56,15 +112,45 @@
     },
     {
       "title": "Neat Skill",
+      "title_pofile": "Neat Skill",
       "slug": "neat-skill",
       "imgSrc": "https://i.imgur.com/kc5hpv4.png",
       "description": [
         "Developed a scalable online learning platform offering a wide range of courses across various disciplines, including technology, business, and personal development. The platform is designed to provide an intuitive and effective learning experience."
       ],
       "productData": {
-        "Role": [],
+        "Role": [
+          {
+            "label": "Role :",
+            "tags": [
+              "Full Stack Developer "
+            ]
+          },
+          {
+            "label": "Work :",
+            "tags": [
+              "Authentication",
+              "APi Intergration",
+              " Data handling"
+            ]
+          },
+          {
+            "label": "Technology :",
+            "tags": [
+              "Next.js",
+              "GCP",
+              "Tailwind"
+            ]
+          },
+          {
+            "label": "Time line:",
+            "tags": [
+              "Aug. 2022 - Apr. 2023"
+            ]
+          }
+        ],
         "Details": [
-          "Built using a robust tech stack, including React.js for the front end, Node.js for the backend, and MongoDB for the database, ensuring a fast and responsive user experience.",
+          "Built using a robust tech stack, including Next.js for the front end and backend,  using GCP for the database, ensuring a fast and responsive user experience.",
           "Integrated with third-party payment gateways like PayPal and Stripe to facilitate seamless transactions and secure payments.",
           "Implemented a comprehensive user authentication system, including social login options, to provide a secure and convenient user experience."
         ],
@@ -83,13 +169,41 @@
     },
     {
       "title": "Fastway",
+      "title_pofile": "Fastway",
       "imgSrc": "https://i.imgur.com/yKA46ye.png",
       "slug": "fastway",
       "description": [
         "Delivered a robust digital cable TV and broadband service platform designed to offer high-speed internet and a wide array of TV channels to users. The platform focuses on reliability, extensive channel options, and exceptional user experience."
       ],
       "productData": {
-        "Role": [],
+        "Role": [
+          {
+            "label": "Role :",
+            "tags": [
+              "Frontend Developer "
+            ]
+          },
+          {
+            "label": "Work :",
+            "tags": [
+              "UX",
+              "APi Intergration",
+              " Data handling"
+            ]
+          },
+          {
+            "label": "Technology :",
+            "tags": [
+              "React.js"
+            ]
+          },
+          {
+            "label": "Time line:",
+            "tags": [
+              "june 2023 - july 2023"
+            ]
+          }
+        ],
         "Details": [
           "Utilized a content delivery network (CDN) to ensure efficient and fast delivery of digital content, reducing latency and improving streaming quality for users.",
           "Developed with a microservices architecture, allowing for scalability and maintainability by enabling independent deployment and management of different service components.",
@@ -110,13 +224,41 @@
     },
     {
       "title": "Netplus",
+      "title_pofile": "Netplus",
       "slug": "netplus",
       "imgSrc": "https://i.imgur.com/bHHGMXA.png",
       "description": [
         "Developed a high-speed broadband service platform with a focus on delivering seamless and uninterrupted internet access to users. The platform prioritizes reliability, security, and user privacy."
       ],
       "productData": {
-        "Role": [],
+        "Role": [
+          {
+            "label": "Role :",
+            "tags": [
+              "Frontend Developer "
+            ]
+          },
+          {
+            "label": "Work :",
+            "tags": [
+              "UX",
+              "APi Intergration, Data handling"
+            ]
+          },
+          {
+            "label": "Technology :",
+            "tags": [
+              "Artificial Intelligence",
+              "Technology"
+            ]
+          },
+          {
+            "label": "Time line:",
+            "tags": [
+              "Nov. 2023 - Dec. 2024"
+            ]
+          }
+        ],
         "Details": [
           "Deployed using a resilient network infrastructure with redundant pathways to ensure continuous service availability and minimize downtime.",
           "Utilized advanced network management tools for real-time monitoring, optimization, and troubleshooting, ensuring optimal network performance and user satisfaction.",
@@ -137,13 +279,41 @@
     },
     {
       "title": "Sobha Restoplus",
+      "title_pofile": "Sobha Restoplus",
       "slug": "sobha-restoplus",
       "imgSrc": "https://i.imgur.com/6w7cCNW.png",
       "description": [
         "Developed an e-commerce platform for premium mattress sales, designed to offer an exceptional user experience and seamless transactions. The platform focuses on delivering high-quality, comfortable mattresses to enhance sleep quality."
       ],
       "productData": {
-        "Role": [],
+        "Role": [
+          {
+            "label": "Role :",
+            "tags": [
+              "Frontend Developer "
+            ]
+          },
+          {
+            "label": "Work :",
+            "tags": [
+              "UX",
+              "APi Intergration, Data handling"
+            ]
+          },
+          {
+            "label": "Technology :",
+            "tags": [
+              "Artificial Intelligence",
+              "Technology"
+            ]
+          },
+          {
+            "label": "Time line:",
+            "tags": [
+              "Nov. 2023 - Dec. 2024"
+            ]
+          }
+        ],
         "Details": [
           "Built using a modern e-commerce framework such as Shopify or WooCommerce, providing a stable and scalable foundation for the online store.",
           "Integrated with multiple payment gateways and logistics providers to offer end-to-end service, from secure transactions to efficient delivery.",
@@ -164,13 +334,41 @@
     },
     {
       "title": "Jujhar Travels",
+      "title_pofile": "Jujhar Travels",
       "slug": "jujhar-travels",
       "imgSrc": "https://i.imgur.com/D45oSdh.png",
       "description": [
         "Developed a comprehensive travel and transportation service platform from scratch for Jujhar Travels. The platform is designed to offer users an intuitive and seamless experience when booking travel services."
       ],
       "productData": {
-        "Role": [],
+        "Role": [
+          {
+            "label": "Role :",
+            "tags": [
+              "Frontend Developer "
+            ]
+          },
+          {
+            "label": "Work :",
+            "tags": [
+              "UX",
+              "APi Intergration, Data handling"
+            ]
+          },
+          {
+            "label": "Technology :",
+            "tags": [
+              "Artificial Intelligence",
+              "Technology"
+            ]
+          },
+          {
+            "label": "Time line:",
+            "tags": [
+              "Nov. 2023 - Dec. 2024"
+            ]
+          }
+        ],
         "Details": [
           "Built using a combination of modern web technologies including React.js for the frontend, Node.js for the backend, and MongoDB for the database to ensure a fast and responsive user experience.",
           "Integrated with various third-party APIs for real-time booking and availability checks, ensuring users can make informed decisions based on the latest data.",
@@ -192,12 +390,41 @@
     },
     {
       "title": "Assure Path Labs - General",
+      "title_pofile": "Assure Path Labs - General",
       "slug": "assure-pathlabs",
+      "imgSrc": "https://i.imgur.com/D45oSdh.png",
       "description": [
         "Developed a state-of-the-art online platform for Assure Path Labs, aimed at providing users with easy access to health check-up bookings, test results, and health information."
       ],
       "productData": {
-        "Role": [],
+        "Role": [
+          {
+            "label": "Role :",
+            "tags": [
+              "Frontend Developer "
+            ]
+          },
+          {
+            "label": "Work :",
+            "tags": [
+              "UX",
+              "APi Intergration, Data handling"
+            ]
+          },
+          {
+            "label": "Technology :",
+            "tags": [
+              "Artificial Intelligence",
+              "Technology"
+            ]
+          },
+          {
+            "label": "Time line:",
+            "tags": [
+              "Nov. 2023 - Dec. 2024"
+            ]
+          }
+        ],
         "Details": [
           "Utilized Next.js for server-side rendering and improved SEO, combined with a backend built on Node.js and MongoDB for a scalable and responsive application.",
           "Integrated with the lab's internal systems via RESTful APIs to synchronize test results and booking information, ensuring accurate and up-to-date data for users.",
@@ -219,13 +446,42 @@
     },
     {
       "title": "Centra Greens",
+      "title_pofile": "Centra Greens",
       "slug": "centra-greens",
       "imgSrc": "https://i.imgur.com/6JH6DTI.png",
       "description": [
         "Developed an advanced corporate website for Centra Group, showcasing their services, projects, and corporate information. The platform is designed to enhance the company's online presence and provide valuable information to clients and stakeholders."
       ],
       "productData": {
-        "Role": [],
+        "Role": [
+          {
+            "label": "Role :",
+            "tags": [
+              "Frontend Developer "
+            ]
+          },
+          {
+            "label": "Work :",
+            "tags": [
+              "UI/UX",
+              "APi Intergration",
+              " Data handling"
+            ]
+          },
+          {
+            "label": "Technology :",
+            "tags": [
+              "Artificial Intelligence",
+              "Technology"
+            ]
+          },
+          {
+            "label": "Time line:",
+            "tags": [
+              "Jul. 2023 - Aug. 2023"
+            ]
+          }
+        ],
         "Details": [
           "Built using a robust tech stack including React.js for the frontend, Express.js for the backend, and PostgreSQL for the database, ensuring a fast and scalable application.",
           "Implemented a content management system (CMS) to allow easy updates and management of content by non-technical staff.",
@@ -247,13 +503,41 @@
     },
     {
       "title": "Triverse Advertising",
+      "title_pofile": "Triverse Advertising",
       "slug": "triverse-advertising",
       "imgSrc": "https://i.imgur.com/EaFaD7g.png",
       "description": [
         "Developed the corporate website for Triverse Advertising from the ground up, aimed at showcasing the company's services, portfolio, and client success stories. The site is designed to attract potential clients and partners."
       ],
       "productData": {
-        "Role": [],
+        "Role": [
+          {
+            "label": "Role :",
+            "tags": [
+              "Frontend Developer "
+            ]
+          },
+          {
+            "label": "Work :",
+            "tags": [
+              "UX",
+              "APi Intergration, Data handling"
+            ]
+          },
+          {
+            "label": "Technology :",
+            "tags": [
+              "Artificial Intelligence",
+              "Technology"
+            ]
+          },
+          {
+            "label": "Time line:",
+            "tags": [
+              "Nov. 2023 - Dec. 2024"
+            ]
+          }
+        ],
         "Details": [
           "Built with a modern tech stack including Gatsby.js for static site generation, ensuring fast load times and excellent performance.",
           "Implemented a headless CMS (such as Strapi or Contentful) to manage content dynamically, allowing non-technical staff to easily update the site.",
@@ -275,13 +559,41 @@
     },
     {
       "title": "NS Arcus",
+      "title_pofile": "NS Arcus",
       "slug": "ns-arcus",
       "imgSrc": "https://i.imgur.com/HpGhAQE.png",
       "description": [
         "Maintained and developed new pages for the NS Arcus corporate website, which showcases their architectural and design services."
       ],
       "productData": {
-        "Role": [],
+        "Role": [
+          {
+            "label": "Role :",
+            "tags": [
+              "Frontend Developer "
+            ]
+          },
+          {
+            "label": "Work :",
+            "tags": [
+              "UX",
+              "APi Intergration, Data handling"
+            ]
+          },
+          {
+            "label": "Technology :",
+            "tags": [
+              "Artificial Intelligence",
+              "Technology"
+            ]
+          },
+          {
+            "label": "Time line:",
+            "tags": [
+              "Nov. 2023 - Dec. 2024"
+            ]
+          }
+        ],
         "Details": [
           "Utilized WordPress as the CMS to manage and update content efficiently, allowing non-technical staff to make changes as needed.",
           "Implemented custom themes and plugins to meet specific client requirements and enhance the functionality of the website.",
@@ -303,13 +615,41 @@
     },
     {
       "title": "Satya Groups",
+      "title_pofile": "Satya Groups",
       "slug": "satya-groups",
       "imgSrc": "https://i.ibb.co/ngrXGxs/satya.png",
       "description": [
         "Maintained and developed new pages for the Satya Groups corporate website, which focuses on their real estate and construction projects."
       ],
       "productData": {
-        "Role": [],
+        "Role": [
+          {
+            "label": "Role :",
+            "tags": [
+              "Frontend Developer "
+            ]
+          },
+          {
+            "label": "Work :",
+            "tags": [
+              "UX",
+              "APi Intergration, Data handling"
+            ]
+          },
+          {
+            "label": "Technology :",
+            "tags": [
+              "Artificial Intelligence",
+              "Technology"
+            ]
+          },
+          {
+            "label": "Time line:",
+            "tags": [
+              "Nov. 2023 - Dec. 2024"
+            ]
+          }
+        ],
         "Details": [
           "Used a combination of HTML5, CSS3, and JavaScript to create a responsive and user-friendly interface.",
           "Integrated with third-party services for property listings and contact forms, ensuring a seamless user experience.",
@@ -331,13 +671,41 @@
     },
     {
       "title": "Plumber Bathware",
+      "title_pofile": "Plumber Bathware",
       "slug": "plumber-bathware",
       "imgSrc": "https://i.imgur.com/HpGhAQE.png",
       "description": [
         "Maintained and developed new pages for the Plumber Bathware e-commerce platform, specializing in high-quality bathroom fixtures and accessories."
       ],
       "productData": {
-        "Role": [],
+        "Role": [
+          {
+            "label": "Role :",
+            "tags": [
+              "Frontend Developer "
+            ]
+          },
+          {
+            "label": "Work :",
+            "tags": [
+              "UX",
+              "APi Intergration, Data handling"
+            ]
+          },
+          {
+            "label": "Technology :",
+            "tags": [
+              "Artificial Intelligence",
+              "Technology"
+            ]
+          },
+          {
+            "label": "Time line:",
+            "tags": [
+              "Nov. 2023 - Dec. 2024"
+            ]
+          }
+        ],
         "Details": [
           "Built using a modern e-commerce framework such as Shopify or WooCommerce to provide a stable and scalable online store.",
           "Integrated with multiple payment gateways and logistics providers for seamless transactions and efficient order fulfillment.",
@@ -359,13 +727,41 @@
     },
     {
       "title": "RIPSS Infrastructure",
+      "title_pofile": "RIPSS Infrastructure",
       "slug": "ripss-infrastructure",
       "imgSrc": "https://i.imgur.com/KfeQQTr.png",
       "description": [
         "Maintained and developed new pages for the RIPSS Infrastructure corporate website, highlighting their construction and infrastructure projects."
       ],
       "productData": {
-        "Role": [],
+        "Role": [
+          {
+            "label": "Role :",
+            "tags": [
+              "Frontend Developer "
+            ]
+          },
+          {
+            "label": "Work :",
+            "tags": [
+              "UX",
+              "APi Intergration, Data handling"
+            ]
+          },
+          {
+            "label": "Technology :",
+            "tags": [
+              "Artificial Intelligence",
+              "Technology"
+            ]
+          },
+          {
+            "label": "Time line:",
+            "tags": [
+              "Nov. 2023 - Dec. 2024"
+            ]
+          }
+        ],
         "Details": [
           "Utilized WordPress as the CMS for easy content management and updates.",
           "Implemented custom themes and plugins to enhance the website's functionality and meet specific client needs.",
@@ -387,13 +783,41 @@
     },
     {
       "title": "Premier Energies",
+      "title_pofile": "Premier Energies",
       "slug": "premier-energies",
       "imgSrc": "https://i.imgur.com/61gO6K7.png",
       "description": [
         "Maintained and developed new pages for the Premier Energies corporate website, focusing on their renewable energy solutions and projects."
       ],
       "productData": {
-        "Role": [],
+        "Role": [
+          {
+            "label": "Role :",
+            "tags": [
+              "Frontend Developer "
+            ]
+          },
+          {
+            "label": "Work :",
+            "tags": [
+              "UX",
+              "APi Intergration, Data handling"
+            ]
+          },
+          {
+            "label": "Technology :",
+            "tags": [
+              "Artificial Intelligence",
+              "Technology"
+            ]
+          },
+          {
+            "label": "Time line:",
+            "tags": [
+              "Nov. 2023 - Dec. 2024"
+            ]
+          }
+        ],
         "Details": [
           "Used a combination of HTML5, CSS3, and JavaScript to create a responsive and user-friendly interface.",
           "Integrated with third-party services for project management and contact forms to enhance functionality.",
@@ -415,13 +839,41 @@
     },
     {
       "title": "Red Cow Dairy",
+      "title_pofile": "Red Cow Dairy",
       "slug": "redcow-dairy",
       "imgSrc": "https://i.imgur.com/QCVVsDd.png",
       "description": [
         "Maintained and developed new pages for the Red Cow Dairy website, which focuses on their dairy products and services."
       ],
       "productData": {
-        "Role": [],
+        "Role": [
+          {
+            "label": "Role :",
+            "tags": [
+              "Frontend Developer "
+            ]
+          },
+          {
+            "label": "Work :",
+            "tags": [
+              "UX",
+              "APi Intergration, Data handling"
+            ]
+          },
+          {
+            "label": "Technology :",
+            "tags": [
+              "Artificial Intelligence",
+              "Technology"
+            ]
+          },
+          {
+            "label": "Time line:",
+            "tags": [
+              "Nov. 2023 - Dec. 2024"
+            ]
+          }
+        ],
         "Details": [
           "Utilized WordPress as the CMS to manage and update content efficiently, allowing non-technical staff to make changes as needed.",
           "Implemented custom themes and plugins to meet specific client requirements and enhance the functionality of the website.",

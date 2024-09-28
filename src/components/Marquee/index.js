@@ -50,36 +50,15 @@ const Marquee = () => {
   }, []);
 
   const data = [
-    { text: "Lorem ipsum" },
-    { text: "Dolor sit" },
-    { text: "Amet consectetur" },
-    { text: "Adipiscing elit" },
-    { text: "Sed do" },
-    { text: "Eiusmod tempor" },
-    { text: "Incididunt ut" },
-    { text: "Labore et" },
-    { text: "Dolore magna" },
-    { text: "Aliqua Ut" },
-    { text: "Enim ad" },
-    { text: "Minim veniam" },
-    { text: "Quis nostrud" },
-    { text: "Exercitation ullamco" },
-    { text: "Laboris nisi" },
-    { text: "Ut aliquip" },
-    { text: "Ex ea" },
-    { text: "Commodo consequat" },
-    { text: "Duis aute" },
-    { text: "Irure dolor" },
-    { text: "Reprehenderit in" },
-    { text: "Voluptate velit" },
-    { text: "Esse cillum" },
-    { text: "Dolore eu" },
-    { text: "Fugiat nulla" },
-    { text: "Pariatur Excepteur" },
-    { text: "Sint occaecat" },
-    { text: "Cupidatat non" },
-    { text: "Proident sunt" },
-    { text: "In culpa" },
+    { img: "https://i.imgur.com/TUOFz1n.png" },
+    { img: "https://i.imgur.com/3qClVXn.png" },
+    { img: "https://i.imgur.com/eftNxi3.png" },
+    { img: "https://i.imgur.com/61R0rq9.png" },
+    { img: "https://i.imgur.com/3rfocvs.png" },
+    { img: "https://i.imgur.com/KbPxAP4.png" },
+    { img: "https://i.imgur.com/nv0GIVs.png" },
+    { img: "https://i.imgur.com/UUuFrI1.png" },
+    { img: "https://i.imgur.com/MD0t2pZ.png" },
   ];
 
   return (
@@ -89,13 +68,14 @@ const Marquee = () => {
           <div className="overflow-hidden  mx-auto py-2">
             <ul
               ref={marqueeRef}
-              className="marquee py-3 inline-flex space-x-4 max-w-full items-center"
+              className="marquee py-3 inline-flex space-x-4 max-w-auto items-center"
               style={{ whiteSpace: "nowrap" }}
             >
               {data.map((item, index) => (
-                <li key={index}>
-                  <div className="flex-shrink-0">
-                    <div className="text-white text-2xl">{item.text}</div>
+                <li key={index} className="w-[250px]">
+                  <div className=" w-full">
+                    <img src={item.img} alt="" className="w-full" />
+                    {/* <div className="text-white text-2xl">{item.text}</div> */}
                   </div>
                 </li>
               ))}

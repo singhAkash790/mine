@@ -30,7 +30,7 @@ const Card = ({ slug, imgSrc, title, tags, mainclass }) => {
             <div className="relative flex items-start justify-between gap-2.5 w-full  overflow-visible p-0 px-6 2xl:h-[150px] h-auto">
               <div className="relative flex flex-col items-start justify-around   gap-2  h-auto overflow-visible">
                 <div className="relative flex flex-col justify-start flex-shrink-0">
-                  <h2 className="2xl:text-[34px] text-[15px] font-medium lg:tracking-wider tracking-wide text-white  uppercase">
+                  <h2 className="2xl:text-[34px] text-[15px] font-medium lg:tracking-wider tracking-wide text-white  uppercase ">
                     {title}
                   </h2>
                 </div>

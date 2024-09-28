@@ -21,7 +21,7 @@ const Index = ({ Data }) => {
       <Heading
         title={Data.title}
         titleData={
-          <div className="flex flex-col items-start justify-start gap-4 xl:w-[568px] w-full p-0 relative overflow-visible box-border antialiased">
+          <div className="flex flex-col items-start justify-start gap-4 xl:w-[80%] w-full p-0 relative overflow-visible box-border antialiased">
             {renderMoreInfo()}
           </div>
         }

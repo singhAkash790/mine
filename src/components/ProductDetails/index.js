@@ -10,7 +10,7 @@ const ProductDetails = ({ productData }) => {
     <WebLayout>
       <div className="product5-grid mt-8 gap-4">
         <div className="home-sections-label left-section-fixed z-10">
-          <DetailRole title={"Details"} />
+          <DetailRole title={"Details"} Data={productData.Role} />
         </div>
         <div className="w-layout-grid homepage-layouts-grid right-section-fixed ">
           <div className="relative 2xl:gap-8 gap-6 flex flex-col">

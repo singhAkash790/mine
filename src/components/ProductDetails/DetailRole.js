@@ -2,14 +2,14 @@ import React from "react";
 
 const projectDetails = {
   sections: [
-    { label: "Role :", tags: ["UI/UX Designer", "Graphic Designer"] },
-    { label: "Service :", tags: ["UI/UX Design", "Product Presentation"] },
+    { label: "Role :", tags: ["Frontend Developer "] },
+    { label: "Work :", tags: ["UX", "APi Intergration, Data handling"] },
     { label: "Industry :", tags: ["Artificial Intelligence", "Technology"] },
-    { label: "Date :", tags: ["Nov. 2023 - Dec. 2024"] },
+    { label: "Time line:", tags: ["Nov. 2023 - Dec. 2024"] },
   ],
 };
 
-const DetailRole = ({ title }) => (
+const DetailRole = ({ title, Data }) => (
   <>
     <div
       className="flex flex-col items-center justify-start rounded-[40px] w-fit"
@@ -29,20 +29,22 @@ const DetailRole = ({ title }) => (
       data-aos-once="true"
       data-aos-duration="600"
     >
-      {projectDetails.sections.map(({ label, tags }, index) => (
+      {Data.map(({ label, tags }, index) => (
         <div
           key={index}
           className="relative flex items-center gap-4 mb-3 w-full  box-border antialiased"
         >
           <div className="">
-            <p className=" text-white whitespace-nowrap text-[15px]">{label}</p>
+            <p className=" text-white whitespace-nowrap text-[15px] uppercase tracking-wider font-[500]">
+              {label}
+            </p>
           </div>
           <div className="relative flex items-start gap-0 w-full justify-start  box-border antialiased">
             {tags.map((tag, tagIndex) => (
-              <div key={tagIndex}>
-                <div className=" border border-white border-opacity-70 rounded-full px-4 py-2">
+              <div key={tagIndex} className="gap-2">
+                <div className=" border border-white border-opacity-70 rounded-3xl px-3 py-[5px] mx-1">
                   <div>
-                    <p className=" text-white xl:text-[16px] text-[12px] gap-2">
+                    <p className=" text-white xl:text-[13px] uppercase text-[12px] gap-2 tracking-wide">
                       {tag}
                     </p>
                   </div>
