@@ -4,6 +4,7 @@ import Instagram from "../SVG/Instagram";
 import Linked from "../SVG/Linked";
 import Facebook from "../SVG/FaceBook";
 import WebLayout from "../WebLayout";
+import MagnticButton from "../MagnticButton/Index";
 import Logo from "../SVG/Logo";
 
 const links = [
@@ -59,9 +60,11 @@ const index = () => {
                         className=" bg-transparent rounded-full opacity-100 place-content-center items-center cursor-pointer flex flex-row py-2  overflow-visible  relative no-underline w-min box-border antialiased"
                       >
                         <div className="outline-none flex flex-col justify-start  opacity-100 relative flex-shrink-0 h-auto whitespace-pre box-border antialiased">
-                          <p className="text-white uppercase  tracking-[2px] font-[500] text-center text-[14px] leading-6 box-border antialiased">
-                            {label}
-                          </p>
+                          <MagnticButton>
+                            <p className="text-white uppercase  tracking-[2px] font-[500] text-center text-[14px] leading-6 box-border antialiased">
+                              {label}
+                            </p>
+                          </MagnticButton>
                         </div>
                       </Link>
                     </div>
@@ -76,14 +79,16 @@ const index = () => {
                     >
                       <Link
                         aria-label={label}
-                        className="h-full w-full opacity-100 cursor-pointer overflow-hidden relative no-underline block box-border antialiased"
+                        className="h-full w-full opacity-100 cursor-pointer  relative no-underline block box-border antialiased"
                         to={to}
                         target="_blank"
                         rel="noopener"
                       >
-                        <div className="image-rendering-pixelated  fill-[#fafafa] color-white opacity-100 absolute aspect-square flex-shrink-0  inset-0 box-border antialiased">
-                          <Icon />
-                        </div>
+                        <MagnticButton>
+                          <div className="image-rendering-pixelated  fill-[#fafafa] color-white opacity-100 absolute aspect-square flex-shrink-0  inset-0 box-border antialiased">
+                            <Icon />
+                          </div>
+                        </MagnticButton>
                       </Link>
                     </div>
                   ))}

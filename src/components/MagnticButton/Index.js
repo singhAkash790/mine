@@ -24,8 +24,8 @@ const Index = ({ children }) => {
         const { height, width, left, top } = element.getBoundingClientRect();
         const x = clientX - (left + width / 2);
         const y = clientY - (top + height / 2);
-        xTo.current(x * 0.35);
-        yTo.current(y * 0.35);
+        xTo.current(x * 0.60);
+        yTo.current(y * 0.60);
       };
 
       const handleMouseLeave = () => {

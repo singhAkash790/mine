@@ -18,7 +18,7 @@ const Card = ({ slug, imgSrc, title, tags, mainclass }) => {
             className="relative flex flex-col items-start justify-start gap-4 w-full bg-[#1c1c1c] rounded-3xl border-t border-solid border-white-[0.25] cursor-pointer overflow-visible p-0 pb-6"
             style={{ backdropFilter: "blur(0px)" }}
           >
-            <div className="relative flex-shrink-0 w-full h-full overflow-hidden rounded-3xl">
+            <div className="know-more relative flex-shrink-0 w-full h-full overflow-hidden rounded-3xl">
               <div className="flex">
                 <img
                   src={imgSrc}

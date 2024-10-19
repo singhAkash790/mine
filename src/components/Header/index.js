@@ -69,47 +69,57 @@ const Index = () => {
         >
           <NavLink
             to="/"
-            className="flex items-center xl:w-[150px] md:w-[130px] w-[100px]"
+            className="inverted-hover inverted-mask flex items-center xl:w-[150px] md:w-[130px] w-[100px]"
           >
             <Logo />
           </NavLink>
         </div>
         <div className="lg:flex items-start gap-2 hidden  ">
-          <NavLink
-            to="/"
-            className="flex items-center gap-2.5 bg-transparent uppercase rounded-full py-2 px-4 hover:bg-gray-700 transition-colors"
-          >
-            <span className="text-white uppercase  tracking-[2px] font-[500] text-center text-[14px]">
-              Home
-            </span>
-          </NavLink>
-          <NavLink
-            to="/about"
-            className="flex items-center gap-2.5 bg-transparent uppercase rounded-full py-2 px-4 hover:bg-gray-700 transition-colors"
-          >
-            <span className="text-white uppercase  tracking-[2px] font-[500] text-center text-[14px]">
-              About
-            </span>
-          </NavLink>
-          <NavLink
-            to="/portfolio"
-            className="flex items-center gap-2.5 bg-transparent uppercase rounded-full py-2 px-4 hover:bg-gray-700 transition-colors"
-          >
-            <span className="text-white uppercase  tracking-[2px] font-[500] text-center text-[14px]">
-              Portfolio
-            </span>
-          </NavLink>
-          <NavLink
-            to="/contact"
-            className="flex items-center gap-2.5 bg-transparent uppercase rounded-full py-2 px-4 hover:bg-gray-700 transition-colors"
-          >
-            <span className="text-white uppercase  tracking-[2px] font-[500] text-center text-[14px]">
-              Contact
-            </span>
-          </NavLink>
+          <MagnticButton>
+            <NavLink
+              to="/"
+              className="container-hover flex items-center gap-2.5 bg-transparent uppercase rounded-full py-2 px-4 hover:bg-gray-700 transition-colors"
+            >
+              <span className="text-white uppercase  tracking-[2px] font-[500] text-center text-[14px]">
+                Home
+              </span>
+            </NavLink>
+          </MagnticButton>
+          <MagnticButton>
+            <NavLink
+              to="/about"
+              className="container-hover flex items-center gap-2.5 bg-transparent uppercase rounded-full py-2 px-4 hover:bg-gray-700 transition-colors"
+            >
+              <span className="text-white uppercase  tracking-[2px] font-[500] text-center text-[14px]">
+                About
+              </span>
+            </NavLink>
+          </MagnticButton>
+          <MagnticButton>
+            <NavLink
+              to="/portfolio"
+              className="container-hover flex items-center gap-2.5 bg-transparent uppercase rounded-full py-2 px-4 hover:bg-gray-700 transition-colors"
+            >
+              <span className=" text-white uppercase  tracking-[2px] font-[500] text-center text-[14px]">
+                Portfolio
+              </span>
+            </NavLink>
+          </MagnticButton>
+          <MagnticButton>
+            <NavLink
+              to="/contact"
+              className="container-hover flex items-center gap-2.5 bg-transparent uppercase rounded-full py-2 px-4 hover:bg-gray-700 transition-colors"
+            >
+              <span className="text-white uppercase  tracking-[2px] font-[500] text-center text-[14px]">
+                Contact
+              </span>
+            </NavLink>
+          </MagnticButton>
         </div>
         <div
-          className={`menu menu-type-1 flex l:hidden ${isActive ? " humberActive " : ""}`}
+          className={`menu menu-type-1 flex l:hidden ${
+            isActive ? " humberActive " : ""
+          }`}
           onClick={handleMenuToggle}
         >
           <input type="checkbox" id="btn-1" />

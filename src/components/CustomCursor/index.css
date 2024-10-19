@@ -1,0 +1,99 @@
+body {
+  cursor: none;
+}
+
+.custom-cursor {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+}
+
+.cursor-ring {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  transition: width 0.3s, height 0.3s, background-color 0.3s, border 0.3s;
+}
+
+.cursor-dot {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  opacity: 30%;
+  /* backdrop-filter: blur(50); */
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Know More hover effect */
+.know-more {
+  cursor: none;
+}
+
+/* Container hover effect */
+.container-hover {
+  cursor: none;
+  transition: transform 0.1s;
+}
+
+/* .container-hover:hover .cursor-ring{
+  transform: scale(1.5);
+  opacity: 1 !important;
+} */
+
+/* Image hover effect */
+.inverted-hover {
+  cursor: none;
+}
+.inverted-mask {
+  position: relative;
+  overflow: hidden; /* Hide overflow */
+}
+
+.inverted-mask::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit; /* Inherit the background from the parent */
+  filter: invert(1); /* Invert the colors */
+  pointer-events: none; /* Prevent pointer events on the mask */
+  transition: opacity 0.3s ease; /* Smooth transition for the mask */
+  opacity: 0; /* Initially hidden */
+}
+
+.inverted-mask.active::before {
+  opacity: 1; /* Show the mask when active */
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cursor-dot-rotate {
+  animation: rotate 3.2s linear infinite; /* 1 second for each full rotation */
+}
+.know-more,
+.container-hover,
+.inverted-hover {
+  pointer-events: auto; /* Ensure these elements can receive pointer events */
+}

@@ -15,7 +15,7 @@ const Hero = ({
   return (
     <WebLayout>
       <div
-        className="flex flex-col items-center justify-center "
+        className=" flex flex-col items-center justify-center "
         data-aos="fade-up"
         data-aos-offset="100"
         data-aos-easing="ease-in-sine"
@@ -27,7 +27,7 @@ const Hero = ({
             <img
               src={imageSrc}
               alt="Akash profile image"
-              className="w-full h-full object-cover"
+              className="inverted-hover  inverted-mask w-full h-full object-cover"
               data-aos="zoom-in"
               data-aos-offset="100"
               data-aos-easing="ease-in-sine"

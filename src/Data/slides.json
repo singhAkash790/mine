@@ -1,897 +1,1139 @@
-{
-  "Data": [
-    {
-      "title": "Father's Day Campaign-Assure Pathlabs  ",
-      "title_pofile": "Father's Day Campaign-Assure Pathlabs  ",
-      "slug": "assure-pathlabs-fathers",
-      "imgSrc": "https://i.imgur.com/t6nNibu.png",
-      "description": [
-        "Developed an engaging and responsive web campaign to promote health check-ups specifically targeted at fathers. The campaign highlights the importance of regular health screenings for men, using a visually appealing and interactive design."
+[
+  {
+    "title": "Rajgadh Estates - Real Estate Developer",
+    "slug": "rajgadh-estates",
+    "imgSrc": "https://rajgadh.vercel.app/static/media/hero-banner.jpg",
+    "description": [
+      "Developed a visually stunning and interactive website for Rajgadh Estates, a real estate developer, showcasing their premium properties and projects. The website is highly effect-driven, utilizing advanced animation and visual effects to create an immersive experience for visitors."
+    ],
+    "productData": {
+      "Role": [
+        {
+          "label": "Role :",
+          "tags": ["Frontend Developer", "UI/UX Designer"]
+        }
       ],
-      "productData": {
-        "Role": [
-          {
-            "label": "Role :",
-            "tags": [
-              "Frontend Developer "
-            ]
-          },
-          {
-            "label": "Work :",
-            "tags": [
-              "UX",
-              "Api Intergration",
-              "Data handling"
-            ]
-          },
-          {
-            "label": "Technology :",
-            "tags": [
-              "React"
-            ]
-          },
-          {
-            "label": "Time line :",
-            "tags": [
-              "15 jun 23 - 16 june 23"
-            ]
-          }
-        ],
-        "Details": [
-          "Integrated the campaign site with Assure Path Labs' existing booking system using RESTful APIs to ensure seamless data flow and synchronization.",
-          "Implemented secure data handling practices, including encryption for sensitive user information and secure payment gateways for transactions.",
-          "Utilized HTML5, CSS3, and JavaScript to create an interactive user experience with features such as hover effects, animations, and responsive design to ensure compatibility across all devices and screen sizes."
-        ],
-        "KeyFeatures": [
-          "Custom health package selection interface that allows users to easily browse and choose from various health check-up options tailored for men.",
-          "Real-time data validation and feedback mechanisms to enhance user experience and minimize errors during form submissions.",
-          "SEO-optimized content and metadata to improve the campaign’s visibility on search engines, driving more organic traffic to the site."
-        ],
-        "Mission": [
-          "The mission is to promote men's health awareness by providing an intuitive and engaging digital platform that encourages fathers to prioritize their well-being through regular health check-ups."
-        ],
-        "Impact": [
-          "The campaign has successfully increased online bookings and user engagement by providing a user-friendly and informative platform. The enhanced user experience has led to higher conversion rates and a greater awareness of men's health issues."
-        ]
-      }
-    },
-    {
-      "title": "Cancer Campaign-Assure PathLabs",
-      "title_pofile": "Cancer Campaign-Assure PathLabs",
-      "slug": "assure-pathlabs-cancer",
-      "imgSrc": "https://i.imgur.com/tFTqYHD.png",
-      "description": [
-        "Developed a comprehensive online campaign aimed at educating the public about the importance of early cancer detection and prevention. The campaign features a variety of educational resources presented in a user-friendly and accessible manner."
+      "Work": [
+        {
+          "label": "Work :",
+          "tags": [
+            "Design to Code",
+            "GSAP Animations",
+            "Slider Effects",
+            "Text Reveal Effects",
+            "Parallax Effects",
+            "Form Handling with Formik and Yup",
+            "API Integration for dynamic content loading",
+            "SEO Optimization",
+            "Core Web Vitals Implementation"
+          ]
+        }
       ],
-      "productData": {
-        "Role": [
-          {
-            "label": "Role :",
-            "tags": [
-              "Frontend Developer "
-            ]
-          },
-          {
-            "label": "Work :",
-            "tags": [
-              "UX",
-              "Api Intergration",
-              "Data handling"
-            ]
-          },
-          {
-            "label": "Technology :",
-            "tags": [
-              "React"
-            ]
-          },
-          {
-            "label": "Time line :",
-            "tags": [
-              " Nov 2023"
-            ]
-          }
-        ],
-        "Details": [
-          "Integrated educational resources, including articles, videos, and infographics, with a robust content management system (CMS) to allow for easy updates and management by non-technical staff.",
-          "Utilized responsive web design principles to ensure that all content is accessible and easily readable on any device, including desktops, tablets, and smartphones.",
-          "Implemented secure authentication for webinar sign-ups and access to exclusive educational materials, ensuring user data is protected."
-        ],
-        "KeyFeatures": [
-          "Dynamic content updates enabled by the CMS, allowing for timely and relevant information to be shared with users.",
-          "Interactive webinars and live Q&A sessions embedded using third-party services such as Zoom or YouTube Live, providing an engaging and informative experience.",
-          "Advanced analytics tracking user engagement and content effectiveness, helping to refine and improve the campaign based on user interactions and feedback."
-        ],
-        "Mission": [
-          "The mission is to increase public awareness and knowledge about cancer prevention and early detection through an easily accessible and informative online platform."
-        ],
-        "Impact": [
-          "The campaign has significantly improved public understanding of cancer prevention and early detection, resulting in increased screening rates and better health outcomes. User engagement metrics show high levels of interaction with the educational content provided."
-        ]
-      }
-    },
-    {
-      "title": "Neat Skill",
-      "title_pofile": "Neat Skill",
-      "slug": "neat-skill",
-      "imgSrc": "https://i.imgur.com/kc5hpv4.png",
-      "description": [
-        "Developed a scalable online learning platform offering a wide range of courses across various disciplines, including technology, business, and personal development. The platform is designed to provide an intuitive and effective learning experience."
+      "Technology": [
+        {
+          "label": "Technology :",
+          "tags": [
+            "React",
+            "Tailwind CSS",
+            "GSAP (GreenSock Animation Platform)",
+            "Framer Motion",
+            "Formik and Yup for form validation",
+            "Axios for API requests",
+            "Vercel for deployment"
+          ]
+        }
       ],
-      "productData": {
-        "Role": [
-          {
-            "label": "Role :",
-            "tags": [
-              "Full Stack Developer "
-            ]
-          },
-          {
-            "label": "Work :",
-            "tags": [
-              "Authentication",
-              "APi Intergration",
-              " Data handling"
-            ]
-          },
-          {
-            "label": "Technology :",
-            "tags": [
-              "Next.js",
-              "GCP",
-              "Tailwind"
-            ]
-          },
-          {
-            "label": "Time line:",
-            "tags": [
-              "Aug. 2022 - Apr. 2023"
-            ]
-          }
-        ],
-        "Details": [
-          "Built using a robust tech stack, including Next.js for the front end and backend,  using GCP for the database, ensuring a fast and responsive user experience.",
-          "Integrated with third-party payment gateways like PayPal and Stripe to facilitate seamless transactions and secure payments.",
-          "Implemented a comprehensive user authentication system, including social login options, to provide a secure and convenient user experience."
-        ],
-        "KeyFeatures": [
-          "Modular course management system that allows for easy updates, scalability, and the addition of new courses without significant development overhead.",
-          "Real-time quizzes and assessments with instant feedback, providing an interactive and engaging learning experience for users.",
-          "Automated certification generation and verification system, allowing users to receive and verify their course completion certificates online."
-        ],
-        "Mission": [
-          "The mission is to empower individuals by providing accessible, high-quality online education that equips them with the skills and knowledge needed to succeed in today's competitive job market."
-        ],
-        "Impact": [
-          "NeatSkills has enabled thousands of learners to advance their careers and personal development, with high user satisfaction rates and positive feedback on the platform’s ease of use and course quality. Many users report significant improvements in their job performance and career opportunities as a result of the skills acquired."
-        ]
-      }
-    },
-    {
-      "title": "Fastway",
-      "title_pofile": "Fastway",
-      "imgSrc": "https://i.imgur.com/yKA46ye.png",
-      "slug": "fastway",
-      "description": [
-        "Delivered a robust digital cable TV and broadband service platform designed to offer high-speed internet and a wide array of TV channels to users. The platform focuses on reliability, extensive channel options, and exceptional user experience."
+      "Timeline": [
+        {
+          "label": "Timeline :",
+          "tags": ["Ongoing"]
+        }
       ],
-      "productData": {
-        "Role": [
-          {
-            "label": "Role :",
-            "tags": [
-              "Frontend Developer "
-            ]
-          },
-          {
-            "label": "Work :",
-            "tags": [
-              "UX",
-              "APi Intergration",
-              " Data handling"
-            ]
-          },
-          {
-            "label": "Technology :",
-            "tags": [
-              "React.js"
-            ]
-          },
-          {
-            "label": "Time line:",
-            "tags": [
-              "june 2023 - july 2023"
-            ]
-          }
-        ],
-        "Details": [
-          "Utilized a content delivery network (CDN) to ensure efficient and fast delivery of digital content, reducing latency and improving streaming quality for users.",
-          "Developed with a microservices architecture, allowing for scalability and maintainability by enabling independent deployment and management of different service components.",
-          "Implemented a robust user authentication and subscription management system, providing users with easy access to their accounts and subscription plans."
-        ],
-        "KeyFeatures": [
-          "Extensive channel lineup with live streaming capabilities, offering a diverse range of content to cater to different audience preferences.",
-          "High-speed broadband internet plans, supported by a user-friendly management interface that allows users to easily manage their subscriptions and monitor usage.",
-          "Integrated 24/7 customer support through chatbots and a ticketing system, ensuring users receive timely assistance and support."
-        ],
-        "Mission": [
-          "The mission is to enhance the digital experience of users by providing top-notch entertainment and high-speed internet services that meet the highest standards of quality and reliability."
-        ],
-        "Impact": [
-          "Fastway has significantly improved access to digital entertainment and high-speed internet in its service areas. The provider has a strong customer base and is recognized for its contribution to the digital transformation in the region, with high customer satisfaction and retention rates."
-        ]
-      }
-    },
-    {
-      "title": "Netplus",
-      "title_pofile": "Netplus",
-      "slug": "netplus",
-      "imgSrc": "https://i.imgur.com/bHHGMXA.png",
-      "description": [
-        "Developed a high-speed broadband service platform with a focus on delivering seamless and uninterrupted internet access to users. The platform prioritizes reliability, security, and user privacy."
+      "Details": [
+        "Created a fully effect-based website, featuring advanced animations like smooth parallax scrolling, slider effects, and text reveal animations using GSAP (GreenSock Animation Platform).",
+        "Designed the entire UI/UX from scratch, translating visual concepts into fully functional code, ensuring both responsiveness and aesthetics.",
+        "Implemented complex effects like slider transitions, fade-in text reveals, and parallax background effects to create an engaging experience.",
+        "Utilized Tailwind CSS for rapid UI development, ensuring a responsive and visually appealing design through utility-first CSS classes.",
+        "Leveraged Formik and Yup to manage form data and validation seamlessly, enhancing user experience by providing real-time feedback and error handling during form submissions.",
+        "Integrated APIs to dynamically load project data and real estate listings, ensuring the website remains updated with the latest offerings and properties.",
+        "Focused on SEO optimization by implementing best practices, including keyword optimization, meta tags, and structured data markup to improve visibility in search engine results.",
+        "Established a robust data layer to manage state and API responses efficiently, ensuring smooth data flow and performance across the application.",
+        "Implemented Core Web Vitals metrics to monitor and optimize user experience, focusing on loading performance, interactivity, and visual stability.",
+        "Optimized the performance of the animation-heavy website using GSAP and Framer Motion, ensuring smooth transitions without compromising load times.",
+        "Handled the full deployment of the website on Vercel for fast, reliable hosting with efficient content delivery."
       ],
-      "productData": {
-        "Role": [
-          {
-            "label": "Role :",
-            "tags": [
-              "Frontend Developer "
-            ]
-          },
-          {
-            "label": "Work :",
-            "tags": [
-              "UX",
-              "APi Intergration, Data handling"
-            ]
-          },
-          {
-            "label": "Technology :",
-            "tags": [
-              "Artificial Intelligence",
-              "Technology"
-            ]
-          },
-          {
-            "label": "Time line:",
-            "tags": [
-              "Nov. 2023 - Dec. 2024"
-            ]
-          }
-        ],
-        "Details": [
-          "Deployed using a resilient network infrastructure with redundant pathways to ensure continuous service availability and minimize downtime.",
-          "Utilized advanced network management tools for real-time monitoring, optimization, and troubleshooting, ensuring optimal network performance and user satisfaction.",
-          "Integrated billing and user management systems to streamline operations and provide users with a seamless experience in managing their accounts and subscriptions."
-        ],
-        "KeyFeatures": [
-          "Customizable internet plans that cater to the varying needs of residential, business, and enterprise users, providing flexibility and affordability.",
-          "Comprehensive network security measures, including firewalls, encryption, and intrusion detection systems, to protect user data and maintain privacy.",
-          "24/7 customer support via an integrated helpdesk solution, ensuring users receive timely and effective assistance for any issues or inquiries."
-        ],
-        "Mission": [
-          "The mission is to provide fast, secure, and affordable internet services that empower individuals and businesses to stay connected and productive in today’s digital world."
-        ],
-        "Impact": [
-          "Netplus has played a crucial role in improving internet accessibility and connectivity in its service regions. Customers benefit from enhanced productivity and connectivity, leading to positive socio-economic impacts and high levels of user satisfaction."
-        ]
-      }
-    },
-    {
-      "title": "Sobha Restoplus",
-      "title_pofile": "Sobha Restoplus",
-      "slug": "sobha-restoplus",
-      "imgSrc": "https://i.imgur.com/6w7cCNW.png",
-      "description": [
-        "Developed an e-commerce platform for premium mattress sales, designed to offer an exceptional user experience and seamless transactions. The platform focuses on delivering high-quality, comfortable mattresses to enhance sleep quality."
+      "KeyFeatures": [
+        "Advanced GSAP animations and effects, including smooth scrolling and parallax transitions.",
+        "Interactive slider effects for project showcases and portfolio highlights.",
+        "Text reveal effects that dynamically display content as users scroll through the site.",
+        "Fully responsive design, ensuring a consistent user experience across all devices.",
+        "Fast, optimized performance despite the heavy use of animations, ensuring the site remains user-friendly and visually engaging.",
+        "Robust form handling using Formik and Yup, with clear validation messages and input handling for user inquiries and subscriptions.",
+        "API-driven data management for dynamic content updates, allowing real-time integration of new properties and project information.",
+        "SEO strategies that improve search rankings and visibility, driving organic traffic to the website.",
+        "Core Web Vitals monitoring and optimization to enhance overall user experience by addressing performance issues."
       ],
-      "productData": {
-        "Role": [
-          {
-            "label": "Role :",
-            "tags": [
-              "Frontend Developer "
-            ]
-          },
-          {
-            "label": "Work :",
-            "tags": [
-              "UX",
-              "APi Intergration, Data handling"
-            ]
-          },
-          {
-            "label": "Technology :",
-            "tags": [
-              "Artificial Intelligence",
-              "Technology"
-            ]
-          },
-          {
-            "label": "Time line:",
-            "tags": [
-              "Nov. 2023 - Dec. 2024"
-            ]
-          }
-        ],
-        "Details": [
-          "Built using a modern e-commerce framework such as Shopify or WooCommerce, providing a stable and scalable foundation for the online store.",
-          "Integrated with multiple payment gateways and logistics providers to offer end-to-end service, from secure transactions to efficient delivery.",
-          "Implemented advanced SEO and digital marketing tools to improve the platform’s visibility and attract more customers."
-        ],
-        "KeyFeatures": [
-          "Detailed product pages featuring high-resolution images, 3D models, and augmented reality (AR) capabilities to help customers visualize products in their space.",
-          "Customer reviews and rating system to enhance trust and credibility, providing potential buyers with insights from other users.",
-          "Personalized product recommendations based on user preferences and browsing history, enhancing the shopping experience and increasing sales."
-        ],
-        "Mission": [
-          "The mission is to enhance the quality of sleep for customers by providing innovative, comfortable, and supportive mattresses that promote overall well-being."
-        ],
-        "Impact": [
-          "Sobha Restoplus has improved the sleep quality of countless individuals, leading to better health and increased productivity. The brand is recognized for its commitment to excellence and customer satisfaction, with many customers reporting significant improvements in their sleep patterns and overall health."
-        ]
-      }
-    },
-    {
-      "title": "Jujhar Travels",
-      "title_pofile": "Jujhar Travels",
-      "slug": "jujhar-travels",
-      "imgSrc": "https://i.imgur.com/D45oSdh.png",
-      "description": [
-        "Developed a comprehensive travel and transportation service platform from scratch for Jujhar Travels. The platform is designed to offer users an intuitive and seamless experience when booking travel services."
+      "Mission": [
+        "To deliver a visually captivating, effect-heavy website for Rajgadh Estates that represents their luxury real estate projects with stunning animations and interactive designs."
       ],
-      "productData": {
-        "Role": [
-          {
-            "label": "Role :",
-            "tags": [
-              "Frontend Developer "
-            ]
-          },
-          {
-            "label": "Work :",
-            "tags": [
-              "UX",
-              "APi Intergration, Data handling"
-            ]
-          },
-          {
-            "label": "Technology :",
-            "tags": [
-              "Artificial Intelligence",
-              "Technology"
-            ]
-          },
-          {
-            "label": "Time line:",
-            "tags": [
-              "Nov. 2023 - Dec. 2024"
-            ]
-          }
-        ],
-        "Details": [
-          "Built using a combination of modern web technologies including React.js for the frontend, Node.js for the backend, and MongoDB for the database to ensure a fast and responsive user experience.",
-          "Integrated with various third-party APIs for real-time booking and availability checks, ensuring users can make informed decisions based on the latest data.",
-          "Implemented secure user authentication and authorization using JWT (JSON Web Tokens) to protect user information and maintain privacy."
-        ],
-        "KeyFeatures": [
-          "Advanced search and booking functionality, allowing users to filter and book travel services easily.",
-          "Real-time updates and notifications about booking status and travel schedules.",
-          "Interactive maps and route planning tools to help users visualize their travel plans.",
-          "Multi-language support to cater to a diverse user base."
-        ],
-        "Mission": [
-          "The mission is to provide a user-friendly platform that simplifies the process of booking travel services, making it accessible and convenient for all users."
-        ],
-        "Impact": [
-          "The platform has significantly improved the efficiency of booking travel services, resulting in higher user satisfaction and increased bookings. Users appreciate the ease of use and the comprehensive information available at their fingertips."
-        ]
-      }
-    },
-    {
-      "title": "Assure Path Labs - General",
-      "title_pofile": "Assure Path Labs - General",
-      "slug": "assure-pathlabs",
-      "imgSrc": "https://i.imgur.com/D45oSdh.png",
-      "description": [
-        "Developed a state-of-the-art online platform for Assure Path Labs, aimed at providing users with easy access to health check-up bookings, test results, and health information."
-      ],
-      "productData": {
-        "Role": [
-          {
-            "label": "Role :",
-            "tags": [
-              "Frontend Developer "
-            ]
-          },
-          {
-            "label": "Work :",
-            "tags": [
-              "UX",
-              "APi Intergration, Data handling"
-            ]
-          },
-          {
-            "label": "Technology :",
-            "tags": [
-              "Artificial Intelligence",
-              "Technology"
-            ]
-          },
-          {
-            "label": "Time line:",
-            "tags": [
-              "Nov. 2023 - Dec. 2024"
-            ]
-          }
-        ],
-        "Details": [
-          "Utilized Next.js for server-side rendering and improved SEO, combined with a backend built on Node.js and MongoDB for a scalable and responsive application.",
-          "Integrated with the lab's internal systems via RESTful APIs to synchronize test results and booking information, ensuring accurate and up-to-date data for users.",
-          "Implemented robust security measures, including SSL encryption and secure authentication protocols, to protect sensitive health data."
-        ],
-        "KeyFeatures": [
-          "User-friendly interface for booking health check-ups and viewing test results.",
-          "Personalized health dashboards that provide users with insights and recommendations based on their health data.",
-          "Integration with payment gateways for seamless transactions and billing.",
-          "Educational resources and articles on various health topics to inform and empower users."
-        ],
-        "Mission": [
-          "The mission is to enhance healthcare accessibility by providing a comprehensive and secure online platform for health check-ups and information."
-        ],
-        "Impact": [
-          "The platform has increased the accessibility and convenience of health services, leading to higher engagement and a better-informed user base. Many users have reported improved health management thanks to the easy access to their health data and resources."
-        ]
-      }
-    },
-    {
-      "title": "Centra Greens",
-      "title_pofile": "Centra Greens",
-      "slug": "centra-greens",
-      "imgSrc": "https://i.imgur.com/6JH6DTI.png",
-      "description": [
-        "Developed an advanced corporate website for Centra Group, showcasing their services, projects, and corporate information. The platform is designed to enhance the company's online presence and provide valuable information to clients and stakeholders."
-      ],
-      "productData": {
-        "Role": [
-          {
-            "label": "Role :",
-            "tags": [
-              "Frontend Developer "
-            ]
-          },
-          {
-            "label": "Work :",
-            "tags": [
-              "UI/UX",
-              "APi Intergration",
-              " Data handling"
-            ]
-          },
-          {
-            "label": "Technology :",
-            "tags": [
-              "Artificial Intelligence",
-              "Technology"
-            ]
-          },
-          {
-            "label": "Time line:",
-            "tags": [
-              "Jul. 2023 - Aug. 2023"
-            ]
-          }
-        ],
-        "Details": [
-          "Built using a robust tech stack including React.js for the frontend, Express.js for the backend, and PostgreSQL for the database, ensuring a fast and scalable application.",
-          "Implemented a content management system (CMS) to allow easy updates and management of content by non-technical staff.",
-          "Integrated with third-party services for analytics, CRM, and email marketing to enhance user engagement and business operations."
-        ],
-        "KeyFeatures": [
-          "Comprehensive service and project portfolios with detailed descriptions, images, and videos.",
-          "Interactive elements such as project timelines and client testimonials to engage visitors.",
-          "Advanced contact forms and inquiry systems integrated with the company's CRM for efficient lead management.",
-          "SEO-optimized content and structure to improve search engine visibility and drive more traffic to the site."
-        ],
-        "Mission": [
-          "The mission is to strengthen Centra Group's online presence and provide a platform that effectively communicates their services and value propositions to clients and stakeholders."
-        ],
-        "Impact": [
-          "The platform has improved the company's visibility and reputation, attracting more clients and partnerships. The user-friendly interface and comprehensive information have led to higher engagement and inquiries."
-        ]
-      }
-    },
-    {
-      "title": "Triverse Advertising",
-      "title_pofile": "Triverse Advertising",
-      "slug": "triverse-advertising",
-      "imgSrc": "https://i.imgur.com/EaFaD7g.png",
-      "description": [
-        "Developed the corporate website for Triverse Advertising from the ground up, aimed at showcasing the company's services, portfolio, and client success stories. The site is designed to attract potential clients and partners."
-      ],
-      "productData": {
-        "Role": [
-          {
-            "label": "Role :",
-            "tags": [
-              "Frontend Developer "
-            ]
-          },
-          {
-            "label": "Work :",
-            "tags": [
-              "UX",
-              "APi Intergration, Data handling"
-            ]
-          },
-          {
-            "label": "Technology :",
-            "tags": [
-              "Artificial Intelligence",
-              "Technology"
-            ]
-          },
-          {
-            "label": "Time line:",
-            "tags": [
-              "Nov. 2023 - Dec. 2024"
-            ]
-          }
-        ],
-        "Details": [
-          "Built with a modern tech stack including Gatsby.js for static site generation, ensuring fast load times and excellent performance.",
-          "Implemented a headless CMS (such as Strapi or Contentful) to manage content dynamically, allowing non-technical staff to easily update the site.",
-          "Integrated with various third-party tools for analytics, social media, and email marketing to enhance engagement and track performance."
-        ],
-        "KeyFeatures": [
-          "Detailed service pages with interactive elements to engage visitors and provide in-depth information.",
-          "Comprehensive portfolio section showcasing case studies, client testimonials, and project details.",
-          "Blog and news sections for sharing industry insights, company updates, and thought leadership content.",
-          "Advanced contact and inquiry forms integrated with the company's CRM for efficient lead capture and management."
-        ],
-        "Mission": [
-          "The mission is to effectively communicate Triverse Advertising's expertise and successes through a visually appealing and highly functional online platform."
-        ],
-        "Impact": [
-          "The website has enhanced Triverse Advertising's online presence, leading to increased client inquiries and business opportunities. The engaging content and user-friendly design have contributed to higher user satisfaction and engagement."
-        ]
-      }
-    },
-    {
-      "title": "NS Arcus",
-      "title_pofile": "NS Arcus",
-      "slug": "ns-arcus",
-      "imgSrc": "https://i.imgur.com/HpGhAQE.png",
-      "description": [
-        "Maintained and developed new pages for the NS Arcus corporate website, which showcases their architectural and design services."
-      ],
-      "productData": {
-        "Role": [
-          {
-            "label": "Role :",
-            "tags": [
-              "Frontend Developer "
-            ]
-          },
-          {
-            "label": "Work :",
-            "tags": [
-              "UX",
-              "APi Intergration, Data handling"
-            ]
-          },
-          {
-            "label": "Technology :",
-            "tags": [
-              "Artificial Intelligence",
-              "Technology"
-            ]
-          },
-          {
-            "label": "Time line:",
-            "tags": [
-              "Nov. 2023 - Dec. 2024"
-            ]
-          }
-        ],
-        "Details": [
-          "Utilized WordPress as the CMS to manage and update content efficiently, allowing non-technical staff to make changes as needed.",
-          "Implemented custom themes and plugins to meet specific client requirements and enhance the functionality of the website.",
-          "Optimized the website for performance and SEO, ensuring fast load times and better search engine rankings."
-        ],
-        "KeyFeatures": [
-          "Comprehensive portfolio section displaying completed projects with high-quality images and detailed descriptions.",
-          "Interactive elements such as project galleries and client testimonials to engage visitors.",
-          "Advanced contact forms integrated with CRM for efficient lead management.",
-          "Regular updates and maintenance to ensure the website remains secure and up-to-date."
-        ],
-        "Mission": [
-          "The mission is to present NS Arcus's architectural expertise and services through a visually appealing and functional website."
-        ],
-        "Impact": [
-          "The website has helped NS Arcus attract new clients and showcase their work effectively, leading to increased inquiries and project opportunities."
-        ]
-      }
-    },
-    {
-      "title": "Satya Groups",
-      "title_pofile": "Satya Groups",
-      "slug": "satya-groups",
-      "imgSrc": "https://i.ibb.co/ngrXGxs/satya.png",
-      "description": [
-        "Maintained and developed new pages for the Satya Groups corporate website, which focuses on their real estate and construction projects."
-      ],
-      "productData": {
-        "Role": [
-          {
-            "label": "Role :",
-            "tags": [
-              "Frontend Developer "
-            ]
-          },
-          {
-            "label": "Work :",
-            "tags": [
-              "UX",
-              "APi Intergration, Data handling"
-            ]
-          },
-          {
-            "label": "Technology :",
-            "tags": [
-              "Artificial Intelligence",
-              "Technology"
-            ]
-          },
-          {
-            "label": "Time line:",
-            "tags": [
-              "Nov. 2023 - Dec. 2024"
-            ]
-          }
-        ],
-        "Details": [
-          "Used a combination of HTML5, CSS3, and JavaScript to create a responsive and user-friendly interface.",
-          "Integrated with third-party services for property listings and contact forms, ensuring a seamless user experience.",
-          "Implemented SEO best practices to improve the website's visibility on search engines."
-        ],
-        "KeyFeatures": [
-          "Detailed property listings with images, descriptions, and virtual tours.",
-          "Interactive project timelines and updates to keep stakeholders informed.",
-          "Advanced search functionality to help users find properties that meet their criteria.",
-          "Regular maintenance and updates to ensure the site remains functional and secure."
-        ],
-        "Mission": [
-          "The mission is to showcase Satya Groups' real estate projects and provide potential clients with detailed information and easy access to property listings."
-        ],
-        "Impact": [
-          "The website has enhanced the company's online presence, leading to increased property inquiries and sales. The user-friendly design and comprehensive information have been well-received by users."
-        ]
-      }
-    },
-    {
-      "title": "Plumber Bathware",
-      "title_pofile": "Plumber Bathware",
-      "slug": "plumber-bathware",
-      "imgSrc": "https://i.imgur.com/HpGhAQE.png",
-      "description": [
-        "Maintained and developed new pages for the Plumber Bathware e-commerce platform, specializing in high-quality bathroom fixtures and accessories."
-      ],
-      "productData": {
-        "Role": [
-          {
-            "label": "Role :",
-            "tags": [
-              "Frontend Developer "
-            ]
-          },
-          {
-            "label": "Work :",
-            "tags": [
-              "UX",
-              "APi Intergration, Data handling"
-            ]
-          },
-          {
-            "label": "Technology :",
-            "tags": [
-              "Artificial Intelligence",
-              "Technology"
-            ]
-          },
-          {
-            "label": "Time line:",
-            "tags": [
-              "Nov. 2023 - Dec. 2024"
-            ]
-          }
-        ],
-        "Details": [
-          "Built using a modern e-commerce framework such as Shopify or WooCommerce to provide a stable and scalable online store.",
-          "Integrated with multiple payment gateways and logistics providers for seamless transactions and efficient order fulfillment.",
-          "Implemented advanced SEO and digital marketing strategies to drive traffic and increase sales."
-        ],
-        "KeyFeatures": [
-          "Detailed product pages with high-resolution images, descriptions, and customer reviews.",
-          "Advanced filtering and search functionality to help users find products quickly.",
-          "Secure checkout process with multiple payment options.",
-          "Regular updates and maintenance to ensure a smooth and secure shopping experience."
-        ],
-        "Mission": [
-          "The mission is to provide an exceptional online shopping experience for customers looking for high-quality bathroom fixtures and accessories."
-        ],
-        "Impact": [
-          "The platform has increased sales and customer satisfaction by offering a user-friendly and reliable shopping experience. The detailed product information and seamless checkout process have contributed to higher conversion rates."
-        ]
-      }
-    },
-    {
-      "title": "RIPSS Infrastructure",
-      "title_pofile": "RIPSS Infrastructure",
-      "slug": "ripss-infrastructure",
-      "imgSrc": "https://i.imgur.com/KfeQQTr.png",
-      "description": [
-        "Maintained and developed new pages for the RIPSS Infrastructure corporate website, highlighting their construction and infrastructure projects."
-      ],
-      "productData": {
-        "Role": [
-          {
-            "label": "Role :",
-            "tags": [
-              "Frontend Developer "
-            ]
-          },
-          {
-            "label": "Work :",
-            "tags": [
-              "UX",
-              "APi Intergration, Data handling"
-            ]
-          },
-          {
-            "label": "Technology :",
-            "tags": [
-              "Artificial Intelligence",
-              "Technology"
-            ]
-          },
-          {
-            "label": "Time line:",
-            "tags": [
-              "Nov. 2023 - Dec. 2024"
-            ]
-          }
-        ],
-        "Details": [
-          "Utilized WordPress as the CMS for easy content management and updates.",
-          "Implemented custom themes and plugins to enhance the website's functionality and meet specific client needs.",
-          "Optimized the website for performance and SEO to improve search engine rankings and user experience."
-        ],
-        "KeyFeatures": [
-          "Detailed project pages with images, descriptions, and progress updates.",
-          "Interactive elements such as project galleries and client testimonials.",
-          "Advanced contact forms integrated with CRM for efficient lead capture and management.",
-          "Regular maintenance and updates to ensure the website remains secure and functional."
-        ],
-        "Mission": [
-          "The mission is to showcase RIPSS Infrastructure's projects and capabilities, attracting new clients and stakeholders."
-        ],
-        "Impact": [
-          "The website has helped RIPSS Infrastructure attract new clients and showcase their projects effectively, leading to increased inquiries and business opportunities."
-        ]
-      }
-    },
-    {
-      "title": "Premier Energies",
-      "title_pofile": "Premier Energies",
-      "slug": "premier-energies",
-      "imgSrc": "https://i.imgur.com/61gO6K7.png",
-      "description": [
-        "Maintained and developed new pages for the Premier Energies corporate website, focusing on their renewable energy solutions and projects."
-      ],
-      "productData": {
-        "Role": [
-          {
-            "label": "Role :",
-            "tags": [
-              "Frontend Developer "
-            ]
-          },
-          {
-            "label": "Work :",
-            "tags": [
-              "UX",
-              "APi Intergration, Data handling"
-            ]
-          },
-          {
-            "label": "Technology :",
-            "tags": [
-              "Artificial Intelligence",
-              "Technology"
-            ]
-          },
-          {
-            "label": "Time line:",
-            "tags": [
-              "Nov. 2023 - Dec. 2024"
-            ]
-          }
-        ],
-        "Details": [
-          "Used a combination of HTML5, CSS3, and JavaScript to create a responsive and user-friendly interface.",
-          "Integrated with third-party services for project management and contact forms to enhance functionality.",
-          "Implemented SEO best practices to improve visibility on search engines and drive traffic to the site."
-        ],
-        "KeyFeatures": [
-          "Detailed project pages with images, descriptions, and progress updates.",
-          "Interactive elements such as project timelines and client testimonials to engage visitors.",
-          "Advanced search functionality to help users find information quickly.",
-          "Regular maintenance and updates to ensure the site remains secure and functional."
-        ],
-        "Mission": [
-          "The mission is to showcase Premier Energies' renewable energy projects and solutions, promoting sustainability and attracting new clients."
-        ],
-        "Impact": [
-          "The website has enhanced Premier Energies' online presence and reputation, leading to increased inquiries and project opportunities. The user-friendly design and detailed information have been well-received by visitors."
-        ]
-      }
-    },
-    {
-      "title": "Red Cow Dairy",
-      "title_pofile": "Red Cow Dairy",
-      "slug": "redcow-dairy",
-      "imgSrc": "https://i.imgur.com/QCVVsDd.png",
-      "description": [
-        "Maintained and developed new pages for the Red Cow Dairy website, which focuses on their dairy products and services."
-      ],
-      "productData": {
-        "Role": [
-          {
-            "label": "Role :",
-            "tags": [
-              "Frontend Developer "
-            ]
-          },
-          {
-            "label": "Work :",
-            "tags": [
-              "UX",
-              "APi Intergration, Data handling"
-            ]
-          },
-          {
-            "label": "Technology :",
-            "tags": [
-              "Artificial Intelligence",
-              "Technology"
-            ]
-          },
-          {
-            "label": "Time line:",
-            "tags": [
-              "Nov. 2023 - Dec. 2024"
-            ]
-          }
-        ],
-        "Details": [
-          "Utilized WordPress as the CMS to manage and update content efficiently, allowing non-technical staff to make changes as needed.",
-          "Implemented custom themes and plugins to meet specific client requirements and enhance the functionality of the website.",
-          "Optimized the website for performance and SEO, ensuring fast load times and better search engine rankings."
-        ],
-        "KeyFeatures": [
-          "Detailed product pages with high-resolution images, descriptions, and nutritional information.",
-          "Interactive elements such as customer reviews and recipes using Red Cow Dairy products.",
-          "Advanced contact forms integrated with CRM for efficient lead management.",
-          "Regular updates and maintenance to ensure the website remains secure and up-to-date."
-        ],
-        "Mission": [
-          "The mission is to present Red Cow Dairy's products and services through a visually appealing and functional website, promoting their commitment to quality and customer satisfaction."
-        ],
-        "Impact": [
-          "The website has helped Red Cow Dairy attract new customers and showcase their products effectively, leading to increased sales and brand recognition. The user-friendly interface and comprehensive product information have been well-received by users."
-        ]
-      }
+      "Impact": [
+        "The website has become a flagship project, with users drawn to the immersive animations and interactive features that leave a lasting impression. The design's smooth responsiveness and optimized performance have set a new standard for web development in real estate."
+      ]
     }
-  ]
-}
+  },
+  {
+    "title": "Plumber Bathware Dealer Landing Page",
+    "slug": "plumber-bathware-dealer-landing-page",
+    "imgSrc": "https://www.plumberbathware.com/become-a-dealer/",
+    "description": [
+      "Developed a lead-generating landing page for Plumber Bathware's dealership expansion initiative. As the frontend developer, I focused on creating an engaging, responsive design that encourages potential dealers to sign up through a multi-step form process."
+    ],
+    "productData": {
+      "Role": [
+        {
+          "label": "Role :",
+          "tags": ["Frontend Developer"]
+        }
+      ],
+      "Work": [
+        {
+          "label": "Work :",
+          "tags": [
+            "Design-to-Code Implementation",
+            "Multi-Step Form Development",
+            "Formik and Yup Integration for Validation",
+            "Custom Video Player Component",
+            "GTM Data Layer Implementation",
+            "Lead Generation Optimization"
+          ]
+        }
+      ],
+      "Technology": [
+        {
+          "label": "Technology :",
+          "tags": [
+            "React",
+            "Formik",
+            "Yup",
+            "Google Tag Manager (GTM)",
+            "GSAP (GreenSock Animation Platform)"
+          ]
+        }
+      ],
+      "Timeline": [
+        {
+          "label": "Timeline :",
+          "tags": ["Completed"]
+        }
+      ],
+      "Details": [
+        "Convert complex design concepts into fully functional, responsive code, ensuring pixel-perfect implementation across various devices.",
+        "Developed a multi-step form using Formik and Yup libraries, implementing robust validation logic to capture high-quality leads without user frustration.",
+        "Created a custom video player component to showcase company information and product demos, enhancing user engagement and conversion rates.",
+        "Implemented Google Tag Manager (GTM) Data Layer to track user interactions, form submissions, and conversion events, providing valuable insights for marketing optimization.",
+        "Optimized the lead generation process by strategically placing CTAs throughout the multi-step form, reducing drop-off rates and increasing overall conversions.",
+        "Utilized React for building reusable components and managing state efficiently, improving development speed and maintainability.",
+        "Applied advanced animation techniques using GSAP to enhance visual appeal and interactivity, keeping users engaged throughout the form-filling process."
+      ],
+      "KeyFeatures": [
+        "Multi-step form with seamless navigation and clear progress indicators",
+        "Robust form validation using Formik and Yup for accurate data collection",
+        "Custom-built video player for immersive content presentation",
+        "GTM Data Layer integration for comprehensive event tracking and analytics",
+        "Strategic placement of calls-to-action to maximize conversion rates",
+        "Engaging animations powered by GSAP for enhanced visual appeal"
+      ],
+      "Mission": [
+        "Create an effective, engaging landing page that captures high-quality leads for Plumber Bathware's dealership program while providing a seamless user experience."
+      ],
+      "Impact": [
+        "Significantly increased lead generation for Plumber Bathware's dealership program, contributing to successful business expansion. Client satisfaction improved due to the high quality of captured leads and enhanced user experience."
+      ]
+    }
+  },
+  {
+    "title": "Save Water Pledge Landing Page",
+    "slug": "save-water-pledge-landing-page",
+    "imgSrc": "https://www.plumberbathware.com/Save-water-pledge/",
+    "description": [
+      "Developed an educational landing page for Plumber Bathware's Save Water Pledge initiative. As the frontend developer, I focused on creating an informative experience that educates users about water conservation and promotes the benefits of water-efficient products."
+    ],
+    "productData": {
+      "Role": [
+        {
+          "label": "Role :",
+          "tags": ["Frontend Developer"]
+        }
+      ],
+      "Work": [
+        {
+          "label": "Work :",
+          "tags": [
+            "Educational Content Implementation",
+            "Water Conservation Messaging Design",
+            "Formik and Yup Integration for User Engagement",
+            "Responsive Design",
+            "Performance Optimization",
+            "GTM Data Layer Implementation"
+          ]
+        }
+      ],
+      "Technology": [
+        {
+          "label": "Technology :",
+          "tags": ["React", "Formik", "Yup", "Google Tag Manager (GTM)"]
+        }
+      ],
+      "Timeline": [
+        {
+          "label": "Timeline :",
+          "tags": ["Completed"]
+        }
+      ],
+      "Details": [
+        "Designed and implemented an educational landing page focused on promoting water conservation and the benefits of Plumber Bathware's products.",
+        "Created a responsive design that adapts seamlessly across various devices, ensuring optimal viewing experience regardless of screen size.",
+        "Developed a user-friendly form using Formik and Yup libraries, implementing robust validation logic to encourage users to take action.",
+        "Optimized performance by implementing efficient state management with React and minimizing unnecessary DOM manipulations.",
+        "Integrated Google Tag Manager (GTM) Data Layer to track user interactions, form submissions, and conversion events, providing valuable insights for marketing optimization.",
+        "Focused on creating an engaging and informative experience that educates users about water-saving techniques and promotes the benefits of water-efficient plumbing solutions."
+      ],
+      "KeyFeatures": [
+        "Responsive design adapting to various screen sizes and devices",
+        "User-friendly form with client-side validation",
+        "Efficient form submission tracking with GTM Data Layer",
+        "High-performance implementation with optimized load times",
+        "Educational content highlighting water conservation tips and product benefits"
+      ],
+      "Mission": [
+        "Create an effective, educational landing page that informs users about water conservation and promotes the value of Plumber Bathware's water-efficient products."
+      ],
+      "Impact": [
+        "Successfully increased user engagement with the Save Water Pledge campaign, raising awareness about water conservation and the importance of water-efficient plumbing solutions. Client satisfaction improved due to the high quality of captured leads and enhanced user experience."
+      ]
+    }
+  },
+  {
+    "title": "Neat Skill",
+    "title_pofile": "Neat Skill",
+    "slug": "neat-skill",
+    "imgSrc": "https://i.imgur.com/kc5hpv4.png",
+    "description": [
+      "Developed a scalable online learning platform offering a wide range of courses across various disciplines, including technology, business, and personal development. The platform is designed to provide an intuitive and effective learning experience."
+    ],
+    "productData": {
+      "Role": [
+        {
+          "label": "Role :",
+          "tags": ["Full Stack Developer "]
+        },
+        {
+          "label": "Work :",
+          "tags": ["Authentication", "APi Intergration", " Data handling"]
+        },
+        {
+          "label": "Technology :",
+          "tags": ["Next.js", "GCP", "Tailwind"]
+        },
+        {
+          "label": "Time line:",
+          "tags": ["Aug. 2022 - Apr. 2023"]
+        }
+      ],
+      "Details": [
+        "Built using a robust tech stack, including Next.js for the front end and backend,  using GCP for the database, ensuring a fast and responsive user experience.",
+        "Integrated with third-party payment gateways like PayPal and Stripe to facilitate seamless transactions and secure payments.",
+        "Implemented a comprehensive user authentication system, including social login options, to provide a secure and convenient user experience."
+      ],
+      "KeyFeatures": [
+        "Modular course management system that allows for easy updates, scalability, and the addition of new courses without significant development overhead.",
+        "Real-time quizzes and assessments with instant feedback, providing an interactive and engaging learning experience for users.",
+        "Automated certification generation and verification system, allowing users to receive and verify their course completion certificates online."
+      ],
+      "Mission": [
+        "The mission is to empower individuals by providing accessible, high-quality online education that equips them with the skills and knowledge needed to succeed in today's competitive job market."
+      ],
+      "Impact": [
+        "NeatSkills has enabled thousands of learners to advance their careers and personal development, with high user satisfaction rates and positive feedback on the platform’s ease of use and course quality. Many users report significant improvements in their job performance and career opportunities as a result of the skills acquired."
+      ]
+    }
+  },
+  {
+    "title": "Fastway - Digital Cable TV and Broadband",
+    "title_profile": "Fastway - Digital Cable TV and Broadband",
+    "slug": "fastway",
+    "imgSrc": "https://i.imgur.com/yKA46ye.png",
+    "description": [
+      "Developed a dynamic platform for Fastway, offering digital cable TV and broadband services. The website features a booking system, recharge system, and efficient data management, while ensuring high performance and scalability."
+    ],
+    "productData": {
+      "Role": [
+        {
+          "label": "Role :",
+          "tags": ["Frontend Developer"]
+        },
+        {
+          "label": "Work :",
+          "tags": [
+            "UI/UX Development",
+            "API Integration",
+            "Data Handling",
+            "Performance Optimization"
+          ]
+        },
+        {
+          "label": "Technology :",
+          "tags": ["React.js", "Bootstrap CSS", "CDN", "RESTful APIs"]
+        },
+        {
+          "label": "Timeline :",
+          "tags": ["June 2023 - July 2023"]
+        }
+      ],
+      "Details": [
+        "Built a dynamic website using React, offering seamless navigation and improved user experience for digital cable TV and broadband services.",
+        "Implemented a booking system to allow users to schedule new connections and service requests, as well as a recharge system for cable and internet services.",
+        "Managed large datasets and user accounts, optimizing data flow and storage for efficient service handling.",
+        "Optimized the website’s performance through CDN integration, reducing load times and improving overall responsiveness."
+      ],
+      "KeyFeatures": [
+        "Dynamic booking system for scheduling new service connections.",
+        "Recharge system allowing users to manage subscriptions and renew services.",
+        "Highly optimized performance using CDN for faster content delivery and better user experience.",
+        "Data management for tracking user accounts, services, and transactions efficiently.",
+        "Responsive design with a focus on delivering a seamless experience across devices."
+      ],
+      "Mission": [
+        "To create a dynamic and scalable platform that allows Fastway to efficiently manage their digital TV and broadband services, ensuring a superior user experience with fast performance and intuitive functionality."
+      ],
+      "Impact": [
+        "The website’s dynamic architecture has allowed Fastway to scale its services more effectively, resulting in a significant increase in customer satisfaction. The performance optimization measures have ensured fast load times and a seamless user experience, leading to higher engagement and retention rates."
+      ]
+    }
+  },
+  {
+    "title": "Netplus Broadband - High-Speed Internet",
+    "title_profile": "Netplus Broadband - High-Speed Internet",
+    "slug": "netplus-broadband",
+    "imgSrc": "https://netplus.co.in/assets/images/logo.png",
+    "description": [
+      "Developed and optimized the Netplus Broadband website, focusing on providing high-speed internet services with dynamic forms, seamless API integration, and a user-friendly interface. The platform ensures fast performance and responsive design, delivering a superior user experience."
+    ],
+    "productData": {
+      "Role": [
+        {
+          "label": "Role :",
+          "tags": ["Frontend Developer"]
+        },
+        {
+          "label": "Work :",
+          "tags": [
+            "API Integration",
+            "Dynamic Forms",
+            "Performance Optimization",
+            "Data Management"
+          ]
+        },
+        {
+          "label": "Technology :",
+          "tags": ["React.js", "Bootstrap CSS", "RESTful APIs"]
+        },
+        {
+          "label": "Timeline :",
+          "tags": ["Ongoing"]
+        }
+      ],
+      "Details": [
+        "Implemented dynamic forms for user registration, service requests, and account management, ensuring faster form load times and better user interaction.",
+        "Seamless API integration to manage broadband plan subscriptions, user accounts, and recharge systems, improving data handling and overall platform efficiency.",
+        "Utilized **Bootstrap CSS** to create a responsive, mobile-friendly design while ensuring a consistent and accessible interface across all devices.",
+        "Focused on **performance optimization** to reduce page load times and improve the overall user experience, making the site faster and more reliable."
+      ],
+      "KeyFeatures": [
+        "Dynamic forms for service bookings, plan upgrades, and recharges.",
+        "API integration for seamless data flow between the frontend and backend services.",
+        "Performance optimization through CDN integration and minimized assets for faster loading.",
+        "Responsive design powered by Bootstrap CSS, ensuring mobile compatibility.",
+        "Efficient data management for user accounts, subscriptions, and support services."
+      ],
+      "Mission": [
+        "To deliver a fast, dynamic platform for Netplus Broadband that allows users to easily manage their internet services with minimal friction, while ensuring high performance and scalability."
+      ],
+      "Impact": [
+        "Improved user experience through faster load times and seamless interactions with dynamic forms. Netplus has seen increased user satisfaction and more efficient service management due to API and data optimizations."
+      ]
+    }
+  },
+  {
+    "title": "Sobha Restoplus - Premium Mattress E-Commerce",
+    "title_profile": "Sobha Restoplus - Premium Mattress E-Commerce",
+    "slug": "sobha-restoplus",
+    "imgSrc": "https://i.imgur.com/6w7cCNW.png",
+    "description": [
+      "Developed a responsive and SEO-optimized product portfolio platform for Sobha Restoplus. The website is designed to showcase premium mattresses while maintaining high Core Web Vitals scores to enhance the user experience. Features include a store locator, seamless navigation, and dynamic API integration."
+    ],
+    "productData": {
+      "Role": [
+        {
+          "label": "Role :",
+          "tags": ["Frontend Developer"]
+        },
+        {
+          "label": "Work :",
+          "tags": [
+            "UI to Code",
+            "API Integration",
+            "Responsive Design",
+            "Performance Optimization",
+            "Core Web Vitals Compliance",
+            "SEO Enhancements"
+          ]
+        },
+        {
+          "label": "Technology :",
+          "tags": ["React.js", "Bootstrap", "RESTful APIs"]
+        },
+        {
+          "label": "Timeline :",
+          "tags": ["Nov. 2023 - Dec. 2024"]
+        }
+      ],
+      "Details": [
+        "Implemented a responsive design using Bootstrap for seamless browsing across devices, ensuring a consistent user experience.",
+        "Integrated the store locator feature using API, allowing customers to find nearby stores easily.",
+        "Optimized the platform for **Core Web Vitals**, ensuring fast load times, smooth interactivity, and visual stability for better performance across devices.",
+        "Enhanced **SEO** to improve search rankings and organic traffic, focusing on content optimization and schema markup."
+      ],
+      "KeyFeatures": [
+        "Dynamic product portfolio showcasing premium mattresses with high-quality images and specifications.",
+        "Store locator allowing users to find stores using real-time data.",
+        "Seamless API integration for dynamic product listings and customer data management.",
+        "Optimized for Core Web Vitals with a focus on **First Contentful Paint (FCP)** and **Largest Contentful Paint (LCP)**.",
+        "Improved SEO performance using schema markup, meta tag optimization, and mobile-first indexing."
+      ],
+      "Mission": [
+        "To deliver a fast, user-friendly platform for Sobha Restoplus that not only showcases products effectively but also adheres to the best practices in web performance and SEO."
+      ],
+      "Impact": [
+        "Enhanced user engagement through optimized Core Web Vitals, resulting in faster loading speeds and improved SEO, driving higher traffic and conversions."
+      ]
+    }
+  },
+  {
+    "title": "Jujhar Travels - Online Booking Platform",
+    "title_profile": "Jujhar Travels - Online Booking Platform",
+    "slug": "jujhar-travels",
+    "imgSrc": "https://i.imgur.com/D45oSdh.png",
+    "description": [
+      "Developed the front-end of Jujhar Travels' online travel booking platform, offering users a seamless interface for scheduling and booking transportation services. The platform is optimized for Core Web Vitals and enhanced UX, ensuring fast load times and superior user engagement."
+    ],
+    "productData": {
+      "Role": [
+        {
+          "label": "Role :",
+          "tags": ["Frontend Developer"]
+        },
+        {
+          "label": "Work :",
+          "tags": [
+            "HTML/CSS Development",
+            "jQuery Integration",
+            "Performance Optimization",
+            "SEO Optimization",
+            "UX Enhancement"
+          ]
+        },
+        {
+          "label": "Technology :",
+          "tags": ["HTML", "CSS", "jQuery"]
+        },
+        {
+          "label": "Timeline :",
+          "tags": ["Nov. 2023 - Dec. 2024"]
+        }
+      ],
+      "Details": [
+        "Developed the front-end using **HTML, CSS, and jQuery**, providing a responsive and intuitive user interface for easy booking of travel services.",
+        "Enhanced **Core Web Vitals** by optimizing load times, interactivity, and visual stability, ensuring better performance across devices.",
+        "Improved **SEO** through optimized metadata, URL structure, and mobile-first indexing, increasing organic traffic.",
+        "Focused on **UX design** to take the user experience to the next level by improving navigation flow, ensuring ease of use, and enhancing customer satisfaction.",
+        "Collaborated with the client (Jujhar Travels) on dynamic features and backend integration, while focusing solely on the front-end development."
+      ],
+      "KeyFeatures": [
+        "Responsive front-end design using HTML, CSS, and jQuery, ensuring accessibility on all devices.",
+        "Optimized for **Core Web Vitals** to ensure fast load times, interactivity, and visual stability.",
+        "SEO-optimized platform, increasing search visibility and traffic.",
+        "Enhanced UX design, improving the overall booking process and user engagement."
+      ],
+      "Mission": [
+        "To provide a seamless and user-friendly booking platform that delivers fast performance and superior user experience while ensuring strong search visibility through SEO optimization."
+      ],
+      "Impact": [
+        "Improved user satisfaction due to faster load times, better performance metrics (Core Web Vitals), and a more intuitive booking experience. Enhanced SEO also resulted in higher organic traffic, contributing to the overall success of the platform."
+      ]
+    }
+  },
+  {
+    "title": "Ameya Group - Real Estate and Infrastructure",
+    "title_profile": "Ameya Group - Real Estate and Infrastructure",
+    "slug": "ameya-group",
+    "imgSrc": "https://ameyagroup.in/static/media/logo.png",
+    "description": [
+      "Maintained and upgraded the React-based website for Ameya Group, a leader in real estate and infrastructure development. Focused on adapting the platform to new requirements, implementing regular updates, and ensuring optimal performance and responsiveness."
+    ],
+    "productData": {
+      "Role": [
+        {
+          "label": "Role :",
+          "tags": ["Frontend Developer", "Website Maintenance"]
+        },
+        {
+          "label": "Work :",
+          "tags": [
+            "Website Maintenance",
+            "Performance Optimization",
+            "Bug Fixes",
+            "Feature Upgrades"
+          ]
+        },
+        {
+          "label": "Technology :",
+          "tags": ["React.js", "CSS", "JavaScript", "Bootstrap"]
+        },
+        {
+          "label": "Timeline :",
+          "tags": ["Ongoing"]
+        }
+      ],
+      "Details": [
+        "Maintained and updated the React-based website, ensuring stability and performance improvements.",
+        "Implemented upgrades, adding new features and optimizing responsiveness using Bootstrap.",
+        "Handled bug fixes and performance improvements to ensure smooth user interactions.",
+        "Focused on maintaining a modern and intuitive design that aligns with business needs."
+      ],
+      "KeyFeatures": [
+        "Regular updates to the React-based front end, ensuring smooth and dynamic performance.",
+        "Performance optimization for faster page load times and enhanced responsiveness.",
+        "Feature upgrades, including new layouts and design elements based on the latest standards."
+      ],
+      "Mission": [
+        "To provide continuous updates and improvements for the Ameya Group’s website using React, ensuring a high-performing, scalable platform that meets business requirements."
+      ],
+      "Impact": [
+        "The consistent updates and performance optimizations have enhanced user experience, resulting in improved engagement and site reliability for Ameya Group's customers."
+      ]
+    }
+  },
+  {
+    "title": "SMC Trade Online - Financial Trading Platform",
+    "title_profile": "SMC Trade Online - Financial Trading Platform",
+    "slug": "smc-trade-online",
+    "imgSrc": "https://www.smctradeonline.com/images/logo.png",
+    "description": [
+      "Contributed to the frontend development of SMC Trade Online, a financial trading platform. Developed calculators, UI components, and interactive features using React, MUI, and Bootstrap to improve user experience and engagement."
+    ],
+    "productData": {
+      "Role": [
+        {
+          "label": "Role :",
+          "tags": ["Support Frontend Developer"]
+        },
+        {
+          "label": "Work :",
+          "tags": [
+            "Frontend Development",
+            "Calculator Development",
+            "Component Development",
+            "Interactive UI Components"
+          ]
+        },
+        {
+          "label": "Technology :",
+          "tags": ["React.js", "Material-UI (MUI)", "Bootstrap", "JavaScript"]
+        },
+        {
+          "label": "Timeline :",
+          "tags": ["Ongoing"]
+        }
+      ],
+      "Details": [
+        "Created financial calculators and interactive UI components using **React** and **Material-UI** to enhance user engagement.",
+        "Developed modular, reusable components to improve the maintainability and scalability of the frontend.",
+        "Ensured responsiveness and accessibility using **Bootstrap** and **MUI**, improving user experience across devices.",
+        "Focused on the frontend design and interaction layer, without backend integration, ensuring a visually cohesive and intuitive UI."
+      ],
+      "KeyFeatures": [
+        "Interactive financial calculators developed with React and MUI.",
+        "Modular, reusable UI components to enhance maintainability and scalability.",
+        "Responsive, mobile-friendly design using Bootstrap and MUI.",
+        "Seamless and intuitive UI development focused solely on frontend aspects."
+      ],
+      "Mission": [
+        "To enhance the SMC Trade Online platform by developing highly interactive, responsive frontend components using React, MUI, and Bootstrap, improving the overall user experience."
+      ],
+      "Impact": [
+        "Improved user interaction with financial tools, contributing to better engagement. The well-designed components and calculators have made trading resources more accessible and user-friendly."
+      ]
+    }
+  },
+  {
+    "title": "Cancer Campaign-Assure PathLabs",
+    "title_profile": "Cancer Campaign-Assure PathLabs",
+    "slug": "assure-pathlabs-cancer",
+    "imgSrc": "https://i.imgur.com/tFTqYHD.png",
+    "description": [
+      "This project involved creating a comprehensive online campaign aimed at generating leads for cancer checkup pathology packages. The campaign provides easy access to health check-up information and encourages bookings through a user-friendly interface."
+    ],
+    "productData": {
+      "Role": [
+        {
+          "label": "Role :",
+          "tags": [
+            "UI Development",
+            "Dynamic API Integration",
+            "Hosting Management"
+          ]
+        }
+      ],
+      "Work": [
+        {
+          "label": "Work :",
+          "tags": [
+            "Transforming UI Design into Code",
+            "Implementing Dynamic Features"
+          ]
+        }
+      ],
+      "Technology": [
+        {
+          "label": "Technology :",
+          "tags": ["React", "CPANEL Server", "Tailwind CSS"]
+        }
+      ],
+      "Timeline": [
+        {
+          "label": "Timeline :",
+          "tags": ["November 2023"]
+        }
+      ],
+      "Details": [
+        "The campaign integrates a variety of resources related to cancer checkups and pathology packages, allowing users to easily navigate and understand the services offered.",
+        "Responsive design principles were applied to ensure that all content is accessible and easily readable on desktops, tablets, and smartphones, providing an optimal viewing experience across different devices.",
+        "Utilized Google Tag Manager (GTM) for tracking performance metrics and user interactions, allowing for data-driven decisions and real-time monitoring through a robust data layer.",
+        "Developed landing pages designed specifically to help clients convert leads by making it easy for users to book tests and select health packages.",
+        "Implemented a direct booking system that allows users to seamlessly schedule appointments, ensuring that no booking opportunities are missed."
+      ],
+      "KeyFeatures": [
+        "Dynamic updates enabled by the CMS, allowing timely information about pathology packages to be shared with users.",
+        "Interactive booking forms and clear calls-to-action designed to drive user engagement and lead conversion.",
+        "Advanced analytics to track user engagement and conversion rates, helping to refine and improve the campaign based on real user interactions."
+      ],
+      "Mission": [
+        "As a developer, my mission is to create intuitive and user-friendly platforms that effectively generate leads for cancer checkup pathology packages. By streamlining the booking process and enhancing user experience, I aim to support the overall goal of increasing health checkup uptake."
+      ],
+      "Impact": [
+        "Through continuous learning about healthcare fundamentals, I focused on designing a platform that encourages users to book cancer checkup packages. The campaign has led to a substantial increase in leads generated for pathology services, reflecting a successful conversion strategy that enhances user engagement."
+      ]
+    }
+  },
+  {
+    "title": "Father's Day Campaign-Assure Pathlabs",
+    "title_profile": "Father's Day Campaign-Assure Pathlabs",
+    "slug": "assure-pathlabs-fathers",
+    "imgSrc": "https://i.imgur.com/t6nNibu.png",
+    "description": [
+      "This project focused on creating an engaging online campaign to generate leads for senior health packages targeted specifically at fathers. The campaign encourages users to prioritize health screenings through an intuitive platform."
+    ],
+    "productData": {
+      "Role": [
+        {
+          "label": "Role :",
+          "tags": [
+            "UI Development",
+            "Dynamic API Integration",
+            "Hosting Management"
+          ]
+        }
+      ],
+      "Work": [
+        {
+          "label": "Work :",
+          "tags": [
+            "Transforming UI Design into Code",
+            "Implementing Dynamic Features"
+          ]
+        }
+      ],
+      "Technology": [
+        {
+          "label": "Technology :",
+          "tags": ["React", "CPANEL Server", "Tailwind CSS"]
+        }
+      ],
+      "Timeline": [
+        {
+          "label": "Timeline :",
+          "tags": ["June 15-16, 2023"]
+        }
+      ],
+      "Details": [
+        "Developed an interactive landing page that highlights the importance of regular screenings for senior health packages, aiming to convert leads through compelling content and clear calls-to-action.",
+        "Utilized responsive design principles to ensure accessibility on all devices, making it easy for users to navigate and book senior health packages regardless of their device.",
+        "Implemented Google Tag Manager (GTM) for performance tracking and analytics, allowing for data-driven improvements based on user interactions.",
+        "Created a direct booking feature that streamlines the appointment scheduling process, ensuring that no booking opportunities are missed."
+      ],
+      "KeyFeatures": [
+        "A user-friendly interface that allows users to easily browse and select tailored senior health packages, specifically targeting fathers.",
+        "Real-time data validation for user input, enhancing the booking experience and minimizing errors.",
+        "SEO-optimized content to improve search visibility and attract more organic traffic to the campaign."
+      ],
+      "Mission": [
+        "As a developer, my mission is to create an engaging platform that effectively promotes health awareness among fathers. By ensuring a smooth booking process and enhancing user experience, I aim to facilitate lead generation for senior health packages."
+      ],
+      "Impact": [
+        "The campaign has significantly increased online bookings for senior health packages, converting a large number of leads into actual appointments. Continuous learning about healthcare fundamentals has enabled me to design a more user-friendly experience, contributing to the overall success of the campaign."
+      ]
+    }
+  },
+  {
+    "title": "Assure Path Labs - General",
+    "title_profile": "Assure Path Labs - General",
+    "slug": "assure-pathlabs",
+    "imgSrc": "https://i.imgur.com/D45oSdh.png",
+    "description": [
+      "Developed a modern, responsive online platform for Assure Path Labs that simplifies health package bookings, prescription uploads, and includes a highly efficient search system."
+    ],
+    "productData": {
+      "Role": [
+        {
+          "label": "Role :",
+          "tags": ["Frontend Developer"]
+        },
+        {
+          "label": "Work :",
+          "tags": ["UI Design to Code", "API Integration", "Form Handling"]
+        },
+        {
+          "label": "Technology :",
+          "tags": [
+            "React",
+            "Tailwind CSS",
+            "Formik & Yup (Form Validation)",
+            "Context API",
+            "MUI",
+            "VPS Server"
+          ]
+        },
+        {
+          "label": "Timeline :",
+          "tags": ["Nov. 2023 - Dec. 2024"]
+        }
+      ],
+      "Details": [
+        "Developed a seamless user experience for booking health packages and viewing test results. The platform is equipped with a cart system and offers features like prescription uploads and real-time search functionality to ease the user experience.",
+        "Form handling and validation were implemented using Formik and Yup, ensuring error-free submissions.",
+        "The booking system is managed through a third-party SaaS for user registration and authentication, enhancing feasibility and security.",
+        "Integrated API connections between the frontend and backend services for accurate and real-time health package bookings.",
+        "Ensured that the website is highly responsive and fully accessible on different devices to reach a wider user base, with the help of Tailwind CSS and React."
+      ],
+      "KeyFeatures": [
+        "Highly efficient search system that allows users to find health packages quickly.",
+        "Direct booking functionality ensures that no potential bookings are missed, offering a smooth experience for users from start to finish.",
+        "The platform supports third-party SaaS sign-up and authentication for added flexibility.",
+        "Form validation with Formik & Yup to prevent booking errors, contributing to user satisfaction.",
+        "A prescription upload system for users to share medical documents securely before tests."
+      ],
+      "Mission": [
+        "To create a seamless and accessible online platform for Assure Path Labs, with a user-friendly interface for health check-up bookings and effective management of user data. As a developer, I aimed to enhance the platform's responsiveness, security, and overall usability, applying key technical skills and knowledge."
+      ],
+      "Impact": [
+        "The platform's simplified booking system has led to a significant increase in bookings, with direct package purchasing, and the smooth, user-centric design has improved customer retention. By utilizing caching and local storage, the platform also tracks and manages past test bookings, improving the user experience further."
+      ]
+    }
+  },
+  {
+    "title": "Patel Hospital - Healthcare Website",
+    "title_profile": "Patel Hospital - Healthcare Website",
+    "slug": "patel-hospital",
+    "imgSrc": "https://i.imgur.com/D45oSdh.png",
+    "description": [
+      "Developed a dynamic, responsive website for Patel Hospital that simplifies healthcare services, including doctor search, appointment bookings, and real-time information accessibility. The platform integrates multiple APIs to ensure smooth data handling, while SEO optimization and GTM data layer management ensure better online visibility and tracking."
+    ],
+    "productData": {
+      "Role": [
+        {
+          "label": "Role :",
+          "tags": ["Frontend Developer", "Data Management"]
+        },
+        {
+          "label": "Work :",
+          "tags": [
+            "Component Management",
+            "API Integration",
+            "GTM Data Layer Management",
+            "CMS Implementation",
+            "Form Handling",
+            "SEO Optimization"
+          ]
+        },
+        {
+          "label": "Technology :",
+          "tags": [
+            "React",
+            "Bootstrap CSS",
+            "Formik & Yup (Form Validation)",
+            "MUI",
+            "Google Tag Manager (GTM)",
+            "SEO Best Practices"
+          ]
+        },
+        {
+          "label": "Timeline :",
+          "tags": ["Ongoing"]
+        }
+      ],
+      "Details": [
+        "Led the frontend development of the Patel Hospital website, focusing on creating a dynamic user interface and ensuring SEO compliance.",
+        "Integrated the GTM data layer to track user interactions, allowing accurate tracking for marketing and analytical purposes.",
+        "Implemented API integrations for features such as doctor search and the appointment booking system.",
+        "Developed a search system to allow users to find doctors based on specialty, location, and availability.",
+        "Integrated a content management system (CMS) for seamless, non-technical updates to the website.",
+        "Handled form validation using Formik and Yup to ensure error-free submissions, enhancing the user experience.",
+        "Optimized the website for SEO using best practices, improving the website's visibility on search engines and driving more organic traffic."
+      ],
+      "KeyFeatures": [
+        "Doctor search system for finding doctors based on various criteria like specialty and availability.",
+        "Dynamic content management system (CMS) for easy updates to the website without developer intervention.",
+        "Book an Appointment system allowing users to schedule appointments with doctors.",
+        "GTM Data Layer Integration for enhanced tracking and analysis of user interactions.",
+        "SEO optimization to improve search engine visibility and organic traffic.",
+        "Form validation via Formik and Yup to prevent errors in appointment and inquiry forms."
+      ],
+      "Mission": [
+        "To create a modern, accessible platform for Patel Hospital that supports healthcare service bookings, provides efficient search functionalities, integrates GTM data layer tracking, and ensures optimal SEO performance."
+      ],
+      "Impact": [
+        "Improved tracking and marketing capabilities through GTM data layer integration, allowing detailed analysis of user interactions.",
+        "Significantly increased organic traffic due to SEO optimization, improving the hospital's online visibility and user engagement.",
+        "Streamlined the user experience through enhanced search, appointment booking, and fast, dynamic page loading."
+      ]
+    }
+  },
+  {
+    "title": "IEC Gensets - Power Solutions",
+    "title_profile": "IEC Gensets - Power Solutions",
+    "slug": "iec-gensets",
+    "imgSrc": "https://www.iecgensets.com/images/banner.jpg",
+    "description": [
+      "Developed and managed the website for IEC Gensets, an industrial equipment company specializing in power solutions. The site showcases their product offerings, including diesel and gas generators, and highlights their certifications and sustainability initiatives."
+    ],
+    "productData": {
+      "Role": [
+        {
+          "label": "Role :",
+          "tags": ["Frontend Developer", "Data Management"]
+        },
+        {
+          "label": "Work :",
+          "tags": [
+            "Component Management",
+            "API Integration",
+            "Data Management",
+            "GTM Data Layer Management",
+            "CMS Implementation",
+            "SEO Optimization"
+          ]
+        },
+        {
+          "label": "Technology :",
+          "tags": [
+            "React",
+            "Bootstrap CSS",
+            "Formik & Yup (Form Validation)",
+            "MUI",
+            "Google Tag Manager (GTM)",
+            "SEO Best Practices"
+          ]
+        },
+        {
+          "label": "Timeline :",
+          "tags": ["Ongoing"]
+        }
+      ],
+      "Details": [
+        "Led the frontend development of the IEC Gensets website, implementing a dynamic product showcase and informational sections for ISO-certified products.",
+        "Integrated the GTM data layer to track user interactions for marketing analysis.",
+        "Implemented a CMS to allow easy updates of product listings, services, and certifications.",
+        "Optimized the website for SEO to improve visibility on search engines, focusing on competitive industrial equipment keywords.",
+        "Ensured the website was responsive across all devices using Tailwind CSS and React, improving accessibility for clients and partners."
+      ],
+      "KeyFeatures": [
+        "Dynamic product listings with detailed information on power solutions like diesel and gas generators.",
+        "GTM Data Layer Integration for detailed tracking of user behavior and engagement.",
+        "SEO optimization to improve rankings in industrial equipment-related search results.",
+        "CMS for easy content management of products and certifications without requiring technical expertise.",
+        "Responsive and accessible design to ensure optimal user experience across all devices."
+      ],
+      "Mission": [
+        "To create an intuitive, SEO-optimized website that effectively showcases IEC Gensets' range of industrial power solutions while enabling easy content management and accurate user tracking."
+      ],
+      "Impact": [
+        "Improved online visibility through SEO optimization, leading to increased traffic and inquiries for power solutions.",
+        "Enhanced ability to track user engagement and behavior through GTM data layer integration, helping refine marketing strategies.",
+        "Simplified content management through CMS, allowing quick updates to product offerings and certifications."
+      ]
+    }
+  },
+
+  {
+    "title": "Plumber Bathware",
+    "title_profile": "Plumber Bathware",
+    "slug": "plumber-bathware",
+    "imgSrc": "https://i.imgur.com/HpGhAQE.png",
+    "description": [
+      "Led the UI revamp and ongoing maintenance of the Plumber Bathware e-commerce platform, built with PHP and jQuery. This platform specializes in high-quality bathroom fixtures and accessories, providing a seamless shopping experience for users."
+    ],
+    "productData": {
+      "Role": [
+        {
+          "label": "Role :",
+          "tags": ["Frontend Developer"]
+        },
+        {
+          "label": "Work :",
+          "tags": [
+            "UI Revamp",
+            "Bug Tracking & Fixing",
+            "API Integration",
+            "Real-time Data Handling"
+          ]
+        },
+        {
+          "label": "Technology :",
+          "tags": ["PHP", "jQuery", "MySQL", "AJAX"]
+        },
+        {
+          "label": "Timeline :",
+          "tags": ["Nov. 2023 - Dec. 2024"]
+        }
+      ],
+      "Details": [
+        "Enhanced the UI using jQuery and PHP to improve user interaction, ensuring the platform remained visually appealing and functionally efficient.",
+        "Learned a significant amount about PHP and jQuery through this project, including debugging techniques and performance optimization for better page load times and responsiveness.",
+        "Tracked and resolved numerous bugs that were affecting the website’s functionality, ensuring smooth operation and a seamless user experience.",
+        "Implemented real-time updates for inventory and pricing through AJAX, allowing for immediate changes without the need for page reloads, ensuring the platform operated 24/7 with minimal downtime.",
+        "Performed thorough testing and debugging to maintain website reliability and prevent downtime, ensuring the platform was accessible to users at all times."
+      ],
+      "KeyFeatures": [
+        "Revamped UI with a focus on enhancing user experience and simplifying navigation.",
+        "Advanced product filtering and search options to improve product discoverability.",
+        "Bug tracking and resolution to ensure a smooth user experience and continuous platform availability.",
+        "Real-time updates for stock and pricing, ensuring that users always see the latest information.",
+        "Secure checkout with multiple payment options integrated into the platform for a seamless transaction experience."
+      ],
+      "Mission": [
+        "The goal was to overhaul the user experience by fixing existing bugs, enhancing the UI, and integrating real-time updates. The focus was on creating a fast, user-friendly, and efficient platform that delivers a reliable shopping experience while reducing the time spent by users searching for products or waiting for updates."
+      ],
+      "Impact": [
+        "The UI improvements, real-time updates, and bug fixes significantly increased site uptime and user satisfaction. The website's ability to operate around the clock with minimal disruption led to higher sales and improved customer retention."
+      ]
+    }
+  },
+  {
+    "title": "Premier Energies",
+    "title_profile": "Premier Energies",
+    "slug": "premier-energies",
+    "imgSrc": "https://i.imgur.com/61gO6K7.png",
+    "description": [
+      "Managed and developed new features for the Premier Energies corporate website, focusing on renewable energy solutions and secure dynamic sections, including investor relations and a solar power calculator."
+    ],
+    "productData": {
+      "Role": [
+        {
+          "label": "Role :",
+          "tags": ["Full Stack Developer"]
+        },
+        {
+          "label": "Work :",
+          "tags": [
+            "UI/UX Design",
+            "API Integration",
+            "Data Handling",
+            "Full Site Management"
+          ]
+        },
+        {
+          "label": "Technology :",
+          "tags": ["React.js", "Bootstrap", "Node.js", "MySQL"]
+        },
+        {
+          "label": "Timeline :",
+          "tags": ["Nov. 2023 - Dec. 2024"]
+        }
+      ],
+      "Details": [
+        "Led the entire front-end development using React.js and Bootstrap, managing everything from UI to functionality across the platform.",
+        "Created secure, dynamic sections such as **Investor Relations** and a **Solar Power Calculator**, providing personalized experiences based on user input.",
+        "Integrated highly customizable forms, including a complex, option-based grievance form to facilitate easy interaction for users.",
+        "Implemented advanced API integrations for seamless backend communication and real-time data updates.",
+        "Ensured high-security standards across all dynamic sections, especially in sensitive areas such as investor relations."
+      ],
+      "KeyFeatures": [
+        "Responsive and highly interactive UI/UX using React and Bootstrap.",
+        "Developing new sections for **Investor Relations** and a **Solar Power Calculator** with real-time data processing.",
+        "Grievance form with a multi-step, option-based interface for better user experience and improved issue resolution.",
+        "SEO and performance optimizations for increased traffic and better user engagement.",
+        "Real-time data handling and secure updates through API integrations."
+      ],
+      "Mission": [
+        "To create a dynamic, secure, and user-friendly platform that showcases Premier Energies' renewable energy solutions, while ensuring ease of use for customers and investors."
+      ],
+      "Impact": [
+        "The site enhancements have improved Premier Energies' online presence, increased user engagement, and provided real-time solutions for clients and investors, leading to more project inquiries and user satisfaction."
+      ]
+    }
+  },
+  {
+    "title": "Red Cow Dairy",
+    "title_profile": "Red Cow Dairy",
+    "slug": "redcow-dairy",
+    "imgSrc": "https://i.imgur.com/QCVVsDd.png",
+    "description": [
+      "Maintained and developed new pages for the Red Cow Dairy website, focusing on optimizing performance while showcasing their dairy products and services."
+    ],
+    "productData": {
+      "Role": [
+        {
+          "label": "Role :",
+          "tags": ["Frontend Developer"]
+        },
+        {
+          "label": "Work :",
+          "tags": ["UI/UX", "API Integration, Data Handling"]
+        },
+        {
+          "label": "Technology :",
+          "tags": ["React", "JavaScript", "REST APIs"]
+        },
+        {
+          "label": "Time line:",
+          "tags": ["Nov. 2023 - Dec. 2024"]
+        }
+      ],
+      "Details": [
+        "Developed the website using React, ensuring high performance and a seamless user experience for displaying dairy products.",
+        "Implemented performance optimization techniques, including code splitting, lazy loading, and caching to enhance loading times.",
+        "Integrated APIs to dynamically load product details and customer reviews, ensuring users have the most current information."
+      ],
+      "KeyFeatures": [
+        "Product pages with high-resolution images, detailed descriptions, and nutritional facts.",
+        "Interactive features such as customer reviews and recipes using Red Cow Dairy products.",
+        "Responsive design to ensure an optimal experience on all devices.",
+        "Seamless and secure order management system for dairy product subscriptions."
+      ],
+      "Mission": [
+        "To effectively showcase Red Cow Dairy’s product range through a highly responsive, user-friendly website built on React."
+      ],
+      "Impact": [
+        "The website has helped Red Cow Dairy attract new customers and showcase their products effectively, leading to increased sales and brand recognition. The user-friendly interface and comprehensive product information have been well-received by users."
+      ]
+    }
+  },
+  {
+    "title": "Satya Groups",
+    "title_profile": "Satya Groups",
+    "slug": "satya-groups",
+    "imgSrc": "https://i.ibb.co/ngrXGxs/satya.png",
+    "description": [
+      "Satya Groups is a prominent real estate developer with a significant market presence, managing numerous projects. The focus of this project was to redesign the UI and optimize the website, ensuring smooth functionality and enhanced performance."
+    ],
+    "productData": {
+      "Role": [
+        {
+          "label": "Role :",
+          "tags": ["Frontend Developer"]
+        },
+        {
+          "label": "Work :",
+          "tags": ["UI/UX Design", "API Integration, Data Management"]
+        },
+        {
+          "label": "Technology :",
+          "tags": ["React", "JavaScript", "SEO Best Practices"]
+        },
+        {
+          "label": "Time line:",
+          "tags": ["Nov. 2023 - Dec. 2024"]
+        }
+      ],
+      "Details": [
+        "Redesigned the UI using React, significantly enhancing user experience and engagement.",
+        "Implemented performance optimization techniques to ensure fast loading speeds and smooth operation.",
+        "Focused on improving Core Web Vitals metrics, enhancing loading performance, interactivity, and visual stability.",
+        "Integrated third-party services for property listings to provide users with comprehensive information."
+      ],
+      "KeyFeatures": [
+        "Detailed property listings with high-resolution images, descriptions, and virtual tours.",
+        "Interactive project timelines and updates to keep stakeholders informed.",
+        "Advanced search functionality to help users find properties that meet their criteria.",
+        "SEO-friendly design to improve visibility on search engines."
+      ],
+      "Mission": [
+        "To showcase Satya Groups' extensive real estate projects effectively while providing potential clients with detailed information and easy access to property listings."
+      ],
+      "Impact": [
+        "The website enhancements have solidified Satya Groups' online presence, leading to increased property inquiries and sales. The combination of a redesigned UI, strong performance, and SEO-friendliness has been well-received by users."
+      ]
+    }
+  },
+  {
+    "title": "NS Arcus",
+    "title_profile": "NS Arcus",
+    "slug": "ns-arcus",
+    "imgSrc": "https://i.imgur.com/HpGhAQE.png",
+    "description": [
+      "NS Arcus is a client specializing in premix cement and construction machinery. The project focuses on maintaining and enhancing their corporate website, showcasing their architectural and design services."
+    ],
+    "productData": {
+      "Role": [
+        {
+          "label": "Role :",
+          "tags": ["Frontend Developer"]
+        },
+        {
+          "label": "Work :",
+          "tags": [
+            "Website Maintenance",
+            "UX Design",
+            "API Integration, Data Management"
+          ]
+        },
+        {
+          "label": "Technology :",
+          "tags": ["React", "JavaScript", "SEO Best Practices"]
+        },
+        {
+          "label": "Time line:",
+          "tags": ["Nov. 2023 - Dec. 2024"]
+        }
+      ],
+      "Details": [
+        "Maintained and updated the NS Arcus website to ensure smooth functionality and performance.",
+        "Developed two new product pages: one for the real estate project 'Anand Niketan' and another for 'Premix Concrete'.",
+        "Optimized the website for performance and SEO, ensuring fast load times and improved search engine rankings."
+      ],
+      "KeyFeatures": [
+        "Comprehensive portfolio section displaying completed projects with high-quality images and detailed descriptions.",
+        "Interactive elements such as project galleries and client testimonials to engage visitors.",
+        "Advanced contact forms integrated with CRM for efficient lead management.",
+        "Regular updates and maintenance to ensure the website remains secure and up-to-date."
+      ],
+      "Mission": [
+        "To present NS Arcus's architectural expertise and services while promoting their premix cement and construction machinery offerings through a visually appealing and functional website."
+      ],
+      "Impact": [
+        "The website enhancements have helped NS Arcus attract new clients and effectively showcase their work, leading to increased inquiries and project opportunities."
+      ]
+    }
+  }
+]

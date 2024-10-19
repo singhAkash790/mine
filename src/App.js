@@ -18,6 +18,7 @@ import ProductDetail from "./ProductDetail";
 import ContactUs from "./ContactUs";
 import Loader from "./components/Loader";
 import ScrollToTop from "./components/ScrollToTop";
+import CustomCursor from "./components/CustomCursor";
 
 function App() {
   useEffect(() => {
@@ -27,6 +28,7 @@ function App() {
 
   return (
     <>
+      <CustomCursor />
       <Loader />
       <Router>
         <ScrollToTop />
