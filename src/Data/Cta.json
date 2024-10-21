@@ -1,8 +1,8 @@
 {
-    "cta": {
-        "contactLink": "./contact",
-        "contactText": "Available For Work",
-        "email": "Akash@gmail.com",
-        "emailLink": "mailto:singhakash2083@gmail.com"
-    }
+  "cta": {
+    "contactLink": "./contact",
+    "contactText": "Hire Me",
+    "email": "Akash@gmail.com",
+    "emailLink": "mailto:singhakash2083@gmail.com"
+  }
 }

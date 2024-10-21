@@ -1,172 +1,186 @@
 {
-    "bannerData": {
-        "imageSrc": "https://i.imgur.com/ZbsqoP2.jpeg",
-        "title": "Akash Singh",
-        "buttonText": "Available For Work",
-        "buttonLink": "/contact",
-        "description": "I am Akash Singh, a dedicated frontend developer with over two years of experience in building high-performance web applications. Specializing in React.js, Next.js, and backend development using Node.js and MongoDB, I have a strong focus on creating seamless, user-friendly, and SEO-optimized solutions. My expertise lies in delivering dynamic and responsive designs that prioritize both functionality and user experience.",
-        "aboutLink": "/about",
-        "aboutText": "KNOW MORE"
+  "bannerData": {
+    "imageSrc": "https://i.imgur.com/ZbsqoP2.jpeg",
+    "title": "Akash Singh",
+    "buttonText": "Available",
+    "buttonLink": "/contact",
+    "description": "I am Akash Singh, a dedicated frontend developer with over two years of experience in building high-performance web applications. Specializing in React.js, Next.js, and backend development using Node.js and MongoDB, I have a strong focus on creating seamless, user-friendly, and SEO-optimized solutions. My expertise lies in delivering dynamic and responsive designs that prioritize both functionality and user experience.",
+    "aboutLink": "/about",
+    "aboutText": "KNOW MORE"
+  },
+  "points": [
+    {
+      "startValue": 10,
+      "endValue": 2,
+      "speed": 2000,
+      "label": "Years of Experience",
+      "Plus": "+"
     },
-    "points": [
-        {
-            "startValue": 10,
-            "endValue": 2,
-            "speed": 2000,
-            "label": "Years of Experience",
-            "Plus": "+"
-        },
-        {
-            "startValue": 0,
-            "endValue": 50,
-            "speed": 1500,
-            "label": "Successful Projects",
-            "Plus": "+"
-        },
-        {
-            "startValue": 0,
-            "endValue": 10,
-            "speed": 1800,
-            "label": "Design Awards",
-            "Plus": "+"
-        }
-    ],
-    "services": [
-        {
-            "id": 1,
-            "title": "01. Web Design",
-            "description": "I specialize in creating modern and elegant designs that not only captivate audiences but also effectively communicate your brand message."
-        },
-        {
-            "id": 2,
-            "title": "02. Web Development",
-            "description": "With proficiency in HTML, CSS, JavaScript, and various development frameworks, I bring your vision to life with pixel-perfect precision."
-        },
-        {
-            "id": 3,
-            "title": "03. Graphic Design",
-            "description": "I specialize in creating impactful visual assets that reflect the unique personality and core values of your brand, ensuring a memorable and authentic representation."
-        },
-        {
-            "id": 4,
-            "title": "04. Website Maintenance",
-            "description": "With my comprehensive website maintenance and support services, you can trust that your online presence is expertly cared for, allowing you to focus on what matters most."
-        }
-    ],
-    "project": {
-        "title": "worked on",
-        "title2": "More Projects",
-        "pagelink": "/portfolio",
-        "projectData": [
-            {
-                "imgSrc": "https://i.imgur.com/t6nNibu.png",
-                "title": "Assure Path Labs - Father's Day Campaign",
-                "slug": "assure-pathlabs-fathers",
-                "tags": [
-                    "Full Frontend Development",
-                    "React",
-                    "Lead Tracking",
-                    "Tailwind"
-                ]
-            },
-            {
-                "imgSrc": "https://i.imgur.com/tFTqYHD.png",
-                "title": "Assure Path Labs - Cancer Campaign",
-                "slug": "assure-pathlabs-cancer",
-                "tags": [
-                    "Full Frontend Development",
-                    "React",
-                    "Lead Tracking",
-                    "Tailwind"
-                ]
-            },
-            {
-                "imgSrc": "https://i.imgur.com/6JH6DTI.png",
-                "title": "Centra Greens",
-                "slug": "centra-greens",
-                "tags": [
-                    "Full Frontend Development",
-                    "React",
-                    "Gsap",
-                    "Tailwind"
-                ]
-            },
-            {
-                "imgSrc": "https://i.imgur.com/yKA46ye.png",
-                "title": "Fastway",
-                "slug": "fastway",
-                "tags": [
-                    "Frontend Development",
-                    "React",
-                    "Tailwind"
-                ]
-            },
-            {
-                "imgSrc": "https://i.imgur.com/D45oSdh.png",
-                "title": "Jujhar Travels",
-                "slug": "jujhar-travels",
-                "tags": [
-                    "UI/UX",
-                    "HTML, CSS, JS"
-                ]
-            },
-            {
-                "imgSrc": "https://i.imgur.com/kc5hpv4.png",
-                "title": "Neat Skill",
-                "slug": "neat-skill",
-                "tags": [
-                    "Development Assistance",
-                    "Next.js",
-                    "Tailwind",
-                    "Firebase",
-                    "Framer Motion"
-                ]
-            },
-            {
-                "imgSrc": "https://i.imgur.com/bHHGMXA.png",
-                "title": "Netplus",
-                "slug": "netplus",
-                "tags": [
-                    "Frontend Development",
-                    "React",
-                    "Data Incorporation",
-                    "Tailwind"
-                ]
-            },
-            {
-                "imgSrc": "https://i.imgur.com/h1ZSiEl.png",
-                "title": "Premier Energies",
-                "slug": "premier-energies",
-                "tags": [
-                    "Frontend Maintenance",
-                    "React"
-                ]
-            },
-            {
-                "imgSrc": "https://i.imgur.com/61gO6K7.png",
-                "title": "Satya Groups",
-                "slug": "satya-groups",
-                "tags": [
-                    "Frontend Maintenance",
-                    "React",
-                    "New Development"
-                ]
-            },
-            {
-                "imgSrc": "https://i.imgur.com/6w7cCNW.png",
-                "title": "Sobha Restoplus",
-                "slug": "sobha-restoplus",
-                "tags": [
-                    "Frontend Development",
-                    "React"
-                ]
-            }
-        ]
+    {
+      "startValue": 0,
+      "endValue": 50,
+      "speed": 1500,
+      "label": "Successful Projects",
+      "Plus": "+"
     },
-    "cta": {
-        "contactLink": "./contact",
-        "contactText": "Available For Work",
-        "email": "molfar@gmail.com",
-        "emailLink": "mailto:molfar@gmail.com"
+    {
+      "startValue": 0,
+      "endValue": 10,
+      "speed": 1800,
+      "label": "Technologies Worked With",
+      "Plus": "+"
     }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "title": "01. Web Design",
+      "description": "I specialize in creating modern and elegant designs that not only captivate audiences but also effectively communicate your brand message."
+    },
+    {
+      "id": 2,
+      "title": "02. Web Development",
+      "description": "With proficiency in HTML, CSS, JavaScript, and various development frameworks, I bring your vision to life with pixel-perfect precision."
+    },
+    {
+      "id": 3,
+      "title": "03. API Development",
+      "description": "I specialize in creating efficient, scalable, and secure RESTful APIs using Node.js and Express, ensuring seamless data communication between the frontend and backend."
+    },
+    {
+      "id": 4,
+      "title": "04. Performance Optimization",
+      "description": "I focus on optimizing web applications for speed, responsiveness, and SEO, using techniques such as lazy loading, code splitting, and caching."
+    }
+  ],
+  "skills": {
+    "title": "Skills",
+    "data": [
+      {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "label": "React.js"
+      },
+      {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+        "label": "Next.js"
+      },
+      {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        "label": "Node.js"
+      },
+      {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+        "label": "MongoDB"
+      },
+      {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+        "label": "Tailwind CSS"
+      },
+      {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        "label": "JavaScript"
+      },
+      {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+        "label": "Express"
+      },
+      {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+        "label": "MySQL"
+      },
+      {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg",
+        "label": "Google Cloud Platform"
+      },
+      {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
+        "label": "Vercel"
+      },
+      {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg",
+        "label": "jQuery"
+      },
+      {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        "label": "HTML5"
+      },
+      {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        "label": "CSS3"
+      },
+      {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+        "label": "Bootstrap"
+      },
+      {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+        "label": "GitHub"
+      }
+    ]
+  },
+  "project": {
+    "title": "worked on",
+    "title2": "More Projects",
+    "pagelink": "/portfolio",
+    "projectData": [
+      {
+        "imgSrc": "https://i.imgur.com/t6nNibu.png",
+        "title": "Assure Path Labs - Father's Day Campaign",
+        "slug": "assure-pathlabs-fathers",
+        "tags": [
+          "Full Frontend Development",
+          "React",
+          "Lead Tracking",
+          "Tailwind"
+        ]
+      },
+      {
+        "imgSrc": "https://i.imgur.com/tFTqYHD.png",
+        "title": "Assure Path Labs - Cancer Campaign",
+        "slug": "assure-pathlabs-cancer",
+        "tags": [
+          "Full Frontend Development",
+          "React",
+          "Lead Tracking",
+          "Tailwind"
+        ]
+      },
+      {
+        "imgSrc": "https://i.imgur.com/6JH6DTI.png",
+        "title": "Centra Greens",
+        "slug": "centra-greens",
+        "tags": ["Full Frontend Development", "React", "Gsap", "Tailwind"]
+      },
+      {
+        "imgSrc": "https://i.imgur.com/yKA46ye.png",
+        "title": "Fastway",
+        "slug": "fastway",
+        "tags": ["Frontend Development", "React", "Tailwind"]
+      },
+      {
+        "imgSrc": "https://i.imgur.com/D45oSdh.png",
+        "title": "Jujhar Travels",
+        "slug": "jujhar-travels",
+        "tags": ["UI/UX", "HTML, CSS, JS"]
+      },
+      {
+        "imgSrc": "https://i.imgur.com/kc5hpv4.png",
+        "title": "Neat Skill",
+        "slug": "neat-skill",
+        "tags": [
+          "Development Assistance",
+          "Next.js",
+          "Tailwind",
+          "Firebase",
+          "Framer Motion"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "contactLink": "./contact",
+    "contactText": "Hire Me",
+    "email": "molfar@gmail.com",
+    "emailLink": "mailto:molfar@gmail.com"
+  }
 }

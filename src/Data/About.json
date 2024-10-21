@@ -1,56 +1,98 @@
 {
-    "bannerData": {
-        "title": "about Singh",
-        "description": "Hi, I’m Akash Singh, a Frontend Developer passionate about building dynamic, user-centric web applications. With a focus on clean code, performance optimization, and cutting-edge technology, I specialize in delivering seamless digital experiences."
+  "bannerData": {
+    "title": "about Singh",
+    "description": "Hi, I’m Akash Singh, a Frontend Developer passionate about building dynamic, user-centric web applications. With a focus on clean code, performance optimization, and cutting-edge technology, I specialize in delivering seamless digital experiences."
+  },
+  "marqueData": {
+    "title": "Top Clients",
+    "data": [
+      {
+        "icon": "https://i.imgur.com/TUOFz1n.png",
+        "label": "Client 1"
+      },
+      {
+        "icon": "https://i.imgur.com/3qClVXn.png",
+        "label": "Client 2"
+      },
+      {
+        "icon": "https://i.imgur.com/eftNxi3.png",
+        "label": "Client 3"
+      },
+      {
+        "icon": "https://i.imgur.com/61R0rq9.png",
+        "label": "Client 4"
+      },
+      {
+        "icon": "https://i.imgur.com/3rfocvs.png",
+        "label": "Client 5"
+      },
+      {
+        "icon": "https://i.imgur.com/KbPxAP4.png",
+        "label": "Client 6"
+      },
+      {
+        "icon": "https://i.imgur.com/nv0GIVs.png",
+        "label": "Client 7"
+      },
+      {
+        "icon": "https://i.imgur.com/UUuFrI1.png",
+        "label": "Client 8"
+      },
+      {
+        "icon": "https://i.imgur.com/MD0t2pZ.png",
+        "label": "Client 9"
+      }
+    ]
+  },
+
+  "points": [
+    {
+      "startValue": 10,
+      "endValue": 2,
+      "speed": 2000,
+      "label": "Years of Experience",
+      "Plus": "+"
     },
-    "points": [
-        {
-            "startValue": 10,
-            "endValue": 2,
-            "speed": 2000,
-            "label": "Years of Experience",
-            "Plus": "+"
-        },
-        {
-            "startValue": 0,
-            "endValue": 20,
-            "speed": 1500,
-            "label": "Developed Projects",
-            "Plus": "+"
-        },
-        {
-            "startValue": 0,
-            "endValue": 10,
-            "speed": 1800,
-            "label": "live projects",
-            "Plus": "+"
-        }
-    ],
-    "Experience": {
-        "title": "My Experience",
-        "experienceData": [
-            {
-                "role": "React and Next Devloper",
-                "duration": "Apr. 2023 - Present"
-            },
-            {
-                "role": "Computer Engineer at Google",
-                "duration": "Aug. 2022 - Apr. 2023"
-            }
-        ]
+    {
+      "startValue": 0,
+      "endValue": 20,
+      "speed": 1500,
+      "label": "Developed Projects",
+      "Plus": "+"
     },
-    "AboutUs": {
-        "title": "More Info",
-        "paragraphs": [
-            "I am Akash Singh, a dedicated frontend developer with over two years of experience in building high-performance web applications. Specializing in React.js, Next.js, and backend development using Node.js and MongoDB, I have a strong focus on creating seamless, user-friendly, and SEO-optimized solutions. My expertise lies in delivering dynamic and responsive designs that prioritize both functionality and user experience.",
-            "Throughout my career, I have successfully led the development of web applications for a range of clients, from e-commerce platforms to educational tools. I’m skilled in integrating APIs, ensuring secure authentication, and optimizing performance with server-side rendering (SSR). With a passion for problem-solving and continuous learning, I strive to stay updated on the latest industry trends and technologies.",
-            "I am committed to building clean, efficient, and scalable applications, and I thrive in collaborative environments where innovation and creativity are at the forefront."
-        ]
-    },
-    "cta": {
-        "contactLink": "./contact",
-        "contactText": "Available For Work",
-        "email": "molfar@gmail.com",
-        "emailLink": "mailto:molfar@gmail.com"
+    {
+      "startValue": 0,
+      "endValue": 10,
+      "speed": 1800,
+      "label": "live projects",
+      "Plus": "+"
     }
+  ],
+  "Experience": {
+    "title": "My Experience",
+    "experienceData": [
+      {
+        "role": "React and Next Devloper",
+        "duration": "Apr. 2023 - Present"
+      },
+      {
+        "role": "Computer Engineer at Google",
+        "duration": "Aug. 2022 - Apr. 2023"
+      }
+    ]
+  },
+  "AboutUs": {
+    "title": "More Info",
+    "paragraphs": [
+      "I am Akash Singh, a dedicated frontend developer with over two years of experience in building high-performance web applications. Specializing in React.js, Next.js, and backend development using Node.js and MongoDB, I have a strong focus on creating seamless, user-friendly, and SEO-optimized solutions. My expertise lies in delivering dynamic and responsive designs that prioritize both functionality and user experience.",
+      "Throughout my career, I have successfully led the development of web applications for a range of clients, from e-commerce platforms to educational tools. I’m skilled in integrating APIs, ensuring secure authentication, and optimizing performance with server-side rendering (SSR). With a passion for problem-solving and continuous learning, I strive to stay updated on the latest industry trends and technologies.",
+      "I am committed to building clean, efficient, and scalable applications, and I thrive in collaborative environments where innovation and creativity are at the forefront."
+    ]
+  },
+  "cta": {
+    "contactLink": "./contact",
+    "contactText": "Available For Work",
+    "email": "molfar@gmail.com",
+    "emailLink": "mailto:molfar@gmail.com"
+  }
 }

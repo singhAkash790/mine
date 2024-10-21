@@ -12,188 +12,122 @@
         "imgSrc": "https://rajgadh.vercel.app/static/media/hero-banner.jpg",
         "title": "Rajgadh Estates ",
         "slug": "rajgadh-estates",
-        "tags": [
-          "Frontend Developer",
-          "React",
-          "GSAP Animations"
-        ]
+        "tags": ["Frontend Developer", "React", "GSAP Animations"]
       },
       {
-        "imgSrc": "https://www.plumberbathware.com/become-a-dealer/",
+        "imgSrc": "https://i.imgur.com/04P8AXi.png",
         "title": "Dealers Landing Page",
         "slug": "plumber-bathware-dealer-landing-page",
-        "tags": [
-          "Frontend Developer",
-          "React"
-        ]
+        "tags": ["Frontend Developer", "React"]
       },
       {
         "imgSrc": "https://www.plumberbathware.com/Save-water-pledge/",
         "title": "Save Water Landing Page",
         "slug": "save-water-pledge-landing-page",
-        "tags": [
-          "Frontend Developer",
-          "React"
-        ]
+        "tags": ["Frontend Developer", "React"]
       },
       {
         "imgSrc": "https://i.imgur.com/kc5hpv4.png",
         "title": "Neat Skill",
         "slug": "neat-skill",
-        "tags": [
-          "Full Stack Developer",
-          "Next.js"
-        ]
+        "tags": ["Full Stack Developer", "Next.js"]
       },
       {
         "imgSrc": "https://i.imgur.com/yKA46ye.png",
         "title": "Fastway - Digital Cable TV and Broadband",
         "slug": "fastway",
-        "tags": [
-          "Frontend Developer",
-          "React.js"
-        ]
+        "tags": ["Frontend Developer", "React.js"]
       },
       {
         "imgSrc": "https://netplus.co.in/assets/images/logo.png",
         "title": "Netplus ",
         "slug": "netplus-broadband",
-        "tags": [
-          "React.js",
-          "API Integration"
-        ]
+        "tags": ["React.js", "API Integration"]
       },
       {
         "imgSrc": "https://i.imgur.com/6w7cCNW.png",
         "title": "Sobha Restoplus ",
         "slug": "sobha-restoplus",
-        "tags": [
-          "React.js",
-          "SEO Enhancements"
-        ]
+        "tags": ["React.js", "SEO Enhancements"]
       },
       {
         "imgSrc": "https://i.imgur.com/D45oSdh.png",
         "title": "Jujhar Travels ",
         "slug": "jujhar-travels",
-        "tags": [
-          "Frontend Developer",
-          "UX Enhancement"
-        ]
+        "tags": ["Frontend Developer", "UX Enhancement"]
       },
       {
         "imgSrc": "https://ameyagroup.in/static/media/logo.png",
         "title": "Ameya Group",
         "slug": "ameya-group",
-        "tags": [
-          "React.js",
-          "Website Maintenance"
-        ]
+        "tags": ["React.js", "Website Maintenance"]
       },
       {
         "imgSrc": "https://www.smctradeonline.com/images/logo.png",
         "title": "SMC Trade Online",
         "slug": "smc-trade-online",
-        "tags": [
-          "Support Frontend Developer",
-          "Material-UI"
-        ]
+        "tags": ["Support Frontend Developer", "Material-UI"]
       },
       {
         "imgSrc": "https://i.imgur.com/tFTqYHD.png",
         "title": "Cancer Landing page",
         "slug": "assure-pathlabs-cancer",
-        "tags": [
-          "UI Development",
-          "Dynamic API Integration"
-        ]
+        "tags": ["UI Development", "Dynamic API Integration"]
       },
       {
         "imgSrc": "https://i.imgur.com/t6nNibu.png",
         "title": "Father's Day Landing page",
         "slug": "assure-pathlabs-fathers",
-        "tags": [
-          "React.js",
-          "Dynamic API Integration"
-        ]
+        "tags": ["React.js", "Dynamic API Integration"]
       },
       {
         "imgSrc": "https://i.imgur.com/D45oSdh.png",
         "title": "Assure Path Labs",
         "slug": "assure-pathlabs",
-        "tags": [
-          "UI Design to Code",
-          "API Integration",
-          "Form Handling"
-        ]
+        "tags": ["UI Design to Code", "API Integration", "Form Handling"]
       },
       {
         "imgSrc": "https://i.imgur.com/D45oSdh.png",
         "title": "Patel Hospital",
         "slug": "patel-hospital",
-        "tags": [
-          "Frontend Developer",
-          "Data Management",
-          "API Integration"
-        ]
+        "tags": ["Frontend Developer", "Data Management", "API Integration"]
       },
       {
         "imgSrc": "https://www.iecgensets.com/images/banner.jpg",
         "title": "IEC Gensets",
         "slug": "iec-gensets",
-        "tags": [
-          "Frontend Developer",
-          "Data Management"
-        ]
+        "tags": ["Frontend Developer", "Data Management"]
       },
       {
         "imgSrc": "https://i.imgur.com/HpGhAQE.png",
         "title": "Plumber Bathware",
         "slug": "plumber-bathware",
-        "tags": [
-          "UI Revamp",
-          "Website Maintenance"
-        ]
+        "tags": ["UI Revamp", "Website Maintenance"]
       },
       {
         "imgSrc": "https://i.imgur.com/61gO6K7.png",
         "title": "Premier Energies",
         "slug": "premier-energies",
-        "tags": [
-          "Frontend Developer",
-          "API Integration"
-        ]
+        "tags": ["Frontend Developer", "API Integration"]
       },
       {
         "imgSrc": "https://i.imgur.com/QCVVsDd.png",
         "title": "Red Cow Dairy",
         "slug": "redcow-dairy",
-        "tags": [
-          "Frontend Developer",
-          "API Integration"
-        ]
+        "tags": ["Frontend Developer", "API Integration"]
       },
       {
         "imgSrc": "https://i.ibb.co/ngrXGxs/satya.png",
         "title": "Satya Groups",
         "slug": "satya-groups",
-        "tags": [
-          "Frontend Developer",
-          "UI/UX Design",
-          "SEO Best Practices"
-        ]
+        "tags": ["Frontend Developer", "UI/UX Design", "SEO Best Practices"]
       },
       {
         "imgSrc": "https://i.imgur.com/HpGhAQE.png",
         "title": "NS Arcus",
         "slug": "ns-arcus",
-        "tags": [
-          "Frontend Developer",
-          "Website Maintenance",
-          "Data Management"
-        ]
+        "tags": ["Frontend Developer", "Website Maintenance", "Data Management"]
       }
-      
     ]
   },
   "cta": {

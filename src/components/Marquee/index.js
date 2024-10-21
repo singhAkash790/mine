@@ -4,7 +4,7 @@ import WebLayout from "../WebLayout";
 import Heading from "../Heading";
 import "./index.css";
 
-const Marquee = () => {
+const Marquee = ({ Data }) => {
   const marqueeRef = useRef(null);
 
   useEffect(() => {
@@ -49,34 +49,27 @@ const Marquee = () => {
     };
   }, []);
 
-  const data = [
-    { img: "https://i.imgur.com/TUOFz1n.png" },
-    { img: "https://i.imgur.com/3qClVXn.png" },
-    { img: "https://i.imgur.com/eftNxi3.png" },
-    { img: "https://i.imgur.com/61R0rq9.png" },
-    { img: "https://i.imgur.com/3rfocvs.png" },
-    { img: "https://i.imgur.com/KbPxAP4.png" },
-    { img: "https://i.imgur.com/nv0GIVs.png" },
-    { img: "https://i.imgur.com/UUuFrI1.png" },
-    { img: "https://i.imgur.com/MD0t2pZ.png" },
-  ];
-
   return (
     <WebLayout>
-      <Heading title={"Top Clients"}>
+      <Heading title={Data.title}>
         <div className="marquee relative overflow-hidden xl:w-[90%] w-full mx-auto py-2 ">
-          <div className="overflow-hidden  mx-auto py-2">
+          <div className="overflow-hidden mx-auto py-2">
             <ul
               ref={marqueeRef}
               className="marquee py-3 inline-flex space-x-4 max-w-auto items-center"
               style={{ whiteSpace: "nowrap" }}
             >
-              {data.map((item, index) => (
-                <li key={index} className="w-[250px]">
-                  <div className=" w-full">
-                    <img src={item.img} alt="" className="w-full" />
-                    {/* <div className="text-white text-2xl">{item.text}</div> */}
-                  </div>
+              {Data.data.map((skill, index) => (
+                <li
+                  key={index}
+                  className="flex items-center space-x-6  min-w-[250px]"
+                >
+                  <img
+                    title={skill.label}
+                    src={skill.icon}
+                    alt={skill.label}
+                    className="p-5 m-3 object-contain w"
+                  />
                 </li>
               ))}
             </ul>

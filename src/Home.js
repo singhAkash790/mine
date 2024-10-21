@@ -10,6 +10,7 @@ import Aos from "aos";
 import pageData from "./Data/Home.json";
 import { Link } from "react-router-dom";
 import MyPortfolio from "./components/MyPortfolio";
+import Marquee from "./components/Marquee";
 
 const Home = () => {
   useEffect(() => {
@@ -33,6 +34,7 @@ const Home = () => {
             aboutText={pageData.bannerData.aboutText}
           />
           <Points data={pageData.points} />
+          <Marquee Data={pageData.skills} />
           <MyPortfolio
             title={pageData.project.title}
             width={"xl:w-[90%] w-full flex-row "}

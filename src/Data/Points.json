@@ -1,25 +1,25 @@
 {
-    "points": [
-        {
-            "startValue": 10,
-            "endValue": 2,
-            "speed": 2000,
-            "label": "Years of Experience",
-            "Plus": "+"
-        },
-        {
-            "startValue": 0,
-            "endValue": 15,
-            "speed": 1500,
-            "label": "Developed Projects",
-            "Plus": "+"
-        },
-        {
-            "startValue": 0,
-            "endValue": 10,
-            "speed": 1800,
-            "label": "live projects",
-            "Plus": "+"
-        }
-    ]
+  "points": [
+    {
+      "startValue": 10,
+      "endValue": 2,
+      "speed": 2000,
+      "label": "Years of Experience",
+      "Plus": "+"
+    },
+    {
+      "startValue": 0,
+      "endValue": 50,
+      "speed": 1500,
+      "label": "Company Projects Completed",
+      "Plus": "+"
+    },
+    {
+      "startValue": 0,
+      "endValue": 9,
+      "speed": 1800,
+      "label": "Tech Stack",
+      "Plus": "+"
+    }
+  ]
 }

@@ -27,7 +27,7 @@ const Stats = () => {
                     {item.Plus}
                   </span>
                 </div>
-                <p className="text-white  font-normal">{item.label}</p>
+                <p className="text-white text-center font-normal">{item.label}</p>
               </div>
             ))}
           </div>

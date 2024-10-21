@@ -19,7 +19,7 @@ const About = () => {
             title={pageData.bannerData.title}
             description={pageData.bannerData.description}
           />
-          <Marquee />
+          <Marquee Data ={pageData.marqueData}/>
           <AboutUs Data={pageData.AboutUs} />
           <Points data={pageData.points} />
           <Expreince Data={pageData.Experience} />
