@@ -22,7 +22,7 @@ const Index = ({ image, title }) => {
                 sizes="min(100vw, 1216px)"
                 src={image}
                 alt={title}
-                className="block w-full h-[800px] rounded-[24px] object-cover antialiased"
+                className="block w-full h-[800px] rounded-[24px] object-cover antialiased inverted-hover"
               />
             </div>
           </div>

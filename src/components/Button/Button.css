@@ -1,0 +1,185 @@
+.animated-button {
+  position: relative;
+  display: block;
+  padding: 15px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  border-radius: 0;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.animated-button::after {
+  content: "";
+  position: absolute;
+  height: 0%;
+  left: 50%;
+  top: 50%;
+  width: 150%;
+  z-index: -1;
+  -webkit-transition: all 0.75s ease 0s;
+  -moz-transition: all 0.75s ease 0s;
+  -o-transition: all 0.75s ease 0s;
+  transition: all 0.75s ease 0s;
+}
+.animated-button:hover {
+  color: #fff;
+  text-shadow: none;
+}
+.animated-button:link:hover:after {
+  height: 450%;
+}
+
+.animated-button.thar-one {
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+  border: 1px solid rgb(247 247 247 / 40%);
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+.animated-button.thar-one:hover {
+  color: #000 !important;
+  background-color: transparent;
+  text-shadow: none;
+}
+.animated-button.thar-one:hover:before {
+  bottom: 0%;
+  top: auto;
+  height: 100%;
+}
+.animated-button.thar-one:before {
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 0px;
+  width: 100%;
+  z-index: -1;
+  content: "";
+  color: #000 !important;
+  background: #ffffff;
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+.btn svg {
+  width: 55px;
+  height: 13px;
+  fill: #fff;
+  color: #fff;
+}
+.btn:hover svg {
+  fill: #000;
+}
+
+/* .header_white .animated-button svg,
+._fixed .animated-button svg {
+  fill: #000;
+}
+._fixed .animated-button {
+  color: #000;
+  border-color: #00000052;
+}
+._fixed .animated-button._popup {
+  color: #fff;
+  border-color: #fff;
+}
+._fixed .animated-button.thar-one:before {
+  background: var(--primary);
+}
+._fixed .animated-button._popup.thar-one:before {
+  background: #fff;
+}
+._fixed .animated-button:hover svg {
+  fill: #fff;
+}
+._fixed .animated-button._popup svg {
+  fill: #fff;
+}
+._fixed .animated-button._popup:hover svg {
+  fill: #000;
+}
+._fixed .animated-button._popup:hover {
+  color: #000 !important;
+}
+._fixed .animated-button:hover {
+  color: #fff !important;
+} */
+.header_white .animated-button svg,
+._fixed .animated-button svg {
+  fill: #000;
+}
+
+.header_white .animated-button,
+._fixed .animated-button {
+  color: #000;
+  border-color: #00000052;
+}
+
+.header_white .animated-button._popup,
+._fixed .animated-button._popup {
+  color: #fff;
+  border-color: #fff;
+}
+
+.header_white .animated-button.thar-one:before,
+._fixed .animated-button.thar-one:before {
+  background: var(--primary) !important;
+  z-index: -1;
+}
+
+.header_white .animated-button._popup.thar-one:before,
+._fixed .animated-button._popup.thar-one:before {
+  background: #fff;
+}
+
+.header_white .animated-button:hover svg,
+._fixed .animated-button:hover svg {
+  fill: #fff;
+}
+
+.header_white .animated-button._popup svg,
+._fixed .animated-button._popup svg {
+  fill: #fff;
+}
+
+.header_white .animated-button._popup:hover svg,
+._fixed .animated-button._popup:hover svg {
+  fill: #000;
+}
+
+.header_white .animated-button._popup:hover,
+._fixed .animated-button._popup:hover {
+  color: #000 !important;
+}
+
+.header_white .animated-button:hover,
+._fixed .animated-button:hover {
+  color: #fff !important;
+  z-index: 2;
+}
+
+/* dark */
+.dark.animated-button svg {
+  fill: #000;
+}
+.dark.animated-button {
+  color: #000;
+  border-color: #00000056;
+}
+.dark.animated-button.thar-one:before {
+  background: var(--primary);
+}
+.dark.animated-button:hover svg {
+  fill: #fff;
+}
+.dark.animated-button:hover {
+  color: #fff !important;
+}

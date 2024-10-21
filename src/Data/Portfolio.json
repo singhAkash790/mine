@@ -10,42 +10,40 @@
     "projectData": [
       {
         "imgSrc": "https://rajgadh.vercel.app/static/media/hero-banner.jpg",
-        "title": "Rajgadh Estates - Real Estate Developer",
+        "title": "Rajgadh Estates ",
         "slug": "rajgadh-estates",
         "tags": [
           "Frontend Developer",
-          "UI/UX Designer",
           "React",
           "GSAP Animations"
         ]
       },
       {
         "imgSrc": "https://www.plumberbathware.com/become-a-dealer/",
-        "title": "Plumber Bathware Dealer Landing Page",
+        "title": "Dealers Landing Page",
         "slug": "plumber-bathware-dealer-landing-page",
         "tags": [
           "Frontend Developer",
-          "Multi-Step Form Development",
-          "React",
-          "GTM Data Layer"
+          "React"
         ]
       },
       {
         "imgSrc": "https://www.plumberbathware.com/Save-water-pledge/",
-        "title": "Save Water Pledge Landing Page",
+        "title": "Save Water Landing Page",
         "slug": "save-water-pledge-landing-page",
         "tags": [
           "Frontend Developer",
-          "Water Conservation Messaging",
-          "React",
-          "GTM Data Layer"
+          "React"
         ]
       },
       {
         "imgSrc": "https://i.imgur.com/kc5hpv4.png",
         "title": "Neat Skill",
         "slug": "neat-skill",
-        "tags": ["Full Stack Developer", "Next.js", "GCP", "Tailwind"]
+        "tags": [
+          "Full Stack Developer",
+          "Next.js"
+        ]
       },
       {
         "imgSrc": "https://i.imgur.com/yKA46ye.png",
@@ -53,130 +51,147 @@
         "slug": "fastway",
         "tags": [
           "Frontend Developer",
-          "React.js",
-          "Performance Optimization",
-          "API Integration"
+          "React.js"
         ]
       },
       {
         "imgSrc": "https://netplus.co.in/assets/images/logo.png",
-        "title": "Netplus Broadband - High-Speed Internet",
+        "title": "Netplus ",
         "slug": "netplus-broadband",
         "tags": [
-          "Frontend Developer",
           "React.js",
-          "API Integration",
-          "Performance Optimization"
+          "API Integration"
         ]
       },
       {
         "imgSrc": "https://i.imgur.com/6w7cCNW.png",
-        "title": "Sobha Restoplus - Premium Mattress E-Commerce",
+        "title": "Sobha Restoplus ",
         "slug": "sobha-restoplus",
         "tags": [
-          "Frontend Developer",
           "React.js",
-          "SEO Enhancements",
-          "Core Web Vitals"
+          "SEO Enhancements"
         ]
       },
       {
         "imgSrc": "https://i.imgur.com/D45oSdh.png",
-        "title": "Jujhar Travels - Online Booking Platform",
+        "title": "Jujhar Travels ",
         "slug": "jujhar-travels",
         "tags": [
           "Frontend Developer",
-          "HTML/CSS Development",
-          "SEO Optimization",
           "UX Enhancement"
         ]
       },
       {
         "imgSrc": "https://ameyagroup.in/static/media/logo.png",
-        "title": "Ameya Group - Real Estate and Infrastructure",
+        "title": "Ameya Group",
         "slug": "ameya-group",
-        "tags": ["Frontend Developer", "Website Maintenance", "React.js", "CSS"]
+        "tags": [
+          "React.js",
+          "Website Maintenance"
+        ]
       },
       {
         "imgSrc": "https://www.smctradeonline.com/images/logo.png",
-        "title": "SMC Trade Online - Financial Trading Platform",
+        "title": "SMC Trade Online",
         "slug": "smc-trade-online",
         "tags": [
           "Support Frontend Developer",
-          "React.js",
-          "Material-UI",
-          "Bootstrap"
+          "Material-UI"
         ]
       },
       {
         "imgSrc": "https://i.imgur.com/tFTqYHD.png",
-        "title": "Cancer Campaign-Assure PathLabs",
+        "title": "Cancer Landing page",
         "slug": "assure-pathlabs-cancer",
         "tags": [
           "UI Development",
-          "Dynamic API Integration",
-          "React",
-          "Tailwind"
+          "Dynamic API Integration"
         ]
       },
       {
         "imgSrc": "https://i.imgur.com/t6nNibu.png",
-        "title": "Father's Day Campaign-Assure Pathlabs",
+        "title": "Father's Day Landing page",
         "slug": "assure-pathlabs-fathers",
         "tags": [
-          "UI Development",
-          "Dynamic API Integration",
-          "React",
-          "Tailwind"
+          "React.js",
+          "Dynamic API Integration"
         ]
       },
       {
         "imgSrc": "https://i.imgur.com/D45oSdh.png",
-        "title": "Assure Path Labs - General",
+        "title": "Assure Path Labs",
         "slug": "assure-pathlabs",
-        "tags": ["UI Design to Code", "API Integration", "Form Handling"]
+        "tags": [
+          "UI Design to Code",
+          "API Integration",
+          "Form Handling"
+        ]
       },
       {
         "imgSrc": "https://i.imgur.com/D45oSdh.png",
-        "title": "Patel Hospital - Healthcare Website",
+        "title": "Patel Hospital",
         "slug": "patel-hospital",
-        "tags": ["Frontend Developer", "Data Management", "API Integration"]
+        "tags": [
+          "Frontend Developer",
+          "Data Management",
+          "API Integration"
+        ]
       },
       {
         "imgSrc": "https://www.iecgensets.com/images/banner.jpg",
-        "title": "IEC Gensets - Power Solutions",
+        "title": "IEC Gensets",
         "slug": "iec-gensets",
-        "tags": ["Frontend Developer", "Data Management", "SEO Optimization"]
+        "tags": [
+          "Frontend Developer",
+          "Data Management"
+        ]
       },
       {
         "imgSrc": "https://i.imgur.com/HpGhAQE.png",
         "title": "Plumber Bathware",
         "slug": "plumber-bathware",
-        "tags": ["Frontend Developer", "UI Revamp", "Real-time Data Handling"]
+        "tags": [
+          "UI Revamp",
+          "Website Maintenance"
+        ]
       },
       {
         "imgSrc": "https://i.imgur.com/61gO6K7.png",
         "title": "Premier Energies",
         "slug": "premier-energies",
-        "tags": ["Full Stack Developer", "UI/UX Design", "API Integration"]
+        "tags": [
+          "Frontend Developer",
+          "API Integration"
+        ]
       },
       {
         "imgSrc": "https://i.imgur.com/QCVVsDd.png",
         "title": "Red Cow Dairy",
         "slug": "redcow-dairy",
-        "tags": ["Frontend Developer", "UI/UX", "API Integration"]
+        "tags": [
+          "Frontend Developer",
+          "API Integration"
+        ]
       },
       {
         "imgSrc": "https://i.ibb.co/ngrXGxs/satya.png",
         "title": "Satya Groups",
         "slug": "satya-groups",
-        "tags": ["Frontend Developer", "UI/UX Design", "SEO Best Practices"]
+        "tags": [
+          "Frontend Developer",
+          "UI/UX Design",
+          "SEO Best Practices"
+        ]
       },
       {
         "imgSrc": "https://i.imgur.com/HpGhAQE.png",
         "title": "NS Arcus",
         "slug": "ns-arcus",
-        "tags": ["Frontend Developer", "Website Maintenance", "Data Management"]
+        "tags": [
+          "Frontend Developer",
+          "Website Maintenance",
+          "Data Management"
+        ]
       }
     ]
   },

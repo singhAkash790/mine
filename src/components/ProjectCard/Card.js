@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import RightArrow from "../SVG/RightArrow";
+import MagnticButton from "../MagnticButton/Index";
+import "./index.css";
 
 const Card = ({ slug, imgSrc, title, tags, mainclass }) => {
   return (
@@ -37,29 +40,29 @@ const Card = ({ slug, imgSrc, title, tags, mainclass }) => {
                 <div className="relative w-full flex flex-wrap   items-start justify-start gap-2    overflow-visible">
                   {tags.map((tag, index) => (
                     <div key={index} className="relative">
-                      <div
-                        tabIndex="0"
-                        className="relative flex w-fit flex-row items-center justify-center gap-0 px-4 py-2 rounded-full border border-solid border-white border-opacity-70"
-                      >
-                        <p className="md:text-[16px] text-[12px] font-normal  text-center text-white m-0 p-0">
-                          {tag}
-                        </p>
-                      </div>
+                      <MagnticButton>
+                        <div
+                          tabIndex="0"
+                          className="relative flex w-fit container-hover flex-row items-center justify-center gap-0 px-4 py-2 rounded-full border border-solid  border-white border-opacity-70"
+                        >
+                          <p className="md:text-[16px] text-[12px] font-normal  text-center text-white m-0 p-0">
+                            {tag}
+                          </p>
+                        </div>
+                      </MagnticButton>
                     </div>
                   ))}
                 </div>
               </div>
-              <div className="relative lg:flex hidden flex-row items-center justify-center gap-2.5 w-fit h-10 px-4 py-2 my-auto bg-transparent rounded-full border border-solid border-white">
-                <div className="relative flex-shrink-0 w-6 h-6 fill-current text-white">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    className="w-full h-full"
-                  >
-                    <use href="#svg-1469643496_314"></use>
-                  </svg>
+              <MagnticButton>
+                <div className="relative lg:flex hidden container-hover  flex-row items-center card_button justify-center gap-2.5 w-fit h-10 px-4 py-2 my-auto bg-transparent rounded-full border border-solid border-white ">
+                  <MagnticButton>
+                    <div className="relative flex-shrink-0 w-6 h-6 fill-current  text-white ">
+                      <RightArrow />
+                    </div>
+                  </MagnticButton>
                 </div>
-              </div>
+              </MagnticButton>
             </div>
           </div>
         </div>

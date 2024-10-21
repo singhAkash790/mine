@@ -69,7 +69,7 @@ const Index = () => {
         >
           <NavLink
             to="/"
-            className="inverted-hover inverted-mask flex items-center xl:w-[150px] md:w-[130px] w-[100px]"
+            className="inverted-hover  flex items-center xl:w-[150px] md:w-[130px] w-[100px]"
           >
             <Logo />
           </NavLink>

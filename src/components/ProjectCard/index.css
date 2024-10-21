@@ -1,0 +1,12 @@
+.card_button,
+.card_button svg {
+  transition: ease 0.3s all;
+}
+.card_button:hover {
+  border: none;
+  background-color: #ffffff;
+}
+.card_button:hover svg {
+  fill: #000;
+  rotate: -45deg;
+}
