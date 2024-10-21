@@ -79,13 +79,13 @@ const index = () => {
                     >
                       <Link
                         aria-label={label}
-                        className="h-full w-full opacity-100 cursor-pointer  relative no-underline block box-border antialiased"
+                        className="container-hover h-full w-full opacity-100 cursor-pointer relative no-underline block box-border antialiased transition-all hover:scale-110 hover:brightness-110"
                         to={to}
                         target="_blank"
-                        rel="noopener"
+                        rel="noopener noreferrer"
                       >
                         <MagnticButton>
-                          <div className="image-rendering-pixelated  fill-[#fafafa] color-white opacity-100 absolute aspect-square flex-shrink-0  inset-0 box-border antialiased">
+                          <div className="  fill-[#fafafa] color-white opacity-100 absolute aspect-square flex-shrink-0 inset-0 box-border antialiased transition-transform duration-300 ease-in-out hover:scale-125 hover:filter hover:brightness-125 hover:fill-white">
                             <Icon />
                           </div>
                         </MagnticButton>

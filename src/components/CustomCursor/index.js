@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
-import _ from "lodash";
+import _, { invert } from "lodash";
 import "./index.css";
 
 const CustomCursor = () => {
@@ -25,7 +25,7 @@ const CustomCursor = () => {
     const updateCursor = () => {
       if (cursor) {
         gsap.to(cursor, {
-          duration: 0.1,
+          duration: 0.4,
           x: mouseX,
           y: mouseY,
         });
@@ -136,10 +136,11 @@ const CustomCursor = () => {
       if (cursorDot) {
         gsap.to(cursorDot, {
           scale: 1.5,
-          filter: "invert(100%)",
           duration: 0.1,
           ease: "power2.out",
+          filter: "invert(100%)",
         });
+        cursorDot.style.mixBlendMode = "difference";
       }
     };
 
@@ -149,10 +150,11 @@ const CustomCursor = () => {
       if (cursorDot) {
         gsap.to(cursorDot, {
           scale: 1,
-          filter: "invert(0%)",
+          filter: "invert(0)",
           duration: 0.1,
           ease: "power2.out",
         });
+        cursorDot.style.mixBlendMode = "normal";
       }
     };
 

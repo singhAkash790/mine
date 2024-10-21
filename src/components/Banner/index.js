@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import WebLayout from "../WebLayout";
 import profileImg from "../../image/profile.jpeg";
+import RoundedBtn from "../Button/RoundedBtn";
 
 const Hero = ({
   imageSrc,
@@ -62,7 +63,8 @@ const Hero = ({
               className="group relative flex items-center justify-center gap-3 px-8 py-4 rounded-[118px] bg-[rgba(110,110,110,0.1)] hover:bg-[rgba(77,77,77,0.2)] transition-colors"
             >
               <div className="relative flex items-center justify-center w-3 h-3 rotate-[-18.43deg]">
-                <div className="absolute w-2 h-2 rounded-full bg-[rgb(75,207,31)] "></div>
+                <div className="absolute w-2 h-2 rounded-full bg-[rgb(75,207,31)] animate-pulse"></div>
+                <div className="absolute w-3 h-3 rounded-full bg-[rgba(75,207,31,0.3)] animate-ping"></div>
               </div>
               <span
                 className="text-white text-base font-normal"
@@ -79,29 +81,13 @@ const Hero = ({
           <p className="text-white text-base font-normal text-center max-w-[80ch]">
             {description}
           </p>
-          <NavLink
-            to={aboutLink}
-            className="group flex items-center flex-col justify-center  "
-          >
-            <span className="text-white text-base font-medium">
-              {aboutText}
-            </span>
-            {/* <div className="h-[1px] w-full bg-white opacity-50 group-hover:opacity-100 transition-opacity"></div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-6 h-6 text-white"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-              />
-            </svg> */}
-          </NavLink>
+          {aboutText && (
+            <RoundedBtn
+              Linkto={aboutLink}
+              buttonText={aboutText}
+              buttonClass="dark"
+            />
+          )}
         </div>
       </div>
     </WebLayout>

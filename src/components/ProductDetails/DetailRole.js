@@ -32,14 +32,14 @@ const DetailRole = ({ title, Data }) => (
       {Data.map(({ label, tags }, index) => (
         <div
           key={index}
-          className="relative flex items-center gap-4 mb-3 w-full  box-border antialiased"
+          className="relative flex items-start gap-4 mb-4 w-full  box-border antialiased"
         >
           <div className="">
             <p className=" text-white whitespace-nowrap text-[15px] uppercase tracking-wider font-[500]">
               {label}
             </p>
           </div>
-          <div className="relative flex items-start gap-0 w-full justify-start  box-border antialiased">
+          <div className="relative flex flex-wrap items-start gap-0 gap-y-3 w-full justify-start  box-border antialiased">
             {tags.map((tag, tagIndex) => (
               <div key={tagIndex} className="gap-2">
                 <div className=" border border-white border-opacity-70 rounded-3xl px-3 py-[5px] mx-1">

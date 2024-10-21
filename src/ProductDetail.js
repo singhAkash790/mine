@@ -22,7 +22,7 @@ const ProductDetail = () => {
   const { slug } = useParams();
 
   // Filter the data based on the slug
-  const productData = Data.Data.find((item) => item.slug === slug);
+  const productData = Data.find((item) => item.slug === slug);
 
   // Log for debugging
   console.log("Slug:", slug);

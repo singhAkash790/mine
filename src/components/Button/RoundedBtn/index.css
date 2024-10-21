@@ -1,0 +1,127 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+a:focus,
+button:focus {
+  outline: none;
+}
+/* a:focus:not(:focus-visible), */
+button:focus:not(:focus-visible) {
+}
+.button {
+  pointer-events: auto;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #000;
+  border-radius: 40px;
+  padding: 15px 20px;
+  margin: 0px;
+  font-size: inherit;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+.button::before,
+.button::after {
+  position: absolute;
+  top: -10%;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+.button--calypso {
+  overflow: hidden;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #000;
+}
+.button--calypso::before {
+  content: "";
+  background: var(--primary);
+  width: 120%;
+  height: 0px;
+  padding-bottom: 120%;
+  top: -110%;
+  left: -10%;
+  border-radius: 50%;
+  transform: translate3d(0px, 68%, 0px) scale3d(0, 0, 0);
+}
+.button--calypso:hover::before {
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1);
+  transition: transform 0.4s cubic-bezier(0.1, 0, 0.3, 1) 0s;
+}
+.button--calypso::after {
+  content: "";
+  background: var(--primary);
+  transform: translate3d(0px, -100%, 0px);
+  transition: transform 0.4s cubic-bezier(0.1, 0, 0.3, 1) 0s;
+}
+.button--calypso:hover::after {
+  transform: translate3d(0px, 0px, 0px);
+  transition-duration: 0.05s;
+  transition-delay: 0.4s;
+  transition-timing-function: linear;
+  color: #fff;
+}
+.button--calypso span {
+  display: block;
+  position: relative;
+  z-index: 10;
+  color: #000;
+  font-weight: 400;
+  transition: all 0.3s cubic-bezier(0.1, 0, 0.3, 1) 0.1s;
+}
+.button--calypso:hover span {
+  animation: 0.3s ease 0s 1 normal forwards running MoveScaleUpInitial,
+    0.3s ease 0.3s 1 normal forwards running MoveScaleUpEnd;
+  color: #fff;
+  transition: all 0.3s cubic-bezier(0.1, 0, 0.3, 1) 0.1s;
+}
+.button i {
+  height: 25px;
+  width: 25px;
+}
+.button i svg {
+  transition: transform 0.3s cubic-bezier(0.1, 0, 0.3, 1) 0.1s;
+  z-index: 12;
+  width: 100%;
+  height: 100%;
+}
+
+.button:hover i {
+  z-index: 12;
+}
+.button:hover i svg {
+  transform: rotate(45deg);
+  color: #fff;
+  transition: all 0.3s cubic-bezier(0.1, 0, 0.3, 1) 0.2s;
+  z-index: 11;
+}
+/* darker_bg */
+
+.dark.button {
+  border: none;
+  background: var(--primary);
+  color: #fff;
+  border: 1px solid #fff;
+}
+.dark.button span {
+  color: #fff;
+}
+
+.dark.button:hover i svg,
+.dark.button:hover span {
+  color: #000000;
+}
+
+.dark.button--calypso::after,
+.dark.button--calypso::before {
+  background: #fff;
+}
